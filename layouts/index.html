@@ -9,11 +9,22 @@
                 {{ partial "profile.html" . }}
             </div>
             
-            <br /><br />
+            <br />
+            <hr>
+            <br />
             
-            <div class="row">
-            {{ range sort $.Site.Data.projects "date" "desc"}}
-                {{ partial "project.html" . }}    
+            {{ range $index, $element := sort $.Site.Data.projects "date" "desc"}}
+                
+                {{ if eq (mod (sub $index 3) 3) 0 }}
+                        <div class="row">
+                {{ end }}
+                
+                {{ partial "project.html" $element }}
+                
+                {{ if eq (mod (sub $index 2) 3) 0 }}
+                        </div><br>
+                {{ end }}
+                        
             {{ end }}
             </div>
         </div>
