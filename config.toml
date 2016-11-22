@@ -1,0 +1,10 @@
+baseurl = "http://replace-this-with-your-hugo-site.com/"
+title = "Who is Alex Larioza?!"
+languageCode = "en-us"
+
+[params]
+    title = "Who is Alex Larioza?!"
+	name = "Alex Larioza"
+	description = "I make cool stuff"
+	tagline = "Time traveling programmer who enjoys adventures, games, and cats"
+    mugshot = "images/mugshot2.png"

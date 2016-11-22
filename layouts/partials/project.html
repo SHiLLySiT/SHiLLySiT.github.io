@@ -1,0 +1,16 @@
+<div class="col-md-4 portfolio-item">
+    {{ if eq .playlink "" }}
+        {{ with .thumbnail }}<img class="img-responsive" src="{{ . }}" alt="">{{ end }}
+        <h3>{{ with .name }}{{ . }}{{ end }}</h3> 
+    {{ else }}
+        {{ with .playlink }}<a href="{{ . }}">{{ end }}
+            {{ with .thumbnail }}<img class="img-responsive" src="{{ . }}" alt="">{{ end }}
+        </a>
+
+        <h3>
+            {{ with .playlink }}<a href="{{ . }}">{{ end }}{{ with .name }}{{ . }}{{ end }}</a>
+        </h3>
+           
+    {{ end }}
+    {{ with .description }}<p>{{ . }}</p>{{ end }}
+</div>

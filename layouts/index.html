@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    {{ partial "header.html" . }}
+
+    <body>
+        <div class="container">
+            <div class="row">
+                {{ partial "profile.html" . }}
+            </div>
+            
+            <br /><br />
+            
+            <div class="row">
+            {{ range sort $.Site.Data.projects "date" "desc"}}
+                {{ partial "project.html" . }}    
+            {{ end }}
+            </div>
+        </div>
+    </body>
+
+</html>
