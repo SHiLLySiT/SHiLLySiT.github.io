@@ -1,16 +1,32 @@
 <div class="col-md-4 portfolio-item">
-    {{ if eq .playlink "" }}
-        {{ with .thumbnail }}<img class="img-responsive" src="{{ . }}" alt="">{{ end }}
-        <h3>{{ with .name }}{{ . }}{{ end }}</h3> 
-    {{ else }}
-        {{ with .playlink }}<a href="{{ . }}">{{ end }}
-            {{ with .thumbnail }}<img class="img-responsive" src="{{ . }}" alt="">{{ end }}
-        </a>
+    {{ with .thumbnail }}<img class="img-responsive" src="{{ . }}" alt="">{{ end }}
+    <h3>
+        {{ with .name }}{{ . }}{{ end }}
 
-        <h3>
-            {{ with .playlink }}<a href="{{ . }}">{{ end }}{{ with .name }}{{ . }}{{ end }}</a>
-        </h3>
-           
-    {{ end }}
+        {{ if ne .playweb "" }}
+            <a href="{{ .playweb }}" class="btn-social btn-outline">
+                <i class="fa fa-fw fa-globe"></i>
+            </a>
+        {{ end }}
+       
+        {{ if ne .playandroid "" }}
+            <a href="{{ .playandroid }}" class="btn-social btn-outline">
+                <i class="fa fa-fw fa-android"></i>
+            </a>
+        {{ end }}
+        
+        {{ if ne .playios "" }}
+            <a href="{{ .playios }}" class="btn-social btn-outline">
+                <i class="fa fa-fw fa-apple"></i>
+            </a>
+        {{ end }}
+        
+        {{ if ne .playdownload "" }}
+            <a href="{{ .playdownload }}" class="btn-social btn-outline">
+                <i class="fa fa-fw fa-download"></i>
+            </a>
+        {{ end }}
+    </h3>
+
     {{ with .description }}<p>{{ . }}</p>{{ end }}
 </div>
