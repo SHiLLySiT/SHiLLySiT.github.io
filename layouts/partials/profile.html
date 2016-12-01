@@ -1,23 +1,29 @@
 <div class="col-lg-12 text-center">
     {{ with .Site.Params.mugshot }}<img src="{{ . }}"/>{{ end }}
     {{ with .Site.Params.name }}<h1>{{ . }}</h1>{{ end }}
-    {{ with .Site.Params.tagline }}<p class="lead" style="color:gray">{{ . }}</p>{{ end }}
+    {{ with .Site.Params.tagline }}<h3 style="color:gray">{{ . }}</h3>{{ end }}
+    {{ with .Site.Params.info }}<p style="color:gray">{{ . }}</p>{{ end }}
+    <br>
 </div>
 
 <div class="col-lg-12 text-center">
-    <a href="https://www.linkedin.com/in/alex-larioza-06123393" class="btn-social btn-outline">
+    <a href="mailto:contact@alexlarioza.com?HELLO ALEX!" class="btn-social btn-outline" style="text-decoration: none;">
+        <i class="fa fa-2x fa-fw fa-envelope-o"></i>
+    </a>
+    
+    <a href="/blog/" class="btn-social btn-outline" style="text-decoration: none;">
+        <i class="fa fa-2x fa-fw fa-book"></i>
+    </a>
+    
+    <a href="https://www.linkedin.com/in/alex-larioza-06123393" class="btn-social btn-outline" style="text-decoration: none;">
         <i class="fa fa-2x fa-fw fa-linkedin"></i>
     </a>
 
-    <a href="https://github.com/SHiLLySiT" class="btn-social btn-outline">
+    <a href="https://github.com/SHiLLySiT" class="btn-social btn-outline" style="text-decoration: none;">
         <i class="fa fa-2x fa-fw fa-github"></i>
     </a>
 
-    <a href="https://www.instagram.com/shillysit/" class="btn-social btn-outline">
-        <i class="fa fa-2x fa-fw fa-instagram"></i>
-    </a>
-
-    <a href="https://www.flickr.com/photos/alexlarioza/" class="btn-social btn-outline">
+    <a href="https://www.flickr.com/photos/alexlarioza/" class="btn-social btn-outline" style="text-decoration: none;">
         <i class="fa fa-2x fa-fw fa-flickr"></i>
     </a>
 </div>

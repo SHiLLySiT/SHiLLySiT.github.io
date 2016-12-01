@@ -2,31 +2,32 @@
     {{ with .thumbnail }}<img class="img-responsive" src="{{ . }}" alt="">{{ end }}
     <h3>
         {{ with .name }}{{ . }}{{ end }}
-
+    </h3>
+    <h3>
         {{ if ne .playweb "" }}
-            <a href="{{ .playweb }}" class="btn-social btn-outline">
+            <a href="{{ .playweb }}" class="btn-social btn-outline" style="text-decoration: none;">
                 <i class="fa fa-fw fa-globe"></i>
             </a>
         {{ end }}
        
         {{ if ne .playandroid "" }}
-            <a href="{{ .playandroid }}" class="btn-social btn-outline">
+            <a href="{{ .playandroid }}" class="btn-social btn-outline" style="text-decoration: none;">
                 <i class="fa fa-fw fa-android"></i>
             </a>
         {{ end }}
         
         {{ if ne .playios "" }}
-            <a href="{{ .playios }}" class="btn-social btn-outline">
+            <a href="{{ .playios }}" class="btn-social btn-outline" style="text-decoration: none;">
                 <i class="fa fa-fw fa-apple"></i>
             </a>
         {{ end }}
         
         {{ if ne .playdownload "" }}
-            <a href="{{ .playdownload }}" class="btn-social btn-outline">
+            <a href="{{ .playdownload }}" class="btn-social btn-outline" style="text-decoration: none;">
                 <i class="fa fa-fw fa-download"></i>
             </a>
         {{ end }}
     </h3>
 
-    {{ with .description }}<p>{{ . }}</p>{{ end }}
+<!--    {{ with .description }}<p>{{ . | markdownify }}</p>{{ end }}-->
 </div>

@@ -1,10 +1,12 @@
-baseurl = "http://replace-this-with-your-hugo-site.com/"
+baseurl = "http://alexlarioza.com/"
 title = "Who is Alex Larioza?!"
 languageCode = "en-us"
 
 [params]
-    title = "Who is Alex Larioza?!"
 	name = "Alex Larioza"
 	description = "I make cool stuff"
-	tagline = "Time traveling programmer who enjoys adventures, games, and cats"
-    mugshot = "images/mugshot2.png"
+	tagline = "Time Travelin' Programmer"
+    info = "All your base are belong to us"
+    mugshot = "images/mugshot1.png"
+    dateformat = "Jan 2, 2006"
+    copyright = "© 2016 Alex Larioza" 

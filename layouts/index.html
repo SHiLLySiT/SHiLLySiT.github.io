@@ -9,25 +9,47 @@
                 {{ partial "profile.html" . }}
             </div>
             
-            <br />
+            <br>
             <hr>
-            <br />
+            <br>
             
             {{ range $index, $element := sort $.Site.Data.projects "date" "desc"}}
                 
                 {{ if eq (mod (sub $index 3) 3) 0 }}
-                        <div class="row">
+                        <div class="row project-row" style="display:none">
                 {{ end }}
                 
                 {{ partial "project.html" $element }}
                 
                 {{ if eq (mod (sub $index 2) 3) 0 }}
-                        </div><br>
+                        <br></div>
                 {{ end }}
-                        
+            
             {{ end }}
+            
+            <div type="row">
+                <div class="col-lg-12 text-center">
+                    <button type="button" class="btn btn-default" id="loadProjects">Load More</button>
+                </div>
             </div>
+            
+            <br>
+            <br>
+            <br>
+            {{ partial "footer.html" . }}
         </div>
+        <script>
+            $("div:hidden:first").show();
+
+            $("#loadProjects").click(function(e) {
+                e.preventDefault();
+                $("div:hidden:first").show();
+                if($("div:hidden").length == 0){ 
+                    $("#loadProjects").hide();
+                }
+            });
+        </script>
+        
     </body>
 
 </html>
