@@ -18,6 +18,18 @@ a:link
     text-decoration: none;
     color: #6999b1;
 }
+a.playicon,
+a.playicon:visited,
+a.playicon:link
+{
+    text-decoration: none;
+    color: #ffffff;
+}
+a.playicon:hover
+{
+    text-decoration: none;
+    color: #6999b1;
+}
 body
 {
     font-family: 'Roboto Slab', 'Roboto', 'Lato', sans-serif;
@@ -61,12 +73,9 @@ html
 {
     color: #966 !important;
 }
-.container
+.portfolio-item
 {
-    overflow: auto;
-
-    max-width: 680px;
-    padding: 0 15px;
+    margin-bottom: 20px;
 }
 .content
 {
