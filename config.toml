@@ -1,0 +1,12 @@
+baseurl = "http://alexlarioza.com/"
+title = "Who is Alex Larioza?!"
+languageCode = "en-us"
+
+[params]
+	name = "Alex Larioza"
+	description = "I make cool stuff"
+	tagline = "Full Stack Developer"
+    info = ""
+    mugshot = "images/mugshot1.png"
+    dateformat = "Jan 2, 2006"
+    copyright = "© 2016 Alex Larioza" 

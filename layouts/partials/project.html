@@ -1,0 +1,41 @@
+<div class="col-md-4 portfolio-item">
+    <div class="view overlay hm-black-strong">
+        {{ with .thumbnail }}<img class="img-responsive" src="{{ . }}" alt="">{{ end }}
+        <div class="mask flex-center">
+            <div class="row text-center">
+                
+                <h3 class="white-text">{{ with .name }}{{ . }}{{ end }}</h3>
+                
+                {{ if ne .playweb "" }}
+                <a href="{{ .playweb }}" class="btn-social btn-outline playicon">
+                    <i class="fa fa-2x fa-fw fa-globe"></i>
+                </a>
+                {{ end }}
+
+                {{ if ne .playandroid "" }}
+                <a href="{{ .playandroid }}" class="btn-social btn-outline playicon">
+                    <i class="fa fa-2x fa-fw fa-android"></i>
+                </a>
+                {{ end }}
+
+                {{ if ne .playios "" }}
+                <a href="{{ .playios }}" class="btn-social btn-outline playicon">
+                    <i class="fa fa-2x fa-fw fa-apple"></i>
+                </a>
+                {{ end }}
+
+                {{ if ne .playdownload "" }}
+                <a href="{{ .playdownload }}" class="btn-social btn-outline playicon">
+                    <i class="fa fa-2x fa-fw fa-download"></i>
+                </a>
+                {{ end }}
+                
+                {{ if ne .video "" }}
+                <a href="{{ .video }}" class="btn-social btn-outline playicon">
+                    <i class="fa fa-2x fa-fw fa-youtube-play"></i>
+                </a>
+                {{ end }}
+            </div>
+        </div>
+    </div>   
+</div>

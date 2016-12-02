@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    {{ partial "header.html" . }}
+
+    <body>
+        <div class="container">
+            <div class="row">
+                {{ partial "profile.html" . }}
+            </div>
+        </div>
+            
+        <br>
+        <hr>
+        <br>
+            
+        <div class="container">
+            {{ range $index, $element := sort $.Site.Data.projects "date" "desc"}}
+                
+                {{ if eq (mod (sub $index 3) 3) 0 }}
+                        <div class="row">
+                {{ end }}
+                
+                {{ partial "project.html" $element }}
+                
+                {{ if eq (mod (sub $index 2) 3) 0 }}
+                        </div>
+                {{ end }}
+            
+            
+            {{ end }}   
+        </div>
+        
+        {{ partial "footer.html" . }}
+        
+        <script>
+            $("div:hidden:first").show();
+
+            $("#loadProjects").click(function(e) {
+                e.preventDefault();
+                $("div:hidden:first").show();
+                if($("div:hidden").length == 0){ 
+                    $("#loadProjects").hide();
+                }
+            });
+        </script>
+        
+    </body>
+
+</html>
