@@ -2,8 +2,7 @@ name = "Expelliarmus"
 date = "2011-07-01"
 thumbnail = "projects/expelliarmus/cover.png"
 playweb = "http://www.kongregate.com/games/alexlarioza/expelliarmus"
-playandroid = ""
-playios = ""
-playdownload = ""
-video = ""
+icons = [
+    ["fa-globe", "http://www.kongregate.com/games/alexlarioza/expelliarmus"],
+]
 description = "Expelliarmus is a short experimental game I created in a few hours. Type out the words that appear at the top of the screen faster than the AI opponent in order to cast a spell. Spells do damage based on the length of the spell. The first wizard to reach zero health loses! Special thanks to [Chris Sinnott](http://www.sinnottsoundworks.com/) for the theme song!"
