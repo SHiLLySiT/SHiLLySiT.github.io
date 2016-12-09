@@ -30,7 +30,7 @@
 
 &lt;p&gt;So, you’ll want to grab &lt;a href=&#34;http://pygame.org/hifi.html&#34;&gt;Pygame&lt;/a&gt; which is a set of modules that will make writing games with Python easier. There’s a bunch of great tutorials on the website, but I recommend reading &lt;a href=&#34;http://programarcadegames.com/index.php?lang=en&#34;&gt;&amp;ldquo;Program Arcade Games&amp;rdquo;&lt;/a&gt; first. Once you start working on your first game, don’t make the common mistake of creating that complex role playing game you’ve been dreaming about for years; you won’t finish it. Instead begin with clones of classic games like &lt;a href=&#34;https://en.wikipedia.org/wiki/Pong&#34;&gt;Pong&lt;/a&gt; or &lt;a href=&#34;https://en.wikipedia.org/wiki/Missile_Command&#34;&gt;Missile Command&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://d2kx2fvqbvh3da.cloudfront.net/sites/default/files/blog-article-images/StaffQuotes_AJ.png&#34; alt=&#34;quote&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;https://d2kx2fvqbvh3da.cloudfront.net/sites/default/files/blog-article-images/StaffQuotes_AJ.png&#34; alt=&#34;quote&#34;&gt;&lt;/p&gt;
 
 &lt;p&gt;From there, just keep making games because as they say, practice makes perfect. You’ll start lots of projects that won’t even make it past a simple prototype. The important thing is that you’re gaining experience - one project may require &lt;a href=&#34;http://www.redblobgames.com/pathfinding/a-star/introduction.html&#34;&gt;path finding with A*&lt;/a&gt; and another may need an &lt;a href=&#34;http://gameprogrammingpatterns.com/command.html&#34;&gt;undo system&lt;/a&gt;. These little nuggets of information get added to your programmer’s tool belt and ultimately make you a better programmer.&lt;/p&gt;
 
