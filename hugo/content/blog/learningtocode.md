@@ -16,9 +16,7 @@ Now that you’ve taken these first steps, you’ve probably got a few projects 
 
 So, you’ll want to grab [Pygame](http://pygame.org/hifi.html) which is a set of modules that will make writing games with Python easier. There’s a bunch of great tutorials on the website, but I recommend reading ["Program Arcade Games"](http://programarcadegames.com/index.php?lang=en) first. Once you start working on your first game, don’t make the common mistake of creating that complex role playing game you’ve been dreaming about for years; you won’t finish it. Instead begin with clones of classic games like [Pong](https://en.wikipedia.org/wiki/Pong) or [Missile Command](https://en.wikipedia.org/wiki/Missile_Command).
 
-
-![quote](https://d2kx2fvqbvh3da.cloudfront.net/sites/default/files/blog-article-images/StaffQuotes_AJ.png)
-
+<img class="img-responsive" src="https://d2kx2fvqbvh3da.cloudfront.net/sites/default/files/blog-article-images/StaffQuotes_AJ.png" alt="quote">
 
 From there, just keep making games because as they say, practice makes perfect. You’ll start lots of projects that won’t even make it past a simple prototype. The important thing is that you’re gaining experience - one project may require [path finding with A*](http://www.redblobgames.com/pathfinding/a-star/introduction.html) and another may need an [undo system](http://gameprogrammingpatterns.com/command.html). These little nuggets of information get added to your programmer’s tool belt and ultimately make you a better programmer.
 
