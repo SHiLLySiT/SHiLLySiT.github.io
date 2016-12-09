@@ -3,10 +3,12 @@
     <body>
         <div class="container">
             <div class="row">
-                {{ partial "li.html" . }}
+                <div class="col-md-12">
+                    {{ partial "li.html" . }}
+                </div>
             </div>
-            
+
             {{ partial "footer.html" . }}
         </div>
-    </body>    
+    </body>
 </html>
