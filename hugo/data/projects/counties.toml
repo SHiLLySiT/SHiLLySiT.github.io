@@ -1,0 +1,6 @@
+name = "Counties Work"
+date = "2017-01-01"
+thumbnail = "projects/counties/cover.png"
+icons = [
+    ["fa-globe", "https://www.icivics.org/games/counties-work"],
+]
