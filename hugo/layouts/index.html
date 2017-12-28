@@ -36,6 +36,10 @@
         <script>
             $("div:hidden:first").show();
 
+            $(function () {
+                $('[data-toggle="tooltip"]').tooltip()
+            });
+
             $("#loadProjects").click(function(e) {
                 e.preventDefault();
                 $("div:hidden:first").show();
