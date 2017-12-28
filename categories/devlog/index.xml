@@ -2,12 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Devlog on Who is Alex Larioza?!</title>
-    <link>http://alexlarioza.com/categories/devlog/index.xml</link>
+    <link>http://alexlarioza.com/categories/devlog/</link>
     <description>Recent content in Devlog on Who is Alex Larioza?!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2016 Alex Larioza</copyright>
-    <atom:link href="http://alexlarioza.com/categories/devlog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Apr 2013 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://alexlarioza.com/categories/devlog/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Caved In 2: Level Generation</title>
@@ -15,29 +18,7 @@
       <pubDate>Tue, 23 Apr 2013 00:00:00 +0000</pubDate>
       
       <guid>http://alexlarioza.com/blog/cavedin2_levelgeneration/</guid>
-      <description>&lt;p&gt;I love procedural content, especially when it comes to randomly generated levels. Not only are such systems fun to set up, but it provides almost endless experiences without having to tediously design a butt-load of levels (don’t get me wrong though, handcrafted levels made with love and care are also as fun to play). Of course there is a fine line between how much should be randomly generated and how much should be predefined. There’s a certain point where randomness becomes a little too random and detracts from the fun of the game. For example, in the first Caved In I took a rather easy route with level generation:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Fill the level with dirt.&lt;/li&gt;
-&lt;li&gt;Based on weights for each block type choose one. Then find a random square shaped-area in the level. This varies the tiles in the level creating deposits of coal, gold, water, and etc. Do this a few times.&lt;/li&gt;
-&lt;li&gt;For each tile in the square area, change the dirt tile to the chosen block based on a specified chance (if I remember correctly, blocks had a 30% chance to dirt). This ensures we don’t have square areas of tiles.&lt;/li&gt;
-&lt;li&gt;Find a random square-shaped area and change all the tiles to floor tiles, which creates (boring) caves. Do this a few times.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Resulting levels were “unique” each time but not very interesting because they lacked defining features or fun caves to explore. In Caved In 2 I’ve decided to take a different route. Instead of randomly generating the level, I broke it into four 12×12 tile “rooms”. The rooms are designed by hand in Ogmo by laying out dirt tiles to define caves and placing object spawns (such as loot, power ups, and etc).&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://alexlarioza.com/projects/cavedin2/editor_room.png&#34; alt=&#34;cavedin2_editor_room&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;A bare room designed in Ogmo.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;The rooms are then compiled into a XML “room database” using a script I wrote in AutoHotKey. When the level is generated, it randomly chooses rooms and stitches them together to form the entire level. The dirt tiles in the rooms are then replaced with other tiles using a similar algorithm found in the original Caved In, although it’s been refined to provide a better spread of block types.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://alexlarioza.com/projects/cavedin2/game_room.png&#34; alt=&#34;cavedin2_game_room&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Same room from above in-game…although some gravel caved in above where I dug in.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;In the end, levels are still randomly generated but provides me with a bit more control to help give the levels a more personal touch. In the coming weeks I’m going to be churning out loads of more rooms as I get closer to release along with more props and decorations. Stay tuned!&lt;/p&gt;
-</description>
+      <description>I love procedural content, especially when it comes to randomly generated levels. Not only are such systems fun to set up, but it provides almost endless experiences without having to tediously design a butt-load of levels (don’t get me wrong though, handcrafted levels made with love and care are also as fun to play). Of course there is a fine line between how much should be randomly generated and how much should be predefined.</description>
     </item>
     
     <item>
@@ -46,24 +27,9 @@
       <pubDate>Sat, 30 Mar 2013 00:00:00 +0000</pubDate>
       
       <guid>http://alexlarioza.com/blog/cavedin2_shroomtheway/</guid>
-      <description>&lt;p&gt;One of the biggest design issues with the original game was guiding the player to the ladder that would take them to the next level.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://alexlarioza.com/projects/cavedin/lost.png&#34; alt=&#34;lost&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;“I think I’m lost”&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;The player starts out in pitch black with only a small diamond of the level visible. As the player explores, they uncover the level although areas not within the diamond radius are slightly obscured again. While it was my goal to not hold the player’s hand and let them explore, it proved difficult to determine where the ladder would be each level. It was simply a matter of randomly digging around until the ladder was found. I later added a compass that (sort of) pointed towards the general direction of the ladder, but it was a lousy remedy. Yet it did produce a pretty awesome comment from a player: “Good thing this cave has highly magnetic ladders built into it.”&lt;/p&gt;
-
-&lt;p&gt;One of the major goals in the sequel was to find a better solution to this problem and make exploration more rewarding. I tried a handful of different methods, but I eventually came up with the brilliant idea of glowing mushrooms.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://alexlarioza.com/projects/cavedin2/shroom.png&#34; alt=&#34;cavedin2_shroom&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;“DIAMOND!”&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Mushrooms are placed in caves and there are usually two or three visible on screen at any given time. They give off a dim light that illuminates the tiles around it, even when the player is not in the immediate vicinity and act as landmarks. Since they only spawn in open spaces, the player begins to realize that digging towards mushrooms means they’ll find a cave once they get there and caves contain loot, damsels, and most importantly – the ladder.&lt;/p&gt;
-
-&lt;p&gt;Up next: rescuing damsels while trying not to have the cave come crumbling down on top of your head.&lt;/p&gt;
-</description>
+      <description>One of the biggest design issues with the original game was guiding the player to the ladder that would take them to the next level.
+“I think I’m lost”
+The player starts out in pitch black with only a small diamond of the level visible. As the player explores, they uncover the level although areas not within the diamond radius are slightly obscured again. While it was my goal to not hold the player’s hand and let them explore, it proved difficult to determine where the ladder would be each level.</description>
     </item>
     
   </channel>

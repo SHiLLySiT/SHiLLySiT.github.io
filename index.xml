@@ -2,13 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Who is Alex Larioza?!</title>
-    <link>http://alexlarioza.com/index.xml</link>
+    <link>http://alexlarioza.com/</link>
     <description>Recent content on Who is Alex Larioza?!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2016 Alex Larioza</copyright>
     <lastBuildDate>Mon, 14 Mar 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://alexlarioza.com/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://alexlarioza.com/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Learning To Code</title>
@@ -16,40 +18,8 @@
       <pubDate>Mon, 14 Mar 2016 00:00:00 +0000</pubDate>
       
       <guid>http://alexlarioza.com/blog/learningtocode/</guid>
-      <description>
-
-&lt;h3 id=&#34;executing-your-first-code&#34;&gt;Executing Your First Code&lt;/h3&gt;
-
-&lt;p&gt;Deciding which programming language to learn is often the most difficult decisions to make. C++? Java? &lt;a href=&#34;https://dogescript.com/&#34;&gt;Dogescript&lt;/a&gt;? Learning to program is 90% about the principles and 10% about the languages, so don’t stress about which one you choose.&lt;/p&gt;
-
-&lt;p&gt;Granted, there are languages that are more difficult to learn than others. While something like C++ is ultimately where your journey will take you, it’s also well known for its steep learning curve. Beginners often find that &lt;a href=&#34;https://www.python.org/&#34;&gt;Python&lt;/a&gt; is more intuitive and paired with the great &lt;a href=&#34;https://www.codecademy.com/learn/python&#34;&gt;crash course&lt;/a&gt; over at &lt;a href=&#34;https://www.codecademy.com/learn&#34;&gt;Codecademy&lt;/a&gt;, you’ll be writing your first &lt;a href=&#34;https://en.wikipedia.org/wiki/%22Hello,_World!%22_program&#34;&gt;hello world program&lt;/a&gt; in minutes! The best part about Codecademy is that you can write code directly in your browser without having to install and setup any software. Once you’ve completed all the courses at Codecademy I recommend reading &lt;a href=&#34;https://automatetheboringstuff.com/&#34;&gt;&amp;ldquo;Automate Boring Stuff With Python&amp;rdquo;&lt;/a&gt; which gives a more indepth look at programming in Python.&lt;/p&gt;
-
-&lt;h3 id=&#34;adding-complexity&#34;&gt;Adding Complexity&lt;/h3&gt;
-
-&lt;p&gt;Now that you’ve taken these first steps, you’ve probably got a few projects under your belt - perhaps you’ve even programmed an &lt;a href=&#34;http://www.instructables.com/id/Raspberry-Pi-Christmas-Tree-Light-Show/&#34;&gt;automated light display&lt;/a&gt; for Christmas. While I’m sure your neighbors will be jealous when the holidays roll around, let’s apply your new skillset to something a little more substantial - making games. The most important concept that you need to understand is the &lt;a href=&#34;http://gameprogrammingpatterns.com/game-loop.html&#34;&gt;game loop&lt;/a&gt; which is the beating heart of every game you’ll ever play.&lt;/p&gt;
-
-&lt;p&gt;So, you’ll want to grab &lt;a href=&#34;http://pygame.org/hifi.html&#34;&gt;Pygame&lt;/a&gt; which is a set of modules that will make writing games with Python easier. There’s a bunch of great tutorials on the website, but I recommend reading &lt;a href=&#34;http://programarcadegames.com/index.php?lang=en&#34;&gt;&amp;ldquo;Program Arcade Games&amp;rdquo;&lt;/a&gt; first. Once you start working on your first game, don’t make the common mistake of creating that complex role playing game you’ve been dreaming about for years; you won’t finish it. Instead begin with clones of classic games like &lt;a href=&#34;https://en.wikipedia.org/wiki/Pong&#34;&gt;Pong&lt;/a&gt; or &lt;a href=&#34;https://en.wikipedia.org/wiki/Missile_Command&#34;&gt;Missile Command&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;https://d2kx2fvqbvh3da.cloudfront.net/sites/default/files/blog-article-images/StaffQuotes_AJ.png&#34; alt=&#34;quote&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;From there, just keep making games because as they say, practice makes perfect. You’ll start lots of projects that won’t even make it past a simple prototype. The important thing is that you’re gaining experience - one project may require &lt;a href=&#34;http://www.redblobgames.com/pathfinding/a-star/introduction.html&#34;&gt;path finding with A*&lt;/a&gt; and another may need an &lt;a href=&#34;http://gameprogrammingpatterns.com/command.html&#34;&gt;undo system&lt;/a&gt;. These little nuggets of information get added to your programmer’s tool belt and ultimately make you a better programmer.&lt;/p&gt;
-
-&lt;p&gt;It’s important to understand that as a programmer you aren’t just writing code - you’re solving problems. It’s also not about just solving the problem, but finding the best way to do it. One method may be quick and easy to write, but is it the most elegant solution? Code organization and structure is crucial to becoming a successful programmer. Poorly designed code will not only make your job more difficult, but also create serious problems for your co-workers.&lt;/p&gt;
-
-&lt;h3 id=&#34;honing-your-skills&#34;&gt;Honing Your Skills&lt;/h3&gt;
-
-&lt;p&gt;If you need some inspiration, game jams are one of the best ways to churn out projects. Usually you’re given a theme and a time limit (typically 48 hours) to make a game from scratch. The details often vary from jam to jam, but the purpose remains the same - to make games among others that share your passion. You can often find game jams near you by asking around, but here are a few that I recommend checking out:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://globalgamejam.org/&#34;&gt;Global Game Jam&lt;/a&gt; is the world’s largest game jam and happens once every year. Participants gather at various locations around the world to watch a keynote where a secret theme is announced. Once the clock starts ticking everyone pitches ideas to each other in order to form teams.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://ludumdare.com/compo/&#34;&gt;Ludum Dare&lt;/a&gt; runs every April, August, and December. There are two components to Ludum Dare - the Compo and Jam. The Compo is “classic” Ludum Dare, which is done solo and has a strict set of rules. The Jam rules are more flexible and allow you to work with others. Unlike the Global Game Jam, you don’t have to meet your teammates at a physical location. Instead you can work from the comfort of your own home!&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.onegameamonth.com/&#34;&gt;One Game a Month&lt;/a&gt; is a monthly event that has no rules. If you want to make a game, then you’re ready to go. The main benefit here is that you will have a community to provide feedback on your games as well as emotional support.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The topics I’ve covered here are just the tip of the iceberg. If you’re still hungry for knowledge, there is a &lt;a href=&#34;https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md&#34;&gt;huge collection of free ebooks available on Github&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;This article was originally posted at www.filamentgames.com/blog&lt;/em&gt;&lt;/p&gt;
-</description>
+      <description>Executing Your First Code Deciding which programming language to learn is often the most difficult decisions to make. C++? Java? Dogescript? Learning to program is 90% about the principles and 10% about the languages, so don’t stress about which one you choose.
+Granted, there are languages that are more difficult to learn than others. While something like C++ is ultimately where your journey will take you, it’s also well known for its steep learning curve.</description>
     </item>
     
     <item>
@@ -58,14 +28,7 @@
       <pubDate>Tue, 13 Jan 2015 00:00:00 +0000</pubDate>
       
       <guid>http://alexlarioza.com/blog/2014yearinreview/</guid>
-      <description>&lt;p&gt;Even after spending a few days attempting to transcribe my feelings and emotions, I still feel that this post doesn’t even come close to conveying how important this year has been to me. I traveled to two states, graduated from college, met a plethora of new people, hiked a 13-mile trail, visited the beautiful parks of Big Sur and Muir Woods, saw Linkin Park in concert, and finished two commercial games…just to name a few. It was an epic year of exploration, personal growth, and self discovery.&lt;/p&gt;
-
-&lt;p&gt;However, I think my decision to accept a job at Filament Games has been the most pivotal. While I’m quite excited to meet my new coworkers and create some awesome games, I’m also thrilled about moving to the mid-west and gaining the independence I’ve sought after for so long. It’s unfortunate that such a great opportunity also means that I have to leave behind my friends and family. No combination of words could describe how much I appreciate them. I am forever in debt for all of their love and support; I wouldn’t be who I am today without them.&lt;/p&gt;
-
-&lt;p&gt;While I learned many things this year I think the most import thing was that every choice you make should take you a step closer to your dreams, not away from them.&lt;/p&gt;
-
-&lt;p&gt;In other words, &lt;em&gt;follow your heart and fuck the rest&lt;/em&gt;.&lt;/p&gt;
-</description>
+      <description>Even after spending a few days attempting to transcribe my feelings and emotions, I still feel that this post doesn’t even come close to conveying how important this year has been to me. I traveled to two states, graduated from college, met a plethora of new people, hiked a 13-mile trail, visited the beautiful parks of Big Sur and Muir Woods, saw Linkin Park in concert, and finished two commercial games…just to name a few.</description>
     </item>
     
     <item>
@@ -74,38 +37,7 @@
       <pubDate>Wed, 18 Dec 2013 00:00:00 +0000</pubDate>
       
       <guid>http://alexlarioza.com/blog/cavedin2_postmortem/</guid>
-      <description>
-
-&lt;h3 id=&#34;what-is-caved-in-2&#34;&gt;What is Caved In 2?&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://alexlarioza.com/projects/cavedin2/screen1.png&#34; alt=&#34;cavedin2_dirt&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Caved In 2 is the sequel to the original game that I created for Ludum Dare #21. Since the original was created in such a sort amount of time, I didn’t get to fully explore the ideas I had for the game. The sequel is meant to fill in the gaps that the original missed, such as, a overhauled lighting systems, monsters, and power ups.&lt;/p&gt;
-
-&lt;h3 id=&#34;what-went-right&#34;&gt;What Went Right&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;Hook, line, and sinker.&lt;/strong&gt; From the start, the core mechanic was fun and addicting – digging around looking for ores and exploring the randomly generated caves. The addition of monsters and an overhauled lighting system really helped with exploration.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;The sky is falling!&lt;/strong&gt; Early in development, I realized I had an issue with continually pushing the player forward. Sure its fun just digging around, but I really wanted them to keep moving forward. Eventually came up with the integrity system. If you haven’t played the game, the integrity (represented by the percentage in the HUD) decreases with every block removed. The lower the integrity, the higher the chance a cave in will occur. The strength of each level gets weaker as you descend, making later levels harder.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://alexlarioza.com/projects/cavedin2/screen2.png&#34; alt=&#34;cavedin2_moss&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Let’s slap some lipstick on this pig.&lt;/strong&gt; A friend of mine also made a suggestion of different themes the deeper you get. I ended up adding three additional themes, however, it seems the majority of players barely get to the moss theme before rage quitting. Oops. In the latest patch I actually shortened the number of levels you must descend before seeing another theme.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://alexlarioza.com/projects/cavedin2/ogmo.png&#34; alt=&#34;cavedin2_editor&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;To infinity and beyond.&lt;/strong&gt; The original caved in suffered from too much procedural generation – generated caves weren’t interesting and they would be sometimes really weird layouts. I still wanted to have the almost infinite levels, but I also wanted to make sure I had more control over them in the sequel. After many iterations, I eventually came up with a ‘room stitching’ method. What the heck is that you ask? Basically, I designed a pool of “rooms” in Ogmo which were basically just all dirt room with hand-carved caves and a few manually placed props. I also gave rooms tags to determine what sort of content they contained so the game could decide what rooms it wanted to use. Then I used a script I wrote with AutoHotKey to stitch all of the rooms together into a single XML file. When a level is generated, it chooses a room and then randomizes all the dirt tiles with ores and rock, then randomly places items and monsters on open tiles.&lt;/p&gt;
-
-&lt;h3 id=&#34;what-went-wrong&#34;&gt;What Went Wrong&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;Are we there yet?&lt;/strong&gt; Looking back on when I first started Caved In 2, I realized I had started it almost a year ago! I had intended it to be a quick sequel, but I ended up getting stuck on making the game ‘flow’ right. I also had a lot going on this past year which got in the way and really slowed development. I basically spent the last 3 months working on the last 10%. But you know what they say, the last 10% is 90% of the project.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Getter done.&lt;/strong&gt; I was a little to eager to finish the game and push it out the door, and as a result there were a few obvious things that I didn’t do. Most notably – alternative controls and a mute button (both of which I’ve added now). There were also some bugs that I should have tested for, such as the bonus points not being included with the score sent to the Mochi score board. Doh!&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;What a mess.&lt;/strong&gt; I think this is something all programmers have a problem with for awhile – keeping the code base neat. Caved In 2 was started after my first game with Bullet Proof so I was in the process transitioning to a different way of organizing projects and how I structured my code. As a result, the source was had clashing naming convention and overall was just a mess. The last stretch I did before releasing the game was the worst as I had to got back to some very early code to make changes. Yuck.&lt;/p&gt;
-
-&lt;p&gt;Until the next game…&lt;/p&gt;
-</description>
+      <description>What is Caved In 2? Caved In 2 is the sequel to the original game that I created for Ludum Dare #21. Since the original was created in such a sort amount of time, I didn’t get to fully explore the ideas I had for the game. The sequel is meant to fill in the gaps that the original missed, such as, a overhauled lighting systems, monsters, and power ups.</description>
     </item>
     
     <item>
@@ -114,29 +46,7 @@
       <pubDate>Tue, 23 Apr 2013 00:00:00 +0000</pubDate>
       
       <guid>http://alexlarioza.com/blog/cavedin2_levelgeneration/</guid>
-      <description>&lt;p&gt;I love procedural content, especially when it comes to randomly generated levels. Not only are such systems fun to set up, but it provides almost endless experiences without having to tediously design a butt-load of levels (don’t get me wrong though, handcrafted levels made with love and care are also as fun to play). Of course there is a fine line between how much should be randomly generated and how much should be predefined. There’s a certain point where randomness becomes a little too random and detracts from the fun of the game. For example, in the first Caved In I took a rather easy route with level generation:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Fill the level with dirt.&lt;/li&gt;
-&lt;li&gt;Based on weights for each block type choose one. Then find a random square shaped-area in the level. This varies the tiles in the level creating deposits of coal, gold, water, and etc. Do this a few times.&lt;/li&gt;
-&lt;li&gt;For each tile in the square area, change the dirt tile to the chosen block based on a specified chance (if I remember correctly, blocks had a 30% chance to dirt). This ensures we don’t have square areas of tiles.&lt;/li&gt;
-&lt;li&gt;Find a random square-shaped area and change all the tiles to floor tiles, which creates (boring) caves. Do this a few times.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Resulting levels were “unique” each time but not very interesting because they lacked defining features or fun caves to explore. In Caved In 2 I’ve decided to take a different route. Instead of randomly generating the level, I broke it into four 12×12 tile “rooms”. The rooms are designed by hand in Ogmo by laying out dirt tiles to define caves and placing object spawns (such as loot, power ups, and etc).&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://alexlarioza.com/projects/cavedin2/editor_room.png&#34; alt=&#34;cavedin2_editor_room&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;A bare room designed in Ogmo.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;The rooms are then compiled into a XML “room database” using a script I wrote in AutoHotKey. When the level is generated, it randomly chooses rooms and stitches them together to form the entire level. The dirt tiles in the rooms are then replaced with other tiles using a similar algorithm found in the original Caved In, although it’s been refined to provide a better spread of block types.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://alexlarioza.com/projects/cavedin2/game_room.png&#34; alt=&#34;cavedin2_game_room&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Same room from above in-game…although some gravel caved in above where I dug in.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;In the end, levels are still randomly generated but provides me with a bit more control to help give the levels a more personal touch. In the coming weeks I’m going to be churning out loads of more rooms as I get closer to release along with more props and decorations. Stay tuned!&lt;/p&gt;
-</description>
+      <description>I love procedural content, especially when it comes to randomly generated levels. Not only are such systems fun to set up, but it provides almost endless experiences without having to tediously design a butt-load of levels (don’t get me wrong though, handcrafted levels made with love and care are also as fun to play). Of course there is a fine line between how much should be randomly generated and how much should be predefined.</description>
     </item>
     
     <item>
@@ -145,24 +55,9 @@
       <pubDate>Sat, 30 Mar 2013 00:00:00 +0000</pubDate>
       
       <guid>http://alexlarioza.com/blog/cavedin2_shroomtheway/</guid>
-      <description>&lt;p&gt;One of the biggest design issues with the original game was guiding the player to the ladder that would take them to the next level.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://alexlarioza.com/projects/cavedin/lost.png&#34; alt=&#34;lost&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;“I think I’m lost”&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;The player starts out in pitch black with only a small diamond of the level visible. As the player explores, they uncover the level although areas not within the diamond radius are slightly obscured again. While it was my goal to not hold the player’s hand and let them explore, it proved difficult to determine where the ladder would be each level. It was simply a matter of randomly digging around until the ladder was found. I later added a compass that (sort of) pointed towards the general direction of the ladder, but it was a lousy remedy. Yet it did produce a pretty awesome comment from a player: “Good thing this cave has highly magnetic ladders built into it.”&lt;/p&gt;
-
-&lt;p&gt;One of the major goals in the sequel was to find a better solution to this problem and make exploration more rewarding. I tried a handful of different methods, but I eventually came up with the brilliant idea of glowing mushrooms.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://alexlarioza.com/projects/cavedin2/shroom.png&#34; alt=&#34;cavedin2_shroom&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;“DIAMOND!”&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Mushrooms are placed in caves and there are usually two or three visible on screen at any given time. They give off a dim light that illuminates the tiles around it, even when the player is not in the immediate vicinity and act as landmarks. Since they only spawn in open spaces, the player begins to realize that digging towards mushrooms means they’ll find a cave once they get there and caves contain loot, damsels, and most importantly – the ladder.&lt;/p&gt;
-
-&lt;p&gt;Up next: rescuing damsels while trying not to have the cave come crumbling down on top of your head.&lt;/p&gt;
-</description>
+      <description>One of the biggest design issues with the original game was guiding the player to the ladder that would take them to the next level.
+“I think I’m lost”
+The player starts out in pitch black with only a small diamond of the level visible. As the player explores, they uncover the level although areas not within the diamond radius are slightly obscured again. While it was my goal to not hold the player’s hand and let them explore, it proved difficult to determine where the ladder would be each level.</description>
     </item>
     
   </channel>
