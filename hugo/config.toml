@@ -10,3 +10,10 @@ languageCode = "en-us"
     mugshot = "images/mugshot3.jpg"
     dateformat = "Jan 2, 2006"
     copyright = "© 2016 Alex Larioza"
+    links = [
+        ["Email", "fa-envelope-o", "mailto:contact@alexlarioza.com"],
+        ["Blog", "fa-book", "/blog/"],
+        ["Linkedin", "fa-linkedin", "https://www.linkedin.com/in/alexlarioza"],
+        ["Github", "fa-github", "https://github.com/SHiLLySiT"],
+        ["Flickr", "fa-flickr", "https://www.flickr.com/photos/alexlarioza/"],
+    ]

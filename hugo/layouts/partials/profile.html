@@ -7,23 +7,9 @@
 </div>
 
 <div class="col-lg-12 text-center">
-    <a href="mailto:contact@alexlarioza.com" class="btn-social btn-outline" style="text-decoration: none;">
-        <i class="fa fa-2x fa-fw fa-envelope-o"></i>
+    {{ range $index, $element := .Site.Params.links}}
+    <a href="{{ index . 2 }}" class="btn-social btn-outline" style="text-decoration: none;">
+        <i class="fa fa-2x fa-fw {{ index . 1 }}" data-toggle="tooltip" data-placement="bottom" title="{{ index . 0 }}"></i>
     </a>
-
-    <a href="/blog/" class="btn-social btn-outline" style="text-decoration: none;">
-        <i class="fa fa-2x fa-fw fa-book"></i>
-    </a>
-
-    <a href="https://www.linkedin.com/in/alexlarioza" class="btn-social btn-outline" style="text-decoration: none;">
-        <i class="fa fa-2x fa-fw fa-linkedin"></i>
-    </a>
-
-    <a href="https://github.com/SHiLLySiT" class="btn-social btn-outline" style="text-decoration: none;">
-        <i class="fa fa-2x fa-fw fa-github"></i>
-    </a>
-
-    <a href="https://www.flickr.com/photos/alexlarioza/" class="btn-social btn-outline" style="text-decoration: none;">
-        <i class="fa fa-2x fa-fw fa-flickr"></i>
-    </a>
+    {{ end }}
 </div>

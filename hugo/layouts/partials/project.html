@@ -7,8 +7,8 @@
                 <h3 class="white-text">{{ with .name }}{{ . }}{{ end }}</h3>
 
                 {{ range $index, $element := .icons}}
-                <a href="{{ index . 1 }}" class="btn-social btn-outline playicon">
-                    <i class="fa fa-2x fa-fw {{ index . 0 }}"></i>
+                <a href="{{ index . 2 }}" class="btn-social btn-outline playicon">
+                    <i class="fa fa-2x fa-fw {{ index . 1 }}" data-toggle="tooltip" data-placement="bottom" title="{{ index . 0 }}"></i>
                 </a>
                 {{ end }}
             </div>
