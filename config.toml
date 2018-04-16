@@ -8,10 +8,10 @@ googleAnalytics  = "UA-114648620-1"
   blog = "blog/:year/:month/:title/"
 
 [params]
-	name = "Alex Larioza"
     mugshot = "/images/mugshot3.jpg"
 	description = "I make cool stuff"
-    titles = "game developer. designer. photographer. juggler. animal lover. programmer. hiker. creator. explorer. always hungry. nature enthusiast. gamer"
+    name = "Alex Larioza"
+    titles = "game developer. designer. photographer. nerd. juggler. animal lover. hiker. creator. boardgame geek. cat fancier. explorer. food enthusiast. gamer. outdoorsman."
     social = [
         ["", "fas fa-envelope", "mailto:contact@alexlarioza.com"],
         ["", "fab fa-linkedin", "https://www.linkedin.com/in/alexlarioza"],
