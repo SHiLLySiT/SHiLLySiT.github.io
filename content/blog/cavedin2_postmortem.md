@@ -1,6 +1,7 @@
 +++
 title = "Caved In 2: Post Mortem"
 date = "2013-12-18"
+icon = "/images/blog.svg"
 categories = ["Post Mortem"]
 Description = "Caved In 2 is the sequel to the original game that I created for Ludum Dare #21. Since the original was created in such a sort amount of time, I didn’t get to fully explore the ideas I had for the game..."
 +++

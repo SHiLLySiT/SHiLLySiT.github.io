@@ -1,19 +1,25 @@
 baseurl = "http://alexlarioza.com/"
 title = "Who is Alex Larioza?!"
 languageCode = "en-us"
+publishDir = "public"
+googleAnalytics  = "UA-114648620-1"
+
+[permalinks]
+  blog = "blog/:year/:month/:title/"
 
 [params]
 	name = "Alex Larioza"
+    mugshot = "/images/mugshot3.jpg"
 	description = "I make cool stuff"
-	tagline = "Game Engineer"
-    info = ""
-    mugshot = "images/mugshot3.jpg"
-    dateformat = "Jan 2, 2006"
-    copyright = "© 2016 Alex Larioza"
-    links = [
-        ["Email", "fa-envelope-o", "mailto:contact@alexlarioza.com"],
-        ["Blog", "fa-book", "/blog/"],
-        ["Linkedin", "fa-linkedin", "https://www.linkedin.com/in/alexlarioza"],
-        ["Github", "fa-github", "https://github.com/SHiLLySiT"],
-        ["Flickr", "fa-flickr", "https://www.flickr.com/photos/alexlarioza/"],
+    titles = "game developer. designer. photographer. juggler. animal lover. programmer. hiker. creator. explorer. always hungry. nature enthusiast. gamer"
+    social = [
+        ["", "fas fa-envelope", "mailto:contact@alexlarioza.com"],
+        ["", "fab fa-linkedin", "https://www.linkedin.com/in/alexlarioza"],
+        ["", "fab fa-github", "https://github.com/SHiLLySiT"],
+        ["", "fab fa-flickr", "https://www.flickr.com/photos/alexlarioza"],
+        ["", "fab fa-instagram", "https://www.instagram.com/shillysit"],
     ]
+    keywords = """video games, games, cats, meow, cat, android, ios, steam, 
+    alex, larioza, material, abstract, design, development, programming,
+    developer, studio, unity, unity3d, mobile, fun, bored, madison, 
+    wisconsin, indie, solo, dev, arcade, puzzle, app, apple, google, play"""

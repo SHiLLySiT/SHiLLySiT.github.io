@@ -1,54 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-
+    
     {{ partial "header.html" . }}
 
-    <body>
-        <div class="container">
-            <div class="row">
-                {{ partial "profile.html" . }}
+    {{ template "_internal/google_analytics.html" . }}
+
+    <body class="mdc-typography">
+        
+        <!-- About -->
+        <section class="content">
+            <!-- Mug shot -->
+            <div class="mdc-card">
+                <div class="mdc-card__media mdc-card__media--16-9 card-cover" style="background-image: url({{ .Site.Params.mugshot }});"></div>
             </div>
-        </div>
-            
-        <br>
-        <hr>
-        <br>
-            
-        <div class="container">
-            {{ range $index, $element := sort $.Site.Data.projects "date" "desc"}}
-                
-                {{ if eq (mod (sub $index 3) 3) 0 }}
-                        <div class="row">
-                {{ end }}
-                
-                {{ partial "project.html" $element }}
-                
-                {{ if eq (mod (sub $index 2) 3) 0 }}
+
+            <!-- info -->
+            <div class="mdc-card about-card content-text center-text">
+                <h2 class="game-card__title mdc-typography--display1">
+                    {{ .Site.Params.name }}
+                </h2>
+                <br>
+                <div class="mdc-typography--body1">
+                    {{ .Site.Params.titles }}
+                </div>
+                <br>
+                <div class="mdc-typography--body1">
+                    {{ range $index, $element := .Site.Params.social }}
+                        <a class="mdc-chip mdc-ripple-surface" data-mdc-auto-init="MDCRipple" href="{{ index . 2 }}">
+                            <div class="mdc-chip__text">
+                                <i class="{{ index . 1 }} fa-2x"></i>
+                            </div>
+                        </a>
+                    {{ end }}
+                </div>
+            </div>
+        </section>
+
+        <!-- TODO: buttons for categories -->
+        <!-- <section class="content content-text center-text">
+            {{ range $key, $value := .Site.Taxonomies.categories }}
+            <a class="mdc-chip" href="/categories/{{ lower $key }}">
+                <div class="mdc-chip__text">{{ $key }}</div>
+            </a>
+            {{ end }}
+        </section> -->
+
+        <!-- Project List -->
+        <section class="project-list content-text">
+            <div class="mdc-layout-grid">
+                <div class="mdc-layout-grid__inner">
+                    {{ range $element := sort $.Data.Pages "Date" "desc"}}
+                    <div class="mdc-layout-grid__cell">
+                        <div class="mdc-card game-card mdc-ripple-surface" onclick="location.href='{{ $element.URL }}';" data-mdc-auto-init="MDCRipple">
+                            <div class="mdc-card__media mdc-card__media--icon" style="background-image: url({{ $element.Params.icon }});"></div>
+                            
+                            <div class="game-card__primary center-text">
+                                <h2 class="game-card__title mdc-typography--title">
+                                    {{ $element.Title }}
+                                </h2>
+                            
+                                {{ range .Params.Categories }}
+                                <!-- TODO: go to category page -->
+                                <!-- <a class="mdc-chip" href="/categories/{{ lower . }}"> -->
+                                <div class="mdc-chip">
+                                    <div class="mdc-typography--body1 mdc-chip__text">{{ . }}</div>
+                                </div>
+                                {{ end }}
+                            </div>
                         </div>
-                {{ end }}
-            
-            
-            {{ end }}   
-        </div>
-        
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+        </section>
+
         {{ partial "footer.html" . }}
-        
-        <script>
-            $("div:hidden:first").show();
-
-            $(function () {
-                $('[data-toggle="tooltip"]').tooltip()
-            });
-
-            $("#loadProjects").click(function(e) {
-                e.preventDefault();
-                $("div:hidden:first").show();
-                if($("div:hidden").length == 0){ 
-                    $("#loadProjects").hide();
-                }
-            });
-        </script>
-        
     </body>
-
 </html>

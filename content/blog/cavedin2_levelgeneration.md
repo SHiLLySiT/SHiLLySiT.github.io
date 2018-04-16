@@ -1,6 +1,7 @@
 +++
 title = "Caved In 2: Level Generation"
 date = "2013-04-23"
+icon = "/images/blog.svg"
 categories = ["Devlog"]
 Description = "I love procedural content, especially when it comes to randomly generated levels. Not only are such systems fun to set up, but it provides almost endless experiences without having to tediously design a butt-load of levels..."
 +++

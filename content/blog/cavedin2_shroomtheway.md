@@ -1,6 +1,7 @@
 +++
 title = "Caved In 2: Shroom The Way"
 date = "2013-03-30"
+icon = "/images/blog.svg"
 categories = ["Devlog"]
 Description = "One of the biggest design issues with the original game was guiding the player to the ladder that would take them to the next level...."
 +++
