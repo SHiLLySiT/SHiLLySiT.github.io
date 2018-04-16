@@ -6,15 +6,34 @@
     <description>Recent content in Game on Who is Alex Larioza?!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 Feb 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Apr 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://alexlarioza.com/categories/game/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Cooptris</title>
+      <link>http://alexlarioza.com/projects/cooptris/</link>
+      <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://alexlarioza.com/projects/cooptris/</guid>
+      <description>Cooptris is a cooperative Tetris clone. Same rules as the original: don&amp;rsquo;t let blocks reach the top of the screen! Both players share the same hold space which is useful for trading pieces. Your current piece can get in the way of the other player, so good communication is required!</description>
+    </item>
+    
+    <item>
+      <title>Survived By</title>
+      <link>http://alexlarioza.com/projects/survivedby/</link>
+      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://alexlarioza.com/projects/survivedby/</guid>
+      <description>Survived By is a free-to-play MMO bullet-hell game where permadeath is just the beginning. Every time you die, you’re survived by a new descendant who carries a small part of your legacy with them.
+Team up with hundreds of survivors as you shoot your way through hordes of Chimera, explore dungeons, collect loot, craft gear and of course… die. Again, and again. Who will you be survived by…?</description>
+    </item>
+    
+    <item>
       <title>Counties Work</title>
       <link>http://alexlarioza.com/projects/counties/</link>
-      <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>http://alexlarioza.com/projects/counties/</guid>
       <description>Want to try your hand at running your own county government? In Counties Work, you can! Stay on top of resident requests as you develop the local community, make important budgeting decisions and solve crises that pop up along the way.</description>
