@@ -12,16 +12,16 @@
                 <div class="mdc-card__media mdc-card__media--cover card-cover" style="background-image: url({{ .Params.cover }});"></div>
             </div>
             <br>
-            <div class="mdc-card content-card">
+            <div class="mdc-card content-card center-text">
                 <div class="mdc-typography--title content-title">{{ .Title }}</div>
                 <div class="mdc-typography--body1">{{ .Content }}</div>
-                <div class="">
-                    {{ range $index, $element := .Params.gamelinks }}
+                {{ range $index, $element := .Params.gamelinks }}
+                <div style="padding: 5px;">
                     <a href="{{ index . 2 }}" class="mdc-button mdc-button--raised mdc-ripple-surface" data-mdc-auto-init="MDCRipple">
                         <i class="{{ index . 1 }} fa-lg"></i>&nbsp{{ index . 0 }}
                     </a>
-                    {{ end }}
                 </div>
+                {{ end }}
             </div>
             <br>
             <div class="mdc-layout-grid thumbnail-grid">
