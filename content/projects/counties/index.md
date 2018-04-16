@@ -1,6 +1,6 @@
 +++
 title = "Counties Work"
-date = "2018-02-01"
+date = "2017-01-01"
 cover = "/projects/counties/cover.png"
 icon = "/projects/counties/cover.png"
 categories = ["Game"]
