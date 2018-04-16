@@ -1,7 +1,0 @@
-name = "Nodelayer"
-date = "2017-01-01"
-thumbnail = "projects/nodelayer/cover.png"
-icons = [
-    ["fa-github", "https://github.com/SHiLLySiT/Nodelayer"],
-]
-description = ""

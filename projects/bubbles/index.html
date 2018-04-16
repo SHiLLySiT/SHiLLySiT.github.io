@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="I make cool stuff">
+    <meta name="keywords" content="video games, games, cats, meow, cat, android, ios, steam, 
+    alex, larioza, material, abstract, design, development, programming,
+    developer, studio, unity, unity3d, mobile, fun, bored, madison, 
+    wisconsin, indie, solo, dev, arcade, puzzle, app, apple, google, play">
+    <title>Who is Alex Larioza?!</title>
+
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+
+    
+    
+    <link rel="icon" href="/favicon32.png" sizes="32x32">
+</head>
+
+    
+    
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-114648620-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+    <body class="mdc-typography">
+        
+        <section class="content">
+            <div class="mdc-card">
+                <div class="mdc-card__media mdc-card__media--cover card-cover" style="background-image: url(/projects/bubbles/cover.png);"></div>
+            </div>
+            <br>
+            <div class="mdc-card content-card">
+                <div class="mdc-typography--title content-title">Bubbles</div>
+                <div class="mdc-typography--body1"><p>This game is bursting with learning! Your little ones will pop their way into a whimsical world to learn letter sounds, phonics, and new words! Compatible with the Square Panda Playset, children love playtime as they use Square Panda smart letters to hear letter sounds and spell out new words. The more letters the child puts in the Playset, the more bubbles they get to pop! As your child pops bubbles they hear phonemic sounds and discover what real words are hiding behind the world of bubbles!</p>
+</div>
+                <div class="">
+                    
+                    <a href="https://itunes.apple.com/us/app/square-panda-bubbles/id1162301083?mt=8" class="mdc-button mdc-button--raised mdc-ripple-surface" data-mdc-auto-init="MDCRipple">
+                        <i class="fab fa-apple fa-lg"></i>&nbspPlay on iOS
+                    </a>
+                    
+                </div>
+            </div>
+            <br>
+            <div class="mdc-layout-grid thumbnail-grid">
+                <div class="mdc-layout-grid__inner">
+                    
+                </div>
+            </div>
+        </section>
+
+        <div id="lightbox" class="lightbox-target" id="dog">
+            <img src="/images/mugshot.jpg"/>
+            <a class="lightbox-close" href="#"></a>
+        </div>
+
+        <script>
+            
+            var lightbox = document.getElementById('lightbox');
+            var lightboxImg = lightbox.getElementsByTagName("img")[0]
+            var thumbnails = document.getElementsByClassName('thumbnail');
+            for (var i = 0, len = thumbnails.length; i < len; i++)
+            {
+                var img = thumbnails[i].getElementsByTagName("div")[0];
+                thumbnails[i].onclick = function()
+                {
+                    lightbox.style.display = "block";
+                    lightboxImg.src = this.getElementsByTagName("div")[0].style.backgroundImage.slice(4, -1).replace(/"/g, "");
+                }
+
+                
+                if (img.naturalWidth > img.naturalHeight)
+                {
+                    img.classList.remove("portrait");
+                }
+            }
+            
+            lightbox.onclick = function() 
+            { 
+                lightbox.style.display = "none";
+            }
+        </script>
+
+        <section>
+  <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+  <script>
+    window.mdc.autoInit();
+  </script>
+</section>
+    </body>
+</html>

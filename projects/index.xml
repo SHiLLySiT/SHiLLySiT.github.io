@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Who is Alex Larioza?!</title>
-    <link>http://alexlarioza.com/</link>
-    <description>Recent content on Who is Alex Larioza?!</description>
+    <title>Projects on Who is Alex Larioza?!</title>
+    <link>http://alexlarioza.com/projects/</link>
+    <description>Recent content in Projects on Who is Alex Larioza?!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 01 Feb 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://alexlarioza.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://alexlarioza.com/projects/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -39,16 +39,6 @@
     </item>
     
     <item>
-      <title>Learning To Code</title>
-      <link>http://alexlarioza.com/blog/2016/03/learning-to-code/</link>
-      <pubDate>Mon, 14 Mar 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://alexlarioza.com/blog/2016/03/learning-to-code/</guid>
-      <description>Executing Your First Code Deciding which programming language to learn is often the most difficult decisions to make. C++? Java? Dogescript? Learning to program is 90% about the principles and 10% about the languages, so don’t stress about which one you choose.
-Granted, there are languages that are more difficult to learn than others. While something like C++ is ultimately where your journey will take you, it’s also well known for its steep learning curve.</description>
-    </item>
-    
-    <item>
       <title>Win the White House</title>
       <link>http://alexlarioza.com/projects/wtwh/</link>
       <pubDate>Mon, 01 Feb 2016 00:00:00 +0000</pubDate>
@@ -64,15 +54,6 @@ Granted, there are languages that are more difficult to learn than others. While
       
       <guid>http://alexlarioza.com/projects/animobile/</guid>
       <description>Animobile Adventures is a game where players drive around exploring habitats and to learn about the animals that live within them. We wanted to teach players how we can learn from animals to solve everyday problems. Throughout the course of the game players earn traits that can be used to transform the Animobile to overcome challenges they encounter. The team was also given with the opportunity to work with Make-A-Wish and grant Abby Mank’s wish of being immortalized in a video game!</description>
-    </item>
-    
-    <item>
-      <title>2014: Year In Review</title>
-      <link>http://alexlarioza.com/blog/2015/01/2014-year-in-review/</link>
-      <pubDate>Tue, 13 Jan 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://alexlarioza.com/blog/2015/01/2014-year-in-review/</guid>
-      <description>Even after spending a few days attempting to transcribe my feelings and emotions, I still feel that this post doesn’t even come close to conveying how important this year has been to me. I traveled to two states, graduated from college, met a plethora of new people, hiked a 13-mile trail, visited the beautiful parks of Big Sur and Muir Woods, saw Linkin Park in concert, and finished two commercial games…just to name a few.</description>
     </item>
     
     <item>
@@ -94,15 +75,6 @@ Granted, there are languages that are more difficult to learn than others. While
     </item>
     
     <item>
-      <title>Caved In 2: Post Mortem</title>
-      <link>http://alexlarioza.com/blog/2013/12/caved-in-2-post-mortem/</link>
-      <pubDate>Wed, 18 Dec 2013 00:00:00 +0000</pubDate>
-      
-      <guid>http://alexlarioza.com/blog/2013/12/caved-in-2-post-mortem/</guid>
-      <description>What is Caved In 2? Caved In 2 is the sequel to the original game that I created for Ludum Dare #21. Since the original was created in such a sort amount of time, I didn’t get to fully explore the ideas I had for the game. The sequel is meant to fill in the gaps that the original missed, such as, a overhauled lighting systems, monsters, and power ups.</description>
-    </item>
-    
-    <item>
       <title>Caved In 2</title>
       <link>http://alexlarioza.com/projects/cavedin2/</link>
       <pubDate>Sun, 01 Dec 2013 00:00:00 +0000</pubDate>
@@ -118,26 +90,6 @@ Granted, there are languages that are more difficult to learn than others. While
       
       <guid>http://alexlarioza.com/projects/fullauto/</guid>
       <description>Full Auto Mayhem is a racing-combat hybrid that features three game modes - Race, Time Attack, and Elimination. Each track has it&amp;rsquo;s own unqiue hazards and hidden shortcuts. Players earn components for their car from 8 base weapons and 6 base car parts with randomly generated stats.</description>
-    </item>
-    
-    <item>
-      <title>Caved In 2: Level Generation</title>
-      <link>http://alexlarioza.com/blog/2013/04/caved-in-2-level-generation/</link>
-      <pubDate>Tue, 23 Apr 2013 00:00:00 +0000</pubDate>
-      
-      <guid>http://alexlarioza.com/blog/2013/04/caved-in-2-level-generation/</guid>
-      <description>I love procedural content, especially when it comes to randomly generated levels. Not only are such systems fun to set up, but it provides almost endless experiences without having to tediously design a butt-load of levels (don’t get me wrong though, handcrafted levels made with love and care are also as fun to play). Of course there is a fine line between how much should be randomly generated and how much should be predefined.</description>
-    </item>
-    
-    <item>
-      <title>Caved In 2: Shroom The Way</title>
-      <link>http://alexlarioza.com/blog/2013/03/caved-in-2-shroom-the-way/</link>
-      <pubDate>Sat, 30 Mar 2013 00:00:00 +0000</pubDate>
-      
-      <guid>http://alexlarioza.com/blog/2013/03/caved-in-2-shroom-the-way/</guid>
-      <description>One of the biggest design issues with the original game was guiding the player to the ladder that would take them to the next level.
-“I think I’m lost”
-The player starts out in pitch black with only a small diamond of the level visible. As the player explores, they uncover the level although areas not within the diamond radius are slightly obscured again. While it was my goal to not hold the player’s hand and let them explore, it proved difficult to determine where the ladder would be each level.</description>
     </item>
     
     <item>

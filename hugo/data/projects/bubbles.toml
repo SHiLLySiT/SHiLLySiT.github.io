@@ -1,7 +1,0 @@
-name = "Bubbles"
-date = "2016-08-01"
-thumbnail = "projects/bubbles/cover.png"
-icons = [
-    ["Play on iOS", "fa-apple", "https://itunes.apple.com/us/app/square-panda-bubbles/id1162301083?mt=8"]
-]
-description = ""

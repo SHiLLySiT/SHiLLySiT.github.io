@@ -6,7 +6,6 @@
     <description>Recent content in Categories on Who is Alex Larioza?!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>© 2016 Alex Larioza</copyright>
     
 	<atom:link href="http://alexlarioza.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -17,6 +16,15 @@
       <pubDate>Tue, 23 Apr 2013 00:00:00 +0000</pubDate>
       
       <guid>http://alexlarioza.com/categories/devlog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Game</title>
+      <link>http://alexlarioza.com/categories/game/</link>
+      <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://alexlarioza.com/categories/game/</guid>
       <description></description>
     </item>
     
@@ -39,11 +47,11 @@
     </item>
     
     <item>
-      <title>Tutorials</title>
-      <link>http://alexlarioza.com/categories/tutorials/</link>
+      <title>Tutorial</title>
+      <link>http://alexlarioza.com/categories/tutorial/</link>
       <pubDate>Mon, 14 Mar 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://alexlarioza.com/categories/tutorials/</guid>
+      <guid>http://alexlarioza.com/categories/tutorial/</guid>
       <description></description>
     </item>
     

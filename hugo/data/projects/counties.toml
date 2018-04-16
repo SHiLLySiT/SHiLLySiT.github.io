@@ -1,9 +1,0 @@
-name = "Counties Work"
-date = "2017-01-01"
-thumbnail = "projects/counties/cover.png"
-icons = [
-    ["Play in Browser", "fa-globe", "https://www.icivics.org/games/counties-work"],
-    ["Play on Android", "fa-android", "https://play.google.com/store/apps/details?id=com.filament.icivics.counties&hl=en"],
-    ["Play on iOS", "fa-apple", "https://itunes.apple.com/us/app/counties-work/id1219506986?mt=8"],
-    ["Trailer", "fa-youtube-play", "https://www.youtube.com/watch?v=x-cGKONvCSs"],
-]
