@@ -55,10 +55,13 @@
                             <div class="mdc-card__media mdc-card__media--icon" style="background-image: url({{ $element.Params.icon }});"></div>
                             
                             <div class="game-card__primary center-text">
-                                <h2 class="game-card__title mdc-typography--title">
+                                <div class="game-card__title mdc-typography--title">
                                     {{ $element.Title }}
-                                </h2>
-                            
+                                </div>
+                                <div class="game-card__title mdc-typography--caption">
+                                    {{ $element.Date.Format "January 2006" }}
+                                </div>
+                                <br>
                                 {{ range .Params.Categories }}
                                 <!-- TODO: go to category page -->
                                 <!-- <a class="mdc-chip" href="/categories/{{ lower . }}"> -->
