@@ -13,7 +13,8 @@
             </div>
             <br>
             <div class="mdc-card content-card center-text">
-                <div class="mdc-typography--title content-title">{{ .Title }}</div>
+                <div class="mdc-typography--display1 content-title">{{ .Title }}</div>
+                <div class="mdc-typography--title content-title">{{ .Date.Format "January 2006" }}</div>
                 <div class="mdc-typography--body1">{{ .Content }}</div>
                 {{ range $index, $element := .Params.gamelinks }}
                 <div style="padding: 5px;">
