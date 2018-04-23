@@ -6,10 +6,20 @@
     <description>Recent content on Who is Alex Larioza?!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Apr 2018 09:08:19 -0500</lastBuildDate>
     
 	<atom:link href="http://alexlarioza.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Retropie Arcade</title>
+      <link>http://alexlarioza.com/blog/2018/04/retropie-arcade/</link>
+      <pubDate>Mon, 23 Apr 2018 09:08:19 -0500</pubDate>
+      
+      <guid>http://alexlarioza.com/blog/2018/04/retropie-arcade/</guid>
+      <description>The first time I attended Midwest Gaming Classic in 2016 (yes this post is 2 years late) I found custom-made arcade cabinets that were going for ~$600. Appalled at the price, I decided to accept the challenge no one gave me and build a cabinet for less than half the price!
+I used this awesome tutorial for the foundation of my project and because its so great, I&amp;rsquo;m not going to reinvent the wheel and write new one.</description>
+    </item>
     
     <item>
       <title>Cooptris</title>
