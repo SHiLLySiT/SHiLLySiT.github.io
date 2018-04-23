@@ -1,6 +1,7 @@
 +++
 title = "{{ replace .TranslationBaseName "-" " " | title }}"
 date = {{ .Date }}
+icon = "/images/blog.svg"
 categories = ["News"]
 description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec est non orci mollis malesuada."
 +++
