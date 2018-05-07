@@ -6,10 +6,20 @@
     <description>Recent content in Game on Who is Alex Larioza?!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 07 May 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://alexlarioza.com/categories/game/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Nodoku</title>
+      <link>http://alexlarioza.com/projects/nodoku/</link>
+      <pubDate>Mon, 07 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://alexlarioza.com/projects/nodoku/</guid>
+      <description>Nodoku offers a brain-bending new way to play with numbers, kill time, and stay sharp. Use your mathematical super powers to discover additive sequences and solve clean, colorful, free-form line puzzles.
+Snappy animations and transitions make this addictive, compulsively playable game ideal for quick plays on the bus or for marathon sessions while you binge Netflix. With 100 handcrafted, deceptively simple levels, Nodoku is easy to learn, but tricky to master.</description>
+    </item>
     
     <item>
       <title>Cooptris</title>
