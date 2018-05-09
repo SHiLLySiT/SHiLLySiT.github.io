@@ -4,7 +4,13 @@ date = "2018-05-07"
 cover = "/projects/nodoku/cover.png"
 icon = "/projects/nodoku/cover.png"
 categories = ["Game"]
-screenshots = []
+screenshots = [
+    "/projects/nodoku/screenshot1.png",
+    "/projects/nodoku/screenshot2.png",
+    "/projects/nodoku/screenshot3.png",
+    "/projects/nodoku/screenshot4.png",
+    "/projects/nodoku/screenshot5.png",
+]
 gamelinks = [
    ["Play on Android", "fab fa-android", "https://play.google.com/store/apps/details?id=com.gamesrightmeow.nodoku"],
 ]
