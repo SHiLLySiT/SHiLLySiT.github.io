@@ -220,5 +220,32 @@ Team up with hundreds of survivors as you shoot your way through hordes of Chime
       <description>Voyage of Discovery was created during the #19 Ludum Dare &amp;lsquo;Discovery&amp;rsquo;. This was the first game I ever completed and also my first Ludum Dare. Granted, it was a bit ambitious for a first project, but hey, I finished it! The goal of the game is to colonize all of the islands while managing your supplies and surviving pirate attacks.</description>
     </item>
     
+    <item>
+      <title></title>
+      <link>http://alexlarioza.com/projects/loveisintheair/play/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://alexlarioza.com/projects/loveisintheair/play/</guid>
+      <description>  Pixel Squid - Play Love is in the Air        </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://alexlarioza.com/projects/nanonaut/play/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://alexlarioza.com/projects/nanonaut/play/</guid>
+      <description>  Pixel Squid - Play Nanonaut        </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://alexlarioza.com/projects/sopoids/play/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://alexlarioza.com/projects/sopoids/play/</guid>
+      <description>  Pixel Squid - Play Sopoids        </description>
+    </item>
+    
   </channel>
 </rss>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="I make cool stuff">
+    <meta name="keywords" content="video games, games, cats, meow, cat, android, ios, steam, 
+    alex, larioza, material, abstract, design, development, programming,
+    developer, studio, unity, unity3d, mobile, fun, bored, madison, 
+    wisconsin, indie, solo, dev, arcade, puzzle, app, apple, google, play">
+    <title>Who is Alex Larioza?!</title>
+
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+
+    
+    
+    <link rel="icon" href="/favicon32.png" sizes="32x32">
+</head>
+
+    
+    
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-114648620-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+    <body class="mdc-typography">
+
+        <section class="content content-text">
+            <div class="mdc-card content-card">
+                <div class="mdc-typography--headline4">Nodoku Post Mortem</div>
+                <div class="mdc-typography--subtitle1">Sunday, May 20 2018</div>
+                <div class="mdc-typography--body1 content-content">
+
+<p><a href="/projects/nodoku/">Nodoku</a> is the first commercial game I&rsquo;ve worked on solo. While it was meant to start a business venture (via <a href="/projects/gamesrightmeow/">GamesRightMeow</a>), it ended up becoming the start of finding a much needed creative outlet. The game is still for sale on <a href="https://play.google.com/store/apps/details?id=com.gamesrightmeow.nodoku">Google Play</a>, but I quietly launched it because I didn&rsquo;t want to focus on making money but rather just making the games that I want to make.</p>
+
+<h1 id="what-went-right">What Went Right</h1>
+
+<h3 id="small-project">Small project</h3>
+
+<p>To avoid the common indie pitfall of spending years on a passion project to ultimately have it fail, I adopted what I&rsquo;ve been calling as the &ldquo;fail fast&rdquo; mindset. I focused on only the core mechanics and backlogged any complex ideas that popped up during development. I feel like for Nodoku specifically, it forced me to embrace the minimalist puzzle game theme fully.</p>
+
+<h3 id="acknowledging-i-have-no-idea-how-to-market-a-game">Acknowledging I have no idea how to market a game</h3>
+
+<p>While I&rsquo;ve been a game developer for over ten years now, I&rsquo;ve never had to deal with the business side of things. I had my friend <a href="pittser140@gmail">Brandon Pittser</a> help me with figuring out how to market the game as well as generating copy for the app store. While I ultimately ended up quietly launching my game, his advice throughout was invaluable. If anyone else needs help with marketing he&rsquo;s open to helping out!</p>
+
+<h3 id="unity-events">Unity Events</h3>
+
+<p>While I&rsquo;ve been developing games in Unity for about three years now, I had been avoiding <a href="https://docs.unity3d.com/Manual/UnityEvents.html">UnityEvents</a>.<br />
+After finishing Nodoku however, I feel like I&rsquo;ve been missing out on the true power of Unity. Being able to change what a button does in the editor without touching a line of code definitely made things easier and faster to do.</p>
+
+<p>There&rsquo;s <a href="https://jacksondunstan.com/articles/3335">plenty</a> <a href="https://www.reddit.com/r/Unity3D/comments/35oekm/delegate_events_vs_unityevent_which_one_is/">of</a> <a href="https://answers.unity.com/questions/1358219/update-vs-delegate-events.html">threads</a> that argue against the use of UnityEvents. While the issues pointed out <em>are</em> valid, I don&rsquo;t think they are a problem unless you&rsquo;re trying to squeeze every last drop of performance out of your game. Personally I think being able to quickly iterate on ideas is far more important.</p>
+
+<p>The one thing that bothered me however was that there isn&rsquo;t an native solution for searching for references of a function used in the editor. My solution was to hack together my own tool to search for uses. It was well worth the time spent and I&rsquo;ll eventually be releasing it to the asset store once I get it cleaned up.</p>
+
+<h3 id="material-design">Material design</h3>
+
+<p>I have a limited background in art, so I decided to follow Google&rsquo;s <a href="https://material.io/">Material Design</a> principles when creating the look for Nodoku. Because Material design is already an established look, I didn&rsquo;t risk creating something that people wouldn&rsquo;t like the look of. I was able to quickly make simple shapes in <a href="https://inkscape.org/">Inkscape</a> or use free icons from <a href="https://fontawesome.com/">FontAwesome</a> instead of sinking hours into more complex art with my limited skills.</p>
+
+<h3 id="planning-with-zenkit">Planning with Zenkit</h3>
+
+<p>I&rsquo;d been using <a href="https://trello.com/">Trello</a> for a long time to organize things from shopping lists to planning vacations. However I was never quite satisfied with the way Trello did things. Its great for simple todo lists, but it really breaks down when you want to view the data in different ways. Thankfully <a href="https://zenkit.com/">Zenkit</a> came to the rescue with much needed features like custom properties and different views.</p>
+
+<h3 id="teaching-through-discovery">Teaching through discovery</h3>
+
+<p>I&rsquo;ve always hated implementing tutorials in games, so I wanted to experiment and see if I could make a game that included zero instructions but still be playable. Based on the feedback so far, I think I have succeeded in this regard. During playtests most people only took 3-5 minutes to figure out the core mechanic. Leaving text out of the game also had the added benefit of not having to localize the game, meaning it was available in all languages without any extra work.</p>
+
+<h1 id="what-went-wrong">What Went Wrong</h1>
+
+<h3 id="creating-a-procedural-level-puzzle-before-basic-gameplay">Creating a procedural level puzzle before basic gameplay</h3>
+
+<p>When I first started the project, I dove into creating a procedural puzzle system before I had even designed a few hand made puzzles to test basic mechanics. I had sunk about four days into it before I realized I didn&rsquo;t even know what levels I was trying to coax the system into generating. In retrospect this seems like an obvious bad decision, but I had really wanted to make a game that would generate puzzles that I as the developer didn&rsquo;t know the solution to.</p>
+
+<h3 id="ios-support">iOS support</h3>
+
+<p>I sunk about two days into getting an iOS build pipeline setup before I realized my old 2009 Mac Mini couldn&rsquo;t make builds for the latest OS. It was mostly my mistake was assuming that the Mini could produce builds and focusing on automating the process right away, but I also want to blame Apple for having an unnecessarily complex process for getting games on their devices.</p>
+
+<h3 id="google-play-internal-vs-closed-beta-testing">Google Play internal vs closed beta testing</h3>
+
+<p>The Google Play developer console doesn&rsquo;t make it obvious that the beta testing track forces your testers to pay for your app. I only realized this after sending out invites to my testers, so I ended up generating promocodes for everyone and emailing them one by one. Then the next day I found that you could do an <em>internal</em> test that not only made the game free to testers but also made updates immediately available. Doh.</p>
+
+<h3 id="trying-to-make-a-profit">Trying to make a profit</h3>
+
+<p>While I was aware that I had no experience with the business side of games, I hadn&rsquo;t realized how painfully uninterested I was in doing it. I ended up getting really bogged down with mundane things I needed to do in order to get the app up for sale. Combined with my available time being limited to 8 hours a week due to a new job the rollout slowed to a crawl. I had intended to release Nodoku the beginning of March but didn&rsquo;t end up releasing it until May. I don&rsquo;t think anything in particular was difficult to do, but the time and effort required to do it was time and effort I&rsquo;d rather spend making games. Ultimately, I think this realization was super important to me so it was totally worth it.</p>
+</div>
+            </div>
+        </section>
+        
+        <section>
+  <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+  <script>
+    window.mdc.autoInit();
+  </script>
+</section>
+    </body>
+</html>
