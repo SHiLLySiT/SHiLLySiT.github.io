@@ -14,7 +14,7 @@ Description = ""
 To avoid the common indie pitfall of spending years on a passion project to ultimately have it fail, I adopted what I've been calling as the "fail fast" mindset. I focused on only the core mechanics and backlogged any complex ideas that popped up during development. I feel like for Nodoku specifically, it forced me to embrace the minimalist puzzle game theme fully.
 
 ### Acknowledging I have no idea how to market a game
-While I've been a game developer for over ten years now, I've never had to deal with the business side of things. I had my friend [Brandon Pittser](pittser140@gmail) help me with figuring out how to market the game as well as generating copy for the app store. While I ultimately ended up quietly launching my game, his advice throughout was invaluable. If anyone else needs help with marketing he's open to helping out!
+While I've been a game developer for over ten years now, I've never had to deal with the business side of things. I had my friend [Brandon Pittser](mailto:pittser140@gmail) help me with figuring out how to market the game as well as generating copy for the app store. While I ultimately ended up quietly launching my game, his advice throughout was invaluable. If anyone else needs help with marketing he's open to helping out!
 
 ### Unity Events
 While I've been developing games in Unity for about three years now, I had been avoiding [UnityEvents](https://docs.unity3d.com/Manual/UnityEvents.html).  
@@ -39,7 +39,7 @@ I've always hated implementing tutorials in games, so I wanted to experiment and
 When I first started the project, I dove into creating a procedural puzzle system before I had even designed a few hand made puzzles to test basic mechanics. I had sunk about four days into it before I realized I didn't even know what levels I was trying to coax the system into generating. In retrospect this seems like an obvious bad decision, but I had really wanted to make a game that would generate puzzles that I as the developer didn't know the solution to.
 
 ### iOS support
-I sunk about two days into getting an iOS build pipeline setup before I realized my old 2009 Mac Mini couldn't make builds for the latest OS. It was mostly my mistake was assuming that the Mini could produce builds and focusing on automating the process right away, but I also want to blame Apple for having an unnecessarily complex process for getting games on their devices. 
+I sunk about two days into getting an iOS build pipeline setup before I realized my old 2009 Mac Mini couldn't make builds for the latest OS. It was primarily my mistake assuming that the Mini could produce builds and focusing on automating the process right away, but I also want to blame Apple for having an unnecessarily complex process for getting games on their devices. 
 
 ### Google Play internal vs closed beta testing
 The Google Play developer console doesn't make it obvious that the beta testing track forces your testers to pay for your app. I only realized this after sending out invites to my testers, so I ended up generating promocodes for everyone and emailing them one by one. Then the next day I found that you could do an _internal_ test that not only made the game free to testers but also made updates immediately available. Doh.
