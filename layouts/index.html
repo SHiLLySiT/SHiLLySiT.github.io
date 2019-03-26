@@ -45,7 +45,7 @@
                     {{ range $element := first 3 (where $.Site.RegularPages "Section" "blog") }}
                     <li class="mdc-list-item mdc-ripple-surface" data-mdc-auto-init="MDCRipple" onclick="window.open('{{ $element.URL }}', '_self');">
                         <span class="mdc-list-item__graphic">
-                            <i class="material-icons" aria-hidden="true">announcement</i>
+                            <i class="{{ $element.Params.icon }} fa-2x"></i>
                         </span>
 
                         <span class="mdc-list-item__text">{{ $element.Title }}</span>
