@@ -15,7 +15,7 @@
             </div>
 
             <!-- info -->
-            <div class="mdc-card about-card content-text center-text">
+            <div class="mdc-card about-card center-text">
                 <h2 class="game-card__title mdc-typography--display1">
                     {{ .Site.Params.name }}
                 </h2>
@@ -26,30 +26,50 @@
                 <br>
                 <div class="mdc-typography--body1">
                     {{ range $index, $element := .Site.Params.social }}
-                        <a class="mdc-chip mdc-ripple-surface" data-mdc-auto-init="MDCRipple" href="{{ index . 2 }}">
-                            <div class="mdc-chip__text">
-                                <i class="{{ index . 1 }} fa-2x"></i>
-                            </div>
+                        <a href="{{ index . 2 }}" class="mdc-button mdc-button--raised mdc-ripple-surface" data-mdc-auto-init="MDCRipple">
+                            <i class="{{ index . 1 }} fa-2x"></i>
                         </a>
                     {{ end }}
                 </div>
             </div>
         </section>
 
-        <!-- TODO: buttons for categories -->
-        <!-- <section class="content content-text center-text">
-            {{ range $key, $value := .Site.Taxonomies.categories }}
-            <a class="mdc-chip" href="/categories/{{ lower $key }}">
-                <div class="mdc-chip__text">{{ $key }}</div>
-            </a>
-            {{ end }}
-        </section> -->
+        <!-- Blog -->
+        <section class="content">
+            <div class="mdc-card about-card center-text">
+                <h2 class="game-card__title mdc-typography--display1">
+                    Recent Posts
+                </h2>
+
+                <ul class="mdc-list">
+                    {{ range $element := first 3 (where $.Site.RegularPages "Section" "blog") }}
+                    <li class="mdc-list-item mdc-ripple-surface" data-mdc-auto-init="MDCRipple" onclick="window.open('{{ $element.URL }}', '_self');">
+                        <span class="mdc-list-item__graphic">
+                            <i class="material-icons" aria-hidden="true">announcement</i>
+                        </span>
+
+                        <span class="mdc-list-item__text">{{ $element.Title }}</span>
+
+                        <span class="mdc-list-item__meta">
+                            {{ $element.Date.Format "01/02/2006" }}
+                        </span>
+                    </li>
+                    {{ end }}  
+                </ul>
+
+                <div style="padding: 5px;">
+                    <a href="/blog/" class="mdc-button mdc-button--raised mdc-ripple-surface" data-mdc-auto-init="MDCRipple">
+                        More ...
+                    </a>
+                </div>
+            </div>
+        </section>
 
         <!-- Project List -->
-        <section class="project-list content-text">
-            <div class="mdc-layout-grid">
+        <section class="content">
+            <div class="mdc-layout-grid thumbnail-grid">
                 <div class="mdc-layout-grid__inner">
-                    {{ range $element := sort $.Data.Pages "Date" "desc"}}
+                    {{ range $element := where $.Site.RegularPages "Section" "projects" }}
                     <div class="mdc-layout-grid__cell">
                         <div class="mdc-card game-card mdc-ripple-surface" onclick="location.href='{{ $element.URL }}';" data-mdc-auto-init="MDCRipple">
                             <div class="mdc-card__media mdc-card__media--icon" style="background-image: url({{ $element.Params.icon }});"></div>
@@ -61,14 +81,6 @@
                                 <div class="game-card__title mdc-typography--caption">
                                     {{ $element.Date.Format "January 2006" }}
                                 </div>
-                                <br>
-                                {{ range .Params.Categories }}
-                                <!-- TODO: go to category page -->
-                                <!-- <a class="mdc-chip" href="/categories/{{ lower . }}"> -->
-                                <div class="mdc-chip">
-                                    <div class="mdc-typography--body1 mdc-chip__text">{{ . }}</div>
-                                </div>
-                                {{ end }}
                             </div>
                         </div>
                     </div>
