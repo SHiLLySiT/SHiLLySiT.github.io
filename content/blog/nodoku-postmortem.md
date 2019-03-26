@@ -1,7 +1,7 @@
 +++
 title = "Nodoku Post Mortem"
 date = "2018-05-20"
-icon = "/images/blog.svg"
+icon = "fas fa-book-dead"
 categories = ["Post Mortem"]
 Description = ""
 +++

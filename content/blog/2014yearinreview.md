@@ -1,7 +1,7 @@
 +++
 title = "2014: Year In Review"
 date = "2015-01-13"
-icon = "/images/blog.svg"
+icon = "fas fa-file-alt"
 categories = ["News"]
 Description = "Even after spending a few days attempting to transcribe my feelings and emotions, I still feel that this post doesn’t even come close to conveying how important this year has been to me..."
 +++

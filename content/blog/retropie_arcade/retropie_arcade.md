@@ -1,7 +1,7 @@
 +++
 title = "Retropie Arcade"
 date = 2018-04-23T09:08:19-05:00
-icon = "/images/blog.svg"
+icon = "fas fa-question-circle"
 categories = ["Post Mortem"]
 description = ""
 +++

@@ -1,7 +1,7 @@
 +++
 title = "Learning To Code"
 date = "2016-03-14"
-icon = "/images/blog.svg"
+icon = "fas fa-file-alt"
 categories = ["Tutorial"]
 Description = "Deciding which programming language to learn is often the most difficult decisions to make. Learning to program is 90% about the principles and 10% about the languages, so don’t stress about which one you choose..."
 +++
