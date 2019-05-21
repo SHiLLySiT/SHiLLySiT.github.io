@@ -19,3 +19,13 @@ gamelinks = [
 Nodoku offers a brain-bending new way to play with numbers, kill time, and stay sharp. Use your mathematical super powers to discover additive sequences and solve clean, colorful, free-form line puzzles. 
 
 Snappy animations and transitions make this addictive, compulsively playable game ideal for quick plays on the bus or for marathon sessions while you binge Netflix. With 100+ handcrafted, deceptively simple levels, Nodoku is easy to learn, but tricky to master. 
+
+### Role
+Programming, design, and art
+
+### Technologies
+* Unity
+
+### Key Responsibilities
+* Designed 100+ puzzles
+* Created an in-game level editor to quickly iterate on puzzles

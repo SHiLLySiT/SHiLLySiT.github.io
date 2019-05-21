@@ -5,12 +5,26 @@ cover = "/projects/excom/cover.png"
 icon = "/projects/excom/cover.png"
 categories = ["Game"]
 screenshots = []
+videos = [
+    "https://www.youtube.com/embed/phNX0elu4JY",
+]
 gamelinks = [
     ["Play in Browser", "fas fa-globe", "https://www.icivics.org/games/executive-command"],
     ["Play on Android", "fab fa-android", "https://play.google.com/store/apps/details?id=com.filament.icivics.executivecommand"],
     ["Play on iOS", "fab fa-apple", "https://itunes.apple.com/us/app/executive-command/id1084786851?mt=8"],
-    ["Trailer", "fab fa-youtube", "https://www.youtube.com/watch?v=phNX0elu4JY&feature=youtu.be"],
 ]
 +++
 
 Running for the presidency isn’t easy! Manage your very own presidential campaign by strategically raising funds, polling voters, launching media campaigns, and making personal appearances.
+
+### Role
+Lead Engineer
+
+### Technologies
+* Unity
+
+### Key Responsibilities
+* Implement UI and game logic
+* External content management system for client
+* Highly configurable and designer friendly event system
+* Isometric pathfinding

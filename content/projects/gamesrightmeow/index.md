@@ -11,3 +11,12 @@ gamelinks = [
 +++
 
 Games Right Meow is the customer-facing company for all of my commercial games.
+
+### Role
+Founder
+
+### Key Responsibilities
+* Designed and built company
+* Run playtests to gather feedback
+* Attend local events to exhibit games
+* Design and program games
