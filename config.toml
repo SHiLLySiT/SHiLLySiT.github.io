@@ -2,7 +2,7 @@ baseurl = "http://alexlarioza.com/"
 title = "Who is Alex Larioza?!"
 languageCode = "en-us"
 publishDir = "public"
-googleAnalytics  = "UA-137044124-1"
+googleAnalytics = "UA-137044124-1"
 
 [permalinks]
   blog = "blog/:year/:month/:title/"
