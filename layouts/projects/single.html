@@ -12,10 +12,15 @@
                 <div class="mdc-card__media mdc-card__media--cover card-cover" style="background-image: url({{ .Params.cover }});"></div>
             </div>
             <br>
-            <div class="mdc-card content-card center-text">
+            <div class="mdc-card content-card">
                 <div class="mdc-typography--headline4 content-title">{{ .Title }}</div>
                 <div class="mdc-typography--subtitle1 content-title">{{ .Date.Format "January 2006" }}</div>
                 <div class="mdc-typography--body1">{{ .Content }}</div>
+
+                {{ if ( gt ( len .Params.gamelinks ) 0 ) }}
+                <div class="mdc-typography--body1"><h3>Links</h3></div>
+                {{ end }}
+
                 {{ range $index, $element := .Params.gamelinks }}
                 <div style="padding: 5px;">
                     <a href="{{ index . 2 }}" class="mdc-button mdc-button--raised mdc-ripple-surface" data-mdc-auto-init="MDCRipple">
@@ -27,14 +32,24 @@
             <br>
             <div class="mdc-layout-grid thumbnail-grid">
                 <div class="mdc-layout-grid__inner">
-                    {{ range $element := .Params.screenshots }}
+
+                    {{ range $element := .Params.videos }}
                     <div class="mdc-layout-grid__cell">
                         <div class="mdc-card thumbnail">
+                            <iframe height="100%" src="{{ $element }}"></iframe>
+                        </div>
+                    </div>
+                    {{ end }}
+
+                    {{ range $element := .Params.screenshots }}
+                    <div class="mdc-layout-grid__cell">
+                        <div class="mdc-card thumbnail screenshot">
                             <div class="mdc-card__media mdc-card__media--16-9 mdc-ripple-surface" data-mdc-auto-init="MDCRipple" style="height:100%;background-image: url({{ $element }});"></div>
                             <!-- <img src="{{ $element }}" class="portrait" alt="Image" /> -->
                         </div>
                     </div>
                     {{ end }}
+
                 </div>
             </div>
         </section>
@@ -48,7 +63,7 @@
             // loop through all thumbs
             var lightbox = document.getElementById('lightbox');
             var lightboxImg = lightbox.getElementsByTagName("img")[0]
-            var thumbnails = document.getElementsByClassName('thumbnail');
+            var thumbnails = document.getElementsByClassName('screenshot');
             for (var i = 0, len = thumbnails.length; i < len; i++)
             {
                 var img = thumbnails[i].getElementsByTagName("div")[0];
