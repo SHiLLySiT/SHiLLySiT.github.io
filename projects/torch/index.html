@@ -48,11 +48,28 @@ if (!doNotTrack) {
                 <div class="mdc-card__media mdc-card__media--cover card-cover" style="background-image: url(/projects/torch/cover.png);"></div>
             </div>
             <br>
-            <div class="mdc-card content-card center-text">
+            <div class="mdc-card content-card">
                 <div class="mdc-typography--headline4 content-title">Torch</div>
                 <div class="mdc-typography--subtitle1 content-title">May 2011</div>
-                <div class="mdc-typography--body1"><p>Torch was originally created for Ludum Dare #20 for the theme &lsquo;It&rsquo;s dangerous to go alone; take this!&rsquo;. This is the post compo version which features some level fixes and graphical enhancements. The light/torch concept was inspired by <a href="http://www.amnesiagame.com/">Amnesia</a>. There is a single level that the player must traverse and rescue the girl. Avoid traps and creatures that steal your torch. If you are in the darkness for too long you will be sent back to the most recent checkpoint. Special thanks to <a href="http://www.sinnottsoundworks.com/">Chris Sinnott</a> for the theme song!</p>
+                <div class="mdc-typography--body1">
+
+<p>Torch was originally created for Ludum Dare #20 for the theme &lsquo;It&rsquo;s dangerous to go alone; take this!&rsquo;. This is the post compo version which features some level fixes and graphical enhancements. The light/torch concept was inspired by <a href="http://www.amnesiagame.com/">Amnesia</a>. There is a single level that the player must traverse and rescue the girl. Avoid traps and creatures that steal your torch. If you are in the darkness for too long you will be sent back to the most recent checkpoint. Special thanks to <a href="http://www.sinnottsoundworks.com/">Chris Sinnott</a> for the theme song!</p>
+
+<h3 id="role">Role</h3>
+
+<p>Programming, design, and art</p>
+
+<h3 id="technologies">Technologies</h3>
+
+<ul>
+<li>Flash</li>
+</ul>
 </div>
+
+                
+                <div class="mdc-typography--body1"><h3>Links</h3></div>
+                
+
                 
                 <div style="padding: 5px;">
                     <a href="http://www.kongregate.com/games/alexlarioza/torch" class="mdc-button mdc-button--raised mdc-ripple-surface" data-mdc-auto-init="MDCRipple">
@@ -66,17 +83,21 @@ if (!doNotTrack) {
                     </a>
                 </div>
                 
-                <div style="padding: 5px;">
-                    <a href="https://www.youtube.com/watch?v=dlk_q_srcc0" class="mdc-button mdc-button--raised mdc-ripple-surface" data-mdc-auto-init="MDCRipple">
-                        <i class="fab fa-youtube fa-lg"></i>&nbspUnder the Radar
-                    </a>
-                </div>
-                
             </div>
             <br>
             <div class="mdc-layout-grid thumbnail-grid">
                 <div class="mdc-layout-grid__inner">
+
                     
+                    <div class="mdc-layout-grid__cell">
+                        <div class="mdc-card thumbnail">
+                            <iframe height="100%" src="https://www.youtube.com/embed/dlk_q_srcc0"></iframe>
+                        </div>
+                    </div>
+                    
+
+                    
+
                 </div>
             </div>
         </section>
@@ -90,7 +111,7 @@ if (!doNotTrack) {
             
             var lightbox = document.getElementById('lightbox');
             var lightboxImg = lightbox.getElementsByTagName("img")[0]
-            var thumbnails = document.getElementsByClassName('thumbnail');
+            var thumbnails = document.getElementsByClassName('screenshot');
             for (var i = 0, len = thumbnails.length; i < len; i++)
             {
                 var img = thumbnails[i].getElementsByTagName("div")[0];

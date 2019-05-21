@@ -48,11 +48,37 @@ if (!doNotTrack) {
                 <div class="mdc-card__media mdc-card__media--cover card-cover" style="background-image: url(/projects/counties/cover.png);"></div>
             </div>
             <br>
-            <div class="mdc-card content-card center-text">
+            <div class="mdc-card content-card">
                 <div class="mdc-typography--headline4 content-title">Counties Work</div>
                 <div class="mdc-typography--subtitle1 content-title">January 2017</div>
-                <div class="mdc-typography--body1"><p>Want to try your hand at running your own county government? In Counties Work, you can! Stay on top of resident requests as you develop the local community, make important budgeting decisions and solve crises that pop up along the way.</p>
+                <div class="mdc-typography--body1">
+
+<p>Want to try your hand at running your own county government? In Counties Work, you can! Stay on top of resident requests as you develop the local community, make important budgeting decisions and solve crises that pop up along the way.</p>
+
+<h3 id="role">Role</h3>
+
+<p>Lead Engineer</p>
+
+<h3 id="technologies">Technologies</h3>
+
+<ul>
+<li>Unity</li>
+</ul>
+
+<h3 id="key-responsibilities">Key Responsibilities</h3>
+
+<ul>
+<li>Implement UI and game logic</li>
+<li>External content management system for client</li>
+<li>Procedural bobble generator (appearance and needs)</li>
+<li>Game logic</li>
+</ul>
 </div>
+
+                
+                <div class="mdc-typography--body1"><h3>Links</h3></div>
+                
+
                 
                 <div style="padding: 5px;">
                     <a href="https://www.icivics.org/games/counties-work" class="mdc-button mdc-button--raised mdc-ripple-surface" data-mdc-auto-init="MDCRipple">
@@ -72,17 +98,21 @@ if (!doNotTrack) {
                     </a>
                 </div>
                 
-                <div style="padding: 5px;">
-                    <a href="https://www.youtube.com/watch?v=x-cGKONvCSs" class="mdc-button mdc-button--raised mdc-ripple-surface" data-mdc-auto-init="MDCRipple">
-                        <i class="fab fa-youtube fa-lg"></i>&nbspTrailer
-                    </a>
-                </div>
-                
             </div>
             <br>
             <div class="mdc-layout-grid thumbnail-grid">
                 <div class="mdc-layout-grid__inner">
+
                     
+                    <div class="mdc-layout-grid__cell">
+                        <div class="mdc-card thumbnail">
+                            <iframe height="100%" src="https://www.youtube.com/embed/x-cGKONvCSs"></iframe>
+                        </div>
+                    </div>
+                    
+
+                    
+
                 </div>
             </div>
         </section>
@@ -96,7 +126,7 @@ if (!doNotTrack) {
             
             var lightbox = document.getElementById('lightbox');
             var lightboxImg = lightbox.getElementsByTagName("img")[0]
-            var thumbnails = document.getElementsByClassName('thumbnail');
+            var thumbnails = document.getElementsByClassName('screenshot');
             for (var i = 0, len = thumbnails.length; i < len; i++)
             {
                 var img = thumbnails[i].getElementsByTagName("div")[0];
