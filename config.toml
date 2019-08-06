@@ -8,7 +8,7 @@ googleAnalytics = "UA-137044124-1"
   blog = "blog/:year/:month/:title/"
 
 [params]
-    mugshot = "/images/mugshot3.jpg"
+    mugshot = "/images/mugshot4.jpeg"
 	description = "I make cool stuff"
     name = "Alex Larioza"
     titles = "game developer. designer. photographer. nerd. juggler. animal lover. hiker. creator. boardgame geek. cat fancier. explorer. food enthusiast. gamer. outdoorsman."
