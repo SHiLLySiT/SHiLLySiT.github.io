@@ -13,9 +13,11 @@
             </div>
             <br>
             <div class="mdc-card content-card">
-                <div class="mdc-typography--headline4 content-title">{{ .Title }}</div>
-                <div class="mdc-typography--subtitle1 content-title">{{ .Date.Format "January 2006" }}</div>
-                <div class="mdc-typography--body1">{{ .Content }}</div>
+                <div class="content-text">
+                    <div class="mdc-typography--headline4 content-title">{{ .Title }}</div>
+                    <div class="mdc-typography--subtitle1 content-title">{{ .Date.Format "January 2006" }}</div>
+                    <div class="mdc-typography--body1">{{ .Content }}</div>
+                </div>
 
                 {{ if ( gt ( len .Params.gamelinks ) 0 ) }}
                 <div class="mdc-typography--body1"><h3>Links</h3></div>
