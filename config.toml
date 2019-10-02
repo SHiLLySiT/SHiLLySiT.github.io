@@ -11,7 +11,7 @@ googleAnalytics = "UA-137044124-1"
     mugshot = "/images/mugshot4.jpeg"
 	description = "I make cool stuff"
     name = "Alex Larioza"
-    titles = "game developer. designer. photographer. nerd. juggler. animal lover. hiker. creator. boardgame geek. cat fancier. explorer. food enthusiast. gamer. outdoorsman."
+    titles = "game developer. designer. photographer. nerd. programmer. juggler. animal lover. hiker. creator. boardgame geek. cat fancier. explorer. food enthusiast. kombucha brewer. gamer. outdoorsman."
     social = [
         ["", "fas fa-envelope", "mailto:contact@alexlarioza.com"],
         ["", "fab fa-linkedin", "https://www.linkedin.com/in/alexlarioza"],
