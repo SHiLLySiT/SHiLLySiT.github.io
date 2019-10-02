@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="I make cool stuff">
+    <meta name="keywords" content="video games, games, cats, meow, cat, android, ios, steam, 
+    alex, larioza, material, abstract, design, development, programming,
+    developer, studio, unity, unity3d, mobile, fun, bored, madison, 
+    wisconsin, indie, solo, dev, arcade, puzzle, app, apple, google, play">
+    <title>Who is Alex Larioza?!</title>
+
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" rel="stylesheet">
+
+    
+    
+    <link rel="icon" href="/favicon32.png" sizes="32x32">
+</head>
+
+    
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-137044124-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+
+    <body class="mdc-typography">
+        
+        <section class="content">
+            <div class="mdc-card">
+                <div class="mdc-card__media mdc-card__media--cover card-cover" style="background-image: url(/projects/nanonaut/cover.png);"></div>
+            </div>
+            <br>
+            <div class="mdc-card content-card">
+                <div class="content-text">
+                    <div class="mdc-typography--headline4 content-title">Nanonaut</div>
+                    <div class="mdc-typography--subtitle1 content-title">April 2012</div>
+                    <div class="mdc-typography--body1">
+
+<p>Nanonaut was originally created for the #23 Ludum Dare &lsquo;Tiny Planet&rsquo; as a jam entry. I worked with three other people to create this game - <a href="http://www.sinnottsoundworks.com/">Chris Sinnott</a> , <a href="http://www.shykoo.50webs.com/Welcome.html">Thomas Jackson</a>, and Travis Lucia. It was quite an ambitious project for such a small time period, yet we still ended up with a great game. Nanonaut is a game of exploration and adventure within a randomly generated world of tiny planets. By using the stargate in your ship, you can travel to planets to collect vital resources and research data. Beware! Not every planet will be full of flowers and pleasant creatures.</p>
+
+<h3 id="role">Role</h3>
+
+<p>Programming and design</p>
+
+<h3 id="technologies">Technologies</h3>
+
+<ul>
+<li>Flash</li>
+</ul>
+
+<h3 id="key-responsibilities">Key Responsibilities</h3>
+
+<ul>
+<li>Procedurally generated worlds seeded by gate addresses</li>
+</ul>
+</div>
+                </div>
+
+                
+                <div class="mdc-typography--body1"><h3>Links</h3></div>
+                
+
+                
+                <div style="padding: 5px;">
+                    <a href="/projects/nanonaut/play.html" class="mdc-button mdc-button--raised mdc-ripple-surface" data-mdc-auto-init="MDCRipple">
+                        <i class="fas fa-globe fa-lg"></i>&nbspPlay in Browser
+                    </a>
+                </div>
+                
+                <div style="padding: 5px;">
+                    <a href="http://ludumdare.com/compo/ludum-dare-23/?action=preview&amp;uid=3079" class="mdc-button mdc-button--raised mdc-ripple-surface" data-mdc-auto-init="MDCRipple">
+                        <i class="fas fa-comment fa-lg"></i>&nbspLudum Dare
+                    </a>
+                </div>
+                
+            </div>
+            <br>
+            <div class="mdc-layout-grid thumbnail-grid">
+                <div class="mdc-layout-grid__inner">
+
+                    
+
+                    
+
+                </div>
+            </div>
+        </section>
+
+        <div id="lightbox" class="lightbox-target" id="dog">
+            <img src="/images/mugshot.jpg"/>
+            <a class="lightbox-close" href="#"></a>
+        </div>
+
+        <script>
+            
+            var lightbox = document.getElementById('lightbox');
+            var lightboxImg = lightbox.getElementsByTagName("img")[0]
+            var thumbnails = document.getElementsByClassName('screenshot');
+            for (var i = 0, len = thumbnails.length; i < len; i++)
+            {
+                var img = thumbnails[i].getElementsByTagName("div")[0];
+                thumbnails[i].onclick = function()
+                {
+                    lightbox.style.display = "block";
+                    lightboxImg.src = this.getElementsByTagName("div")[0].style.backgroundImage.slice(4, -1).replace(/"/g, "");
+                }
+
+                
+                if (img.naturalWidth > img.naturalHeight)
+                {
+                    img.classList.remove("portrait");
+                }
+            }
+            
+            lightbox.onclick = function() 
+            { 
+                lightbox.style.display = "none";
+            }
+        </script>
+
+        <section>
+  <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+  <script>
+    window.mdc.autoInit();
+  </script>
+</section>
+    </body>
+</html>

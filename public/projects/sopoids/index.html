@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="I make cool stuff">
+    <meta name="keywords" content="video games, games, cats, meow, cat, android, ios, steam, 
+    alex, larioza, material, abstract, design, development, programming,
+    developer, studio, unity, unity3d, mobile, fun, bored, madison, 
+    wisconsin, indie, solo, dev, arcade, puzzle, app, apple, google, play">
+    <title>Who is Alex Larioza?!</title>
+
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" rel="stylesheet">
+
+    
+    
+    <link rel="icon" href="/favicon32.png" sizes="32x32">
+</head>
+
+    
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-137044124-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+
+    <body class="mdc-typography">
+        
+        <section class="content">
+            <div class="mdc-card">
+                <div class="mdc-card__media mdc-card__media--cover card-cover" style="background-image: url(/projects/sopoids/cover.png);"></div>
+            </div>
+            <br>
+            <div class="mdc-card content-card">
+                <div class="content-text">
+                    <div class="mdc-typography--headline4 content-title">Sopoids</div>
+                    <div class="mdc-typography--subtitle1 content-title">January 2012</div>
+                    <div class="mdc-typography--body1">
+
+<p>The goal of the game is to fend off 7 waves of SOPA ship. Every time a ship attacks the earth, a letter in the word freedom is censored. Once the whole word is censored, it is game over. There are three different ship types: one flies straight at the earth, another follows and shoots the player, and the other sieges the earth from afar. For every 7 SOPA ships you destroy, another supporter (another fighter) will join your cause. All ships are controlled with the same keys, so its a challenge in it self to maneuver them all. If you lose your last ship, it will respawn without any consequences.</p>
+
+<h3 id="role">Role</h3>
+
+<p>Programming, design, and art</p>
+
+<h3 id="technologies">Technologies</h3>
+
+<ul>
+<li>Flash</li>
+</ul>
+</div>
+                </div>
+
+                
+                <div class="mdc-typography--body1"><h3>Links</h3></div>
+                
+
+                
+                <div style="padding: 5px;">
+                    <a href="/projects/sopoids/play.html" class="mdc-button mdc-button--raised mdc-ripple-surface" data-mdc-auto-init="MDCRipple">
+                        <i class="fas fa-globe fa-lg"></i>&nbspPlay in Browser
+                    </a>
+                </div>
+                
+                <div style="padding: 5px;">
+                    <a href="http://ludumdare.com/compo/sopajam/?action=preview&amp;uid=3079" class="mdc-button mdc-button--raised mdc-ripple-surface" data-mdc-auto-init="MDCRipple">
+                        <i class="fas fa-comment fa-lg"></i>&nbspLudum Dare
+                    </a>
+                </div>
+                
+            </div>
+            <br>
+            <div class="mdc-layout-grid thumbnail-grid">
+                <div class="mdc-layout-grid__inner">
+
+                    
+
+                    
+
+                </div>
+            </div>
+        </section>
+
+        <div id="lightbox" class="lightbox-target" id="dog">
+            <img src="/images/mugshot.jpg"/>
+            <a class="lightbox-close" href="#"></a>
+        </div>
+
+        <script>
+            
+            var lightbox = document.getElementById('lightbox');
+            var lightboxImg = lightbox.getElementsByTagName("img")[0]
+            var thumbnails = document.getElementsByClassName('screenshot');
+            for (var i = 0, len = thumbnails.length; i < len; i++)
+            {
+                var img = thumbnails[i].getElementsByTagName("div")[0];
+                thumbnails[i].onclick = function()
+                {
+                    lightbox.style.display = "block";
+                    lightboxImg.src = this.getElementsByTagName("div")[0].style.backgroundImage.slice(4, -1).replace(/"/g, "");
+                }
+
+                
+                if (img.naturalWidth > img.naturalHeight)
+                {
+                    img.classList.remove("portrait");
+                }
+            }
+            
+            lightbox.onclick = function() 
+            { 
+                lightbox.style.display = "none";
+            }
+        </script>
+
+        <section>
+  <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+  <script>
+    window.mdc.autoInit();
+  </script>
+</section>
+    </body>
+</html>

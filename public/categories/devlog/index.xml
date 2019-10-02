@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Devlog on Who is Alex Larioza?!</title>
+    <link>http://alexlarioza.com/categories/devlog/</link>
+    <description>Recent content in Devlog on Who is Alex Larioza?!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 23 Apr 2013 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://alexlarioza.com/categories/devlog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Caved In 2: Level Generation</title>
+      <link>http://alexlarioza.com/blog/2013/04/caved-in-2-level-generation/</link>
+      <pubDate>Tue, 23 Apr 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://alexlarioza.com/blog/2013/04/caved-in-2-level-generation/</guid>
+      <description>I love procedural content, especially when it comes to randomly generated levels. Not only are such systems fun to set up, but it provides almost endless experiences without having to tediously design a butt-load of levels (don’t get me wrong though, handcrafted levels made with love and care are also as fun to play). Of course there is a fine line between how much should be randomly generated and how much should be predefined.</description>
+    </item>
+    
+    <item>
+      <title>Caved In 2: Shroom The Way</title>
+      <link>http://alexlarioza.com/blog/2013/03/caved-in-2-shroom-the-way/</link>
+      <pubDate>Sat, 30 Mar 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://alexlarioza.com/blog/2013/03/caved-in-2-shroom-the-way/</guid>
+      <description>One of the biggest design issues with the original game was guiding the player to the ladder that would take them to the next level.
+“I think I’m lost”
+The player starts out in pitch black with only a small diamond of the level visible. As the player explores, they uncover the level although areas not within the diamond radius are slightly obscured again. While it was my goal to not hold the player’s hand and let them explore, it proved difficult to determine where the ladder would be each level.</description>
+    </item>
+    
+  </channel>
+</rss>
