@@ -8,7 +8,7 @@ screenshots = [
     "/projects/survivedby/cover.png",
     "/projects/survivedby/screenshot1.png",
     "/projects/survivedby/screenshot2.png",
-    "/projects/survivedby/screenshot2.png",
+    "/projects/survivedby/screenshot3.png",
 ]
 videos = [
     "https://www.youtube.com/embed/LqzM0UTE734"
