@@ -1,10 +1,15 @@
 +++
 title = "Immigration Nation"
 date = "2018-08-01"
-cover = "/projects/immigration/cover.png"
-icon = "/projects/immigration/cover.png"
+cover = "/projects/immigration/screenshot3.png"
+icon = "/projects/immigration/screenshot3.png"
 categories = ["Game"]
-screenshots = []
+screenshots = [
+    "/projects/immigration/cover.png",
+    "/projects/immigration/screenshot1.png",
+    "/projects/immigration/screenshot2.png",
+    "/projects/immigration/screenshot3.png",
+]
 videos = [
     "https://www.youtube.com/embed/ZBaSkmu9VBw",
 ]

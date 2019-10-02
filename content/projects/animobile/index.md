@@ -2,9 +2,10 @@
 title = "Animobile"
 date = "2015-08-01"
 categories = ["Game"]
-cover = "/projects/animobile/cover.png"
-icon = "/projects/animobile/cover.png"
+cover = "/projects/animobile/screenshot3.png"
+icon = "/projects/animobile/screenshot3.png"
 screenshots = [
+    "/projects/animobile/cover.png",
     "/projects/animobile/screenshot1.png",
     "/projects/animobile/screenshot2.png",
     "/projects/animobile/screenshot3.png",

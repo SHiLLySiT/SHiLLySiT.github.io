@@ -1,10 +1,15 @@
 +++
 title = "Counties Work"
 date = "2017-01-01"
-cover = "/projects/counties/cover.png"
-icon = "/projects/counties/cover.png"
+cover = "/projects/counties/screenshot1.png"
+icon = "/projects/counties/screenshot1.png"
 categories = ["Game"]
-screenshots = []
+screenshots = [
+    "/projects/counties/cover.png",
+    "/projects/counties/screenshot1.png",
+    "/projects/counties/screenshot2.png",
+    "/projects/counties/screenshot3.png",
+]
 videos = [
     "https://www.youtube.com/embed/x-cGKONvCSs",
 ]

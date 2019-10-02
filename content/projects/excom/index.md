@@ -1,10 +1,15 @@
 +++
 title = "Executive Command"
 date = "2016-11-07"
-cover = "/projects/excom/cover.png"
-icon = "/projects/excom/cover.png"
+cover = "/projects/excom/screenshot2.png"
+icon = "/projects/excom/screenshot2.png"
 categories = ["Game"]
-screenshots = []
+screenshots = [
+    "/projects/excom/cover.png",
+    "/projects/excom/screenshot1.png",
+    "/projects/excom/screenshot2.png",
+    "/projects/excom/screenshot3.png",
+]
 videos = [
     "https://www.youtube.com/embed/phNX0elu4JY",
 ]

@@ -1,10 +1,15 @@
 +++
 title = "Survived By"
 date = "2017-03-01"
-cover = "/projects/survivedby/cover.png"
-icon = "/projects/survivedby/cover.png"
+cover = "/projects/survivedby/screenshot3.png"
+icon = "/projects/survivedby/screenshot3.png"
 categories = ["Game"]
-screenshots = []
+screenshots = [
+    "/projects/survivedby/cover.png",
+    "/projects/survivedby/screenshot1.png",
+    "/projects/survivedby/screenshot2.png",
+    "/projects/survivedby/screenshot2.png",
+]
 videos = [
     "https://www.youtube.com/embed/LqzM0UTE734"
 ]

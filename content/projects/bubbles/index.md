@@ -2,9 +2,13 @@
 title = "Bubbles"
 date = "2016-08-01"
 categories = ["Game"]
-cover = "/projects/bubbles/cover.png"
-icon = "/projects/bubbles/cover.png"
-screenshots = []
+cover = "/projects/bubbles/screenshot1.png"
+icon = "/projects/bubbles/screenshot1.png"
+screenshots = [
+    "/projects/bubbles/cover.png",
+    "/projects/bubbles/screenshot1.png",
+    "/projects/bubbles/screenshot2.png",
+]
 videos = [
     "https://www.youtube.com/embed/aI3SYf6AUSU"
 ]

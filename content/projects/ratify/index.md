@@ -1,10 +1,14 @@
 +++
 title = "Race to Ratify"
 date = "2019-02-01"
-cover = "/projects/ratify/cover.png"
-icon = "/projects/ratify/cover.png"
+cover = "/projects/ratify/screenshot1.png"
+icon = "/projects/ratify/screenshot2.png"
 categories = ["Game"]
-screenshots = []
+screenshots = [
+    "/projects/ratify/cover.png",
+    "/projects/ratify/screenshot1.png",
+    "/projects/ratify/screenshot2.png",
+]
 videos = [
     "https://www.youtube.com/embed/uOyPrS5W1Ug",
 ]

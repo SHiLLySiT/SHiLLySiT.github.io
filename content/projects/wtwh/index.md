@@ -1,10 +1,15 @@
 +++
 title = "Win the White House"
 date = "2016-02-01"
-cover = "/projects/wtwh/cover.png"
-icon = "/projects/wtwh/cover.png"
+cover = "/projects/wtwh/screenshot1.png"
+icon = "/projects/wtwh/screenshot1.png"
 categories = ["Game"]
-screenshots = []
+screenshots = [
+    "/projects/wtwh/cover.png",
+    "/projects/wtwh/screenshot1.png",
+    "/projects/wtwh/screenshot2.png",
+    "/projects/wtwh/screenshot3.png",
+]
 videos = [
     "https://www.youtube.com/embed/1jatSL0Wvvg"
 ]

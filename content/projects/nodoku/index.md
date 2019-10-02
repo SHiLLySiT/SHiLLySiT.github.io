@@ -1,8 +1,8 @@
 +++
 title = "Nodoku"
 date = "2018-05-07"
-cover = "/projects/nodoku/cover.png"
-icon = "/projects/nodoku/cover.png"
+cover = "/projects/nodoku/screenshot2.png"
+icon = "/projects/nodoku/screenshot2.png"
 categories = ["Game"]
 screenshots = [
     "/projects/nodoku/screenshot1.png",
