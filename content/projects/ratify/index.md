@@ -1,7 +1,7 @@
 +++
 title = "Race to Ratify"
 date = "2019-02-01"
-cover = "/projects/ratify/screenshot1.png"
+cover = "/projects/ratify/screenshot2.png"
 icon = "/projects/ratify/screenshot2.png"
 categories = ["Game"]
 screenshots = [
