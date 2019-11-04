@@ -23,6 +23,16 @@ Technologies  HTML, CSS, and Javascript  </description>
     </item>
     
     <item>
+      <title>Cast Your Vote</title>
+      <link>http://alexlarioza.com/projects/cyv/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://alexlarioza.com/projects/cyv/</guid>
+      <description> It&amp;rsquo;s just a few weeks until Election Day, are you ready? In our completely reimagined, Cast Your Vote, you&amp;rsquo;ll discover what it takes to become an informed voter - from knowing where you stand on important issues to uncovering what you need to know about candidates.
+Role  Lead Engineer through Alpha phase Support Engineer through Beta phase  Technologies  Unity  Key Responsibilities  Implement UI and game logic External content management system via Airtable Developed procedural candidate generation Created Designer friendly tools for content generation  </description>
+    </item>
+    
+    <item>
       <title>Race to Ratify</title>
       <link>http://alexlarioza.com/projects/ratify/</link>
       <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
