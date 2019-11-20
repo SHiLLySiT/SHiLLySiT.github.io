@@ -83,11 +83,6 @@
   </url>
   
   <url>
-    <loc>http://alexlarioza.com/blog/2015/01/2014-year-in-review/</loc>
-    <lastmod>2015-01-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://alexlarioza.com/projects/supercar/</loc>
     <lastmod>2014-12-01T00:00:00+00:00</lastmod>
   </url>
@@ -191,12 +186,6 @@
   <url>
     <loc>http://alexlarioza.com/categories/game/</loc>
     <lastmod>2019-07-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://alexlarioza.com/categories/news/</loc>
-    <lastmod>2015-01-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
