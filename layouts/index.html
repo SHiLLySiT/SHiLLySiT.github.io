@@ -26,7 +26,7 @@
                 <br>
                 <div class="mdc-typography--body1">
                     {{ range $index, $element := .Site.Params.social }}
-                    <a style="margin: 5px;" href="{{ index . 2 }}" class="mdc-button mdc-button--raised mdc-ripple-surface" data-mdc-auto-init="MDCRipple">
+                    <a title="{{ index . 0 }}" style="margin: 5px;" href="{{ index . 2 }}" class="mdc-button mdc-button--raised mdc-ripple-surface" data-mdc-auto-init="MDCRipple">
                         <i class="{{ index . 1 }} fa-2x"></i>
                     </a>
                     {{ end }}

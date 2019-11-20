@@ -13,11 +13,11 @@ googleAnalytics = "UA-137044124-1"
     name = "Alex Larioza"
     titles = "game developer. designer. photographer. nerd. programmer. juggler. animal lover. hiker. creator. boardgame geek. cat fancier. explorer. food enthusiast. kombucha brewer. gamer. outdoorsman."
     social = [
-        ["", "fas fa-envelope", "mailto:contact@alexlarioza.com"],
-        ["", "fab fa-linkedin", "https://www.linkedin.com/in/alexlarioza"],
-        ["", "fab fa-github", "https://github.com/SHiLLySiT"],
-        ["", "fab fa-flickr", "https://www.flickr.com/photos/alexlarioza"],
-        ["", "fab fa-instagram", "https://www.instagram.com/shillysit"],
+        ["Email", "fas fa-envelope", "mailto:contact@alexlarioza.com"],
+        ["Linkedin", "fab fa-linkedin", "https://www.linkedin.com/in/alexlarioza"],
+        ["Github", "fab fa-github", "https://github.com/SHiLLySiT"],
+        ["Flicker", "fab fa-flickr", "https://www.flickr.com/photos/alexlarioza"],
+        ["Instagram", "fab fa-instagram", "https://www.instagram.com/shillysit"],
     ]
     keywords = """video games, games, cats, meow, cat, android, ios, steam, 
     alex, larioza, material, abstract, design, development, programming,
