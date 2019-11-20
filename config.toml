@@ -18,6 +18,7 @@ googleAnalytics = "UA-137044124-1"
         ["Github", "fab fa-github", "https://github.com/SHiLLySiT"],
         ["Flicker", "fab fa-flickr", "https://www.flickr.com/photos/alexlarioza"],
         ["Instagram", "fab fa-instagram", "https://www.instagram.com/shillysit"],
+        ["Shutterstock", "fas fa-images", "https://www.shutterstock.com/g/Photos+Right+Meow"],
     ]
     keywords = """video games, games, cats, meow, cat, android, ios, steam, 
     alex, larioza, material, abstract, design, development, programming,
