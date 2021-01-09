@@ -15,7 +15,11 @@
             <div class="mdc-card content-card">
                 <div class="content-text">
                     <div class="mdc-typography--headline4 content-title">{{ .Title }}</div>
+                    {{ if ( .Params.comingsoon ) }}
+                    <div class="mdc-typography--subtitle1 content-title">Coming Soon</div>
+                    {{ else }} 
                     <div class="mdc-typography--subtitle1 content-title">{{ .Date.Format "January 2006" }}</div>
+                    {{ end }}
                     <div class="mdc-typography--body1">{{ .Content }}</div>
                 </div>
 

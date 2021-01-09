@@ -79,7 +79,11 @@
                                     {{ $element.Title }}
                                 </div>
                                 <div class="game-card__title mdc-typography--caption">
+                                    {{ if ( $element.Params.comingsoon ) }}
+                                    Coming Soon
+                                    {{ else }}
                                     {{ $element.Date.Format "January 2006" }}
+                                    {{ end }}
                                 </div>
                             </div>
                         </div>
