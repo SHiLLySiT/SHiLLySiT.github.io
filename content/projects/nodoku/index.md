@@ -5,6 +5,7 @@ cover = "/projects/nodoku/screenshot2.png"
 icon = "/projects/nodoku/screenshot2.png"
 categories = ["Game"]
 screenshots = [
+    "/projects/nodoku/gameplay.gif",
     "/projects/nodoku/screenshot1.png",
     "/projects/nodoku/screenshot2.png",
     "/projects/nodoku/screenshot3.png",
