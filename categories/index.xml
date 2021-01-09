@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Who is Alex Larioza?!</title>
@@ -6,34 +6,17 @@
     <description>Recent content in Categories on Who is Alex Larioza?!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://alexlarioza.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Devlog</title>
-      <link>http://alexlarioza.com/categories/devlog/</link>
-      <pubDate>Tue, 23 Apr 2013 00:00:00 +0000</pubDate>
-      
-      <guid>http://alexlarioza.com/categories/devlog/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Game</title>
       <link>http://alexlarioza.com/categories/game/</link>
-      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>http://alexlarioza.com/categories/game/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Post Mortem</title>
-      <link>http://alexlarioza.com/categories/post-mortem/</link>
-      <pubDate>Sun, 20 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://alexlarioza.com/categories/post-mortem/</guid>
       <description></description>
     </item>
     
@@ -47,11 +30,11 @@
     </item>
     
     <item>
-      <title>Tutorial</title>
-      <link>http://alexlarioza.com/categories/tutorial/</link>
-      <pubDate>Mon, 14 Mar 2016 00:00:00 +0000</pubDate>
+      <title>Post Mortem</title>
+      <link>http://alexlarioza.com/categories/post-mortem/</link>
+      <pubDate>Sun, 20 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://alexlarioza.com/categories/tutorial/</guid>
+      <guid>http://alexlarioza.com/categories/post-mortem/</guid>
       <description></description>
     </item>
     
@@ -61,6 +44,24 @@
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>http://alexlarioza.com/categories/website/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tutorial</title>
+      <link>http://alexlarioza.com/categories/tutorial/</link>
+      <pubDate>Mon, 14 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://alexlarioza.com/categories/tutorial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Devlog</title>
+      <link>http://alexlarioza.com/categories/devlog/</link>
+      <pubDate>Tue, 23 Apr 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://alexlarioza.com/categories/devlog/</guid>
       <description></description>
     </item>
     

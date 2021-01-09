@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Software on Who is Alex Larioza?!</title>
@@ -17,7 +17,7 @@
       <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>http://alexlarioza.com/projects/ironwriter/</guid>
-      <description> IronWriter is an open-source writing tool for solo playthroughs of the free tabletop RPG Ironsworn. Focus on writing your story and let IronWriter automatically manage your character sheet.
+      <description>IronWriter is an open-source writing tool for solo playthroughs of the free tabletop RPG Ironsworn. Focus on writing your story and let IronWriter automatically manage your character sheet.
 Role Designer and Programmer
 Technologies  HTML, CSS, and Javascript  </description>
     </item>

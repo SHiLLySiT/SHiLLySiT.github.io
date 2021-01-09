@@ -1,9 +1,54 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://alexlarioza.com/categories/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://alexlarioza.com/projects/cozygrove/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://alexlarioza.com/categories/game/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://alexlarioza.com/projects/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://alexlarioza.com/projects/saturnalia/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://alexlarioza.com/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://alexlarioza.com/projects/fracter/</loc>
+    <lastmod>2020-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://alexlarioza.com/projects/funtime/</loc>
+    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://alexlarioza.com/projects/ironwriter/</loc>
+    <lastmod>2019-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://alexlarioza.com/categories/software/</loc>
     <lastmod>2019-08-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -23,7 +68,17 @@
   </url>
   
   <url>
+    <loc>http://alexlarioza.com/blog/</loc>
+    <lastmod>2018-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://alexlarioza.com/blog/2018/05/nodoku-post-mortem/</loc>
+    <lastmod>2018-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://alexlarioza.com/categories/post-mortem/</loc>
     <lastmod>2018-05-20T00:00:00+00:00</lastmod>
   </url>
   
@@ -44,6 +99,11 @@
   
   <url>
     <loc>http://alexlarioza.com/projects/gamesrightmeow/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://alexlarioza.com/categories/website/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -69,6 +129,11 @@
   
   <url>
     <loc>http://alexlarioza.com/blog/2016/03/learning-to-code/</loc>
+    <lastmod>2016-03-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://alexlarioza.com/categories/tutorial/</loc>
     <lastmod>2016-03-14T00:00:00+00:00</lastmod>
   </url>
   
@@ -109,6 +174,11 @@
   
   <url>
     <loc>http://alexlarioza.com/blog/2013/04/caved-in-2-level-generation/</loc>
+    <lastmod>2013-04-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://alexlarioza.com/categories/devlog/</loc>
     <lastmod>2013-04-23T00:00:00+00:00</lastmod>
   </url>
   
@@ -168,65 +238,7 @@
   </url>
   
   <url>
-    <loc>http://alexlarioza.com/blog/</loc>
-    <lastmod>2018-05-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://alexlarioza.com/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://alexlarioza.com/categories/devlog/</loc>
-    <lastmod>2013-04-23T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://alexlarioza.com/categories/game/</loc>
-    <lastmod>2019-07-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://alexlarioza.com/categories/post-mortem/</loc>
-    <lastmod>2018-05-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://alexlarioza.com/projects/</loc>
-    <lastmod>2019-08-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://alexlarioza.com/categories/software/</loc>
-    <lastmod>2019-08-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://alexlarioza.com/tags/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://alexlarioza.com/categories/tutorial/</loc>
-    <lastmod>2016-03-14T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://alexlarioza.com/categories/website/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://alexlarioza.com/</loc>
-    <lastmod>2019-08-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
 </urlset>

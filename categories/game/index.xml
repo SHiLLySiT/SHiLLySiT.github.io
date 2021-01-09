@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Game on Who is Alex Larioza?!</title>
@@ -6,10 +6,49 @@
     <description>Recent content in Game on Who is Alex Larioza?!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://alexlarioza.com/categories/game/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Cozy Grove</title>
+      <link>http://alexlarioza.com/projects/cozygrove/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://alexlarioza.com/projects/cozygrove/</guid>
+      <description>Welcome to Cozy Grove, a life-sim game about camping on a haunted, ever-changing island. As a Spirit Scout, you&#39;ll wander the island&#39;s forest each day, finding new hidden secrets and helping soothe the local ghosts. With a little time and a lot of crafting, you&#39;ll bring color and joy back to Cozy Grove!
+Role  Lead Porting Engineer for Nintendo Switch, Xbox One, and PS4  Technologies  Unity  Key Responsibilities  Collaborated with developers to make a console-friendly experience Integrated console APIs (save data, achievements, user management, etc) Ensured game passed all console certification requirements  </description>
+    </item>
+    
+    <item>
+      <title>Saturnalia</title>
+      <link>http://alexlarioza.com/projects/saturnalia/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://alexlarioza.com/projects/saturnalia/</guid>
+      <description>A Survival Horror Adventure: play as a cast of characters exploring an isolated village of ancient ritual – its labyrinthine roads will change each time you lose all your characters. From the creators of FOTONICA, MirrorMoon EP, and Wheels of Aurelia.
+Role  Lead Porting Engineer for Nintendo Switch, Xbox One, and PS4  Technologies  Unity  Key Responsibilities  Collaborated with developers to make a console-friendly experience Integrated console APIs (save data, achievements, user management, etc) Ensured game passed all console certification requirements  </description>
+    </item>
+    
+    <item>
+      <title>Fracter</title>
+      <link>http://alexlarioza.com/projects/fracter/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://alexlarioza.com/projects/fracter/</guid>
+      <description>FRACTER is an emotive, isometric puzzle adventure game set in a mysterious labyrinth of glowing black architecture. The game follows a veiled young hero who has set out on a perilous quest to dispel the darkness within. Players must explore this world of shadows, discover secrets hidden in the dark, and outsmart ominous creatures while solving each meticulously designed puzzle using their only force against darkness: light. Dramatic landscapes in shades of gray, an eerie ambient soundtrack and a poetic, self-reflective narrative await you on this emotional journey restoring light to a darkened world.</description>
+    </item>
+    
+    <item>
+      <title>#Funtime</title>
+      <link>http://alexlarioza.com/projects/funtime/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://alexlarioza.com/projects/funtime/</guid>
+      <description>#Funtime is an explosive twin-stick shooter where shooting isn&#39;t your only weapon. #Funtime combines traditional twin-stick shooting with a unique coloring mechanic. Earn bonus points by coloring the playing field and exploding enemies that cross your path. Persistent ship upgrades allow for lengthier runs filled with even more mayhem. Fast and fun gameplay will have you coming back again and again.
+Role  Lead Porting Engineer for Nintendo Switch, Xbox One, and PS4  Technologies  Unity  Key Responsibilities  Collaborated with developer to make a console-friendly experience Optimized graphics and code to run smoothly on consoles Integrated console APIs (save data, achievements, user management, etc) Ensured game passed all console certification requirements  </description>
+    </item>
     
     <item>
       <title>Cast Your Vote</title>
@@ -17,7 +56,7 @@
       <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>http://alexlarioza.com/projects/cyv/</guid>
-      <description> It&amp;rsquo;s just a few weeks until Election Day, are you ready? In our completely reimagined, Cast Your Vote, you&amp;rsquo;ll discover what it takes to become an informed voter - from knowing where you stand on important issues to uncovering what you need to know about candidates.
+      <description>It&#39;s just a few weeks until Election Day, are you ready? In our completely reimagined, Cast Your Vote, you&#39;ll discover what it takes to become an informed voter - from knowing where you stand on important issues to uncovering what you need to know about candidates.
 Role  Lead Engineer through Alpha phase Support Engineer through Beta phase  Technologies  Unity  Key Responsibilities  Implement UI and game logic External content management system via Airtable Developed procedural candidate generation Created Designer friendly tools for content generation  </description>
     </item>
     
@@ -36,7 +75,7 @@ Role  Lead Engineer through Alpha phase Support Engineer through Beta phase  Tec
       <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>http://alexlarioza.com/projects/immigration/</guid>
-      <description> Do you know how people become citizens of the United States? In Immigration Nation, you&amp;rsquo;ll find out as you guide newcomers along their path to citizenship.
+      <description>Do you know how people become citizens of the United States? In Immigration Nation, you&#39;ll find out as you guide newcomers along their path to citizenship.
 Role Lead Engineer
 Technologies  Unity  Key Responsibilities  Implement UI and game logic External content management system for client Content localization system Path resolution system for boats in puzzle mode  </description>
     </item>
@@ -57,8 +96,9 @@ Snappy animations and transitions make this addictive, compulsively playable gam
       <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>http://alexlarioza.com/projects/cooptris/</guid>
-      <description>Cooptris is a cooperative Tetris clone. Same rules as the original: don&amp;rsquo;t let blocks reach the top of the screen! Both players share the same hold space which is useful for trading pieces. Your current piece can get in the way of the other player, so good communication is required! This was a small project with the goal to make a game with PICO-8.
-Role Programming, design, and art</description>
+      <description>Cooptris is a cooperative Tetris clone. Same rules as the original: don&#39;t let blocks reach the top of the screen! Both players share the same hold space which is useful for trading pieces. Your current piece can get in the way of the other player, so good communication is required! This was a small project with the goal to make a game with PICO-8.
+Role Programming, design, and art
+Technologies  PICO-8  </description>
     </item>
     
     <item>
@@ -78,7 +118,7 @@ Role Gameplay and UI Programmer</description>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>http://alexlarioza.com/projects/counties/</guid>
-      <description> Want to try your hand at running your own county government? In Counties Work, you can! Stay on top of resident requests as you develop the local community, make important budgeting decisions and solve crises that pop up along the way.
+      <description>Want to try your hand at running your own county government? In Counties Work, you can! Stay on top of resident requests as you develop the local community, make important budgeting decisions and solve crises that pop up along the way.
 Role Lead Engineer
 Technologies  Unity  Key Responsibilities  Implement UI and game logic External content management system for client Procedural bobble generator (appearance and needs) Game logic  </description>
     </item>
@@ -89,7 +129,7 @@ Technologies  Unity  Key Responsibilities  Implement UI and game logic External 
       <pubDate>Mon, 07 Nov 2016 00:00:00 +0000</pubDate>
       
       <guid>http://alexlarioza.com/projects/excom/</guid>
-      <description> Running for the presidency isn’t easy! Manage your very own presidential campaign by strategically raising funds, polling voters, launching media campaigns, and making personal appearances.
+      <description>Running for the presidency isn’t easy! Manage your very own presidential campaign by strategically raising funds, polling voters, launching media campaigns, and making personal appearances.
 Role Lead Engineer
 Technologies  Unity  Key Responsibilities  Implement UI and game logic External content management system for client Highly configurable and designer friendly event system Isometric pathfinding  </description>
     </item>
@@ -109,7 +149,7 @@ Technologies  Unity  Key Responsibilities  Implement UI and game logic External 
       <pubDate>Mon, 01 Feb 2016 00:00:00 +0000</pubDate>
       
       <guid>http://alexlarioza.com/projects/wtwh/</guid>
-      <description> Running for the presidency isn’t easy! In Win the White House, you get to manage your very own presidential campaign by strategically raising funds, polling voters, launching media campaigns, and making personal appearances. Keep a close eye on the map as you battle over electoral votes and popular support.
+      <description>Running for the presidency isn’t easy! In Win the White House, you get to manage your very own presidential campaign by strategically raising funds, polling voters, launching media campaigns, and making personal appearances. Keep a close eye on the map as you battle over electoral votes and popular support.
 Role Support Engineer
 Technologies  Unity  Key Responsibilities  Optimized game to run on min spec device  </description>
     </item>
@@ -129,7 +169,7 @@ Technologies  Unity  Key Responsibilities  Optimized game to run on min spec dev
       <pubDate>Mon, 01 Dec 2014 00:00:00 +0000</pubDate>
       
       <guid>http://alexlarioza.com/projects/supercar/</guid>
-      <description> Supercar Showdown is a top-down racing game with a focus on controlled drifting that takes inspiration from Micro Machines and Hot Wheels. In single player mode, the player is pitted against AI racers which develop rivalries over the course of the game. The game also features an async multiplayer mode allowing players to compete with others all over the world.
+      <description>Supercar Showdown is a top-down racing game with a focus on controlled drifting that takes inspiration from Micro Machines and Hot Wheels. In single player mode, the player is pitted against AI racers which develop rivalries over the course of the game. The game also features an async multiplayer mode allowing players to compete with others all over the world.
 Role Gameplay and UI Programmer
 Technologies  Flash  Key Responsibilities  Implement UI and game logic Vehicle upgrade system Opponent racing and drifting AI  </description>
     </item>
@@ -140,7 +180,7 @@ Technologies  Flash  Key Responsibilities  Implement UI and game logic Vehicle u
       <pubDate>Tue, 01 Jul 2014 00:00:00 +0000</pubDate>
       
       <guid>http://alexlarioza.com/projects/minisoccer/</guid>
-      <description>You don&amp;rsquo;t have to be a soccer expert to play MiniSoccer - just be ready to have fun! Challenge live players in real-time multiplayer matches with up to 6 people. Create a private room and play with your friends, or join a random match and make new ones. Don&amp;rsquo;t want to be stuck in the goal? Set an AI goalkeeper so you&amp;rsquo;re free to sprint to the ball and score!</description>
+      <description>You don&#39;t have to be a soccer expert to play MiniSoccer - just be ready to have fun! Challenge live players in real-time multiplayer matches with up to 6 people. Create a private room and play with your friends, or join a random match and make new ones. Don&#39;t want to be stuck in the goal? Set an AI goalkeeper so you&#39;re free to sprint to the ball and score! Set time or score limits and play to your heart&#39;s content.</description>
     </item>
     
     <item>
@@ -158,7 +198,7 @@ Technologies  Flash  Key Responsibilities  Implement UI and game logic Vehicle u
       <pubDate>Fri, 01 Nov 2013 00:00:00 +0000</pubDate>
       
       <guid>http://alexlarioza.com/projects/fullauto/</guid>
-      <description> Full Auto Mayhem is a racing-combat hybrid that features three game modes - Race, Time Attack, and Elimination. Each track has it&amp;rsquo;s own unique hazards and hidden shortcuts. Players earn components for their car from 8 base weapons and 6 base car parts with randomly generated stats.
+      <description>Full Auto Mayhem is a racing-combat hybrid that features three game modes - Race, Time Attack, and Elimination. Each track has it&#39;s own unique hazards and hidden shortcuts. Players earn components for their car from 8 base weapons and 6 base car parts with randomly generated stats.
 Role Gameplay and UI Programmer
 Technologies  Flash  Key Responsibilities  Implement UI and game logic Procedurally generated component system Opponent AI  </description>
     </item>
@@ -169,7 +209,7 @@ Technologies  Flash  Key Responsibilities  Implement UI and game logic Procedura
       <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
       
       <guid>http://alexlarioza.com/projects/smash/</guid>
-      <description>Smash Palace was a significant milestone in my career as it was the first commercial game that I contributed to. During the development of this project I was in charge of general gameplay programming and AI. The goal of the game is to smash into opponents and do as much damage as you can (preferably until they explode). If you&amp;rsquo;re the last car running, you&amp;rsquo;ve survived the round! Between rounds you can spend your hard earned cash on upgrades for your garage full of cars.</description>
+      <description>Smash Palace was a significant milestone in my career as it was the first commercial game that I contributed to. During the development of this project I was in charge of general gameplay programming and AI. The goal of the game is to smash into opponents and do as much damage as you can (preferably until they explode). If you&#39;re the last car running, you&#39;ve survived the round! Between rounds you can spend your hard earned cash on upgrades for your garage full of cars.</description>
     </item>
     
     <item>
@@ -223,7 +263,7 @@ Technologies  Flash  Key Responsibilities  Implement UI and game logic Procedura
       <pubDate>Fri, 01 Jul 2011 00:00:00 +0000</pubDate>
       
       <guid>http://alexlarioza.com/projects/expelliarmus/</guid>
-      <description> Expelliarmus is a short experimental game I created in a few hours. Type out the words that appear at the top of the screen faster than the AI opponent in order to cast a spell. Spells do damage based on the length of the spell. The first wizard to reach zero health loses! Special thanks to Chris Sinnott for the theme song!
+      <description>Expelliarmus is a short experimental game I created in a few hours. Type out the words that appear at the top of the screen faster than the AI opponent in order to cast a spell. Spells do damage based on the length of the spell. The first wizard to reach zero health loses! Special thanks to Chris Sinnott for the theme song!
 Role Programming, design, and art
 Technologies  Flash  </description>
     </item>
@@ -234,7 +274,7 @@ Technologies  Flash  </description>
       <pubDate>Sun, 01 May 2011 00:00:00 +0000</pubDate>
       
       <guid>http://alexlarioza.com/projects/torch/</guid>
-      <description>Torch was originally created for Ludum Dare #20 for the theme &amp;lsquo;It&amp;rsquo;s dangerous to go alone; take this!&amp;rsquo;. This is the post compo version which features some level fixes and graphical enhancements. The light/torch concept was inspired by Amnesia. There is a single level that the player must traverse and rescue the girl. Avoid traps and creatures that steal your torch. If you are in the darkness for too long you will be sent back to the most recent checkpoint.</description>
+      <description>Torch was originally created for Ludum Dare #20 for the theme &amp;lsquo;It&#39;s dangerous to go alone; take this!&#39;. This is the post compo version which features some level fixes and graphical enhancements. The light/torch concept was inspired by Amnesia. There is a single level that the player must traverse and rescue the girl. Avoid traps and creatures that steal your torch. If you are in the darkness for too long you will be sent back to the most recent checkpoint.</description>
     </item>
     
     <item>
@@ -243,8 +283,9 @@ Technologies  Flash  </description>
       <pubDate>Tue, 01 Feb 2011 00:00:00 +0000</pubDate>
       
       <guid>http://alexlarioza.com/projects/loveisintheair/</guid>
-      <description>Love in the Air was created in 48 hours for Valentine&amp;rsquo;s Day. It lacks much polish, but overall turned out quite well for my first Flash game! Each wave, there are a set number of hearts that travel towards the player. They must all be shot down with your limited number of missiles. This game was heavily inspired by the gaming classic, Missile Command.
-Role Programming, design, and art</description>
+      <description>Love in the Air was created in 48 hours for Valentine&#39;s Day. It lacks much polish, but overall turned out quite well for my first Flash game! Each wave, there are a set number of hearts that travel towards the player. They must all be shot down with your limited number of missiles. This game was heavily inspired by the gaming classic, Missile Command.
+Role Programming, design, and art
+Technologies  Flash  </description>
     </item>
     
     <item>
@@ -253,7 +294,7 @@ Role Programming, design, and art</description>
       <pubDate>Wed, 01 Dec 2010 00:00:00 +0000</pubDate>
       
       <guid>http://alexlarioza.com/projects/voyageofdiscovery/</guid>
-      <description> Voyage of Discovery was created during the #19 Ludum Dare &amp;lsquo;Discovery&amp;rsquo;. This was the first game I ever completed and also my first Ludum Dare. Granted, it was a bit ambitious for a first project, but hey, I finished it! The goal of the game is to colonize all of the islands while managing your supplies and surviving pirate attacks.
+      <description>Voyage of Discovery was created during the #19 Ludum Dare &amp;lsquo;Discovery&#39;. This was the first game I ever completed and also my first Ludum Dare. Granted, it was a bit ambitious for a first project, but hey, I finished it! The goal of the game is to colonize all of the islands while managing your supplies and surviving pirate attacks.
 Role Programming, design, and art
 Technologies  Gamemaker  </description>
     </item>
