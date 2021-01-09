@@ -24,6 +24,8 @@ There's [plenty](https://jacksondunstan.com/articles/3335) [of](https://www.redd
 
 The one thing that bothered me however was that there isn't an native solution for searching for references of a function used in the editor. My solution was to hack together my own tool to search for uses. It was well worth the time spent and I'll eventually be releasing it to the asset store once I get it cleaned up.
 
+**2020 Follow up**: *I've been meaning to add this little addendum for awhile now: Unity Events are great for quick prototyping and ultra small games with a single developer (e.g. Nodoku). Since releasing Nodoku, I tried using Unity events in several projects, but I quickly realized that they scale terribly and you tend to end up with the Unity Editor equivalent of spaghetti code.*
+
 ### Material design
 I have a limited background in art, so I decided to follow Google's [Material Design](https://material.io/) principles when creating the look for Nodoku. Because Material design is already an established look, I didn't risk creating something that people wouldn't like the look of. I was able to quickly make simple shapes in [Inkscape](https://inkscape.org/) or use free icons from [FontAwesome](https://fontawesome.com/) instead of sinking hours into more complex art with my limited skills.
 
