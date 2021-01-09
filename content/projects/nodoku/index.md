@@ -13,7 +13,8 @@ screenshots = [
     "/projects/nodoku/screenshot5.png",
 ]
 gamelinks = [
-   ["Play on Android", "fab fa-android", "https://play.google.com/store/apps/details?id=com.gamesrightmeow.nodoku"],
+   ["Buy on Android", "fab fa-android", "https://play.google.com/store/apps/details?id=com.gamesrightmeow.nodoku"],
+   ["Buy on Itch.io", "fab fa-itch-io", "https://gamesrightmeow.itch.io/nodoku"],
 ]
 +++
 
