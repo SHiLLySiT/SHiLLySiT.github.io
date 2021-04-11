@@ -15,7 +15,8 @@ videos = [
     "https://www.youtube.com/embed/_3HUR9HRyho",
 ]
 gamelinks = [
-    ["Buy on Nintendo Switch", "fas fa-shopping-cart", "https://www.nintendo.com/games/detail/fracter-switch/"]
+    ["Buy on Nintendo Switch", "fas fa-shopping-cart", "https://www.nintendo.com/games/detail/fracter-switch/"],
+    ["Buy on Steam", "fab fa-steam", "https://store.steampowered.com/app/783340/FRACTER/"]
 ]
 +++
 
