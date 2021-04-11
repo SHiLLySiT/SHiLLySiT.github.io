@@ -6,7 +6,7 @@
     <description>Recent content in Game on Who is Alex Larioza?!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Apr 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://alexlarioza.com/categories/game/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Cozy Grove</title>
       <link>http://alexlarioza.com/projects/cozygrove/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 07 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>http://alexlarioza.com/projects/cozygrove/</guid>
       <description>Welcome to Cozy Grove, a life-sim game about camping on a haunted, ever-changing island. As a Spirit Scout, you&#39;ll wander the island&#39;s forest each day, finding new hidden secrets and helping soothe the local ghosts. With a little time and a lot of crafting, you&#39;ll bring color and joy back to Cozy Grove!
@@ -22,13 +22,13 @@ Role  Lead Porting Engineer for Nintendo Switch, Xbox One, and PS4  Technologies
     </item>
     
     <item>
-      <title>Saturnalia</title>
-      <link>http://alexlarioza.com/projects/saturnalia/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <title>Space Otter Charlie</title>
+      <link>http://alexlarioza.com/projects/spaceottercharlie/</link>
+      <pubDate>Thu, 18 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://alexlarioza.com/projects/saturnalia/</guid>
-      <description>A Survival Horror Adventure: play as a cast of characters exploring an isolated village of ancient ritual – its labyrinthine roads will change each time you lose all your characters. From the creators of FOTONICA, MirrorMoon EP, and Wheels of Aurelia.
-Role  Lead Porting Engineer for Nintendo Switch, Xbox One, and PS4  Technologies  Unity  Key Responsibilities  Collaborated with developers to make a console-friendly experience Integrated console APIs (save data, achievements, user management, etc) Ensured game passed all console certification requirements  </description>
+      <guid>http://alexlarioza.com/projects/spaceottercharlie/</guid>
+      <description>With humanity gone, it’s up to the otters to save animal-kind from an inhospitable Earth. Join Charlie and his ragtag crew of critters on a daring mission through Otter Space as they search for a new planet to call home. Explore derelict space stations, battle unhinged robots, and enjoy some otterly terrific puns as you jump, float, and fly through over a dozen levels of furry fun.
+Role  Lead Porting Engineer for Nintendo Switch, Xbox One, PS4, and Amazon Luna  Technologies  Unity  Key Responsibilities  Collaborated with developers to make a console-friendly experience Optimized graphics and code to run smoothly on consoles Integrated console APIs (save data, achievements, user management, etc) Ensured game passed all console certification requirements  </description>
     </item>
     
     <item>
