@@ -18,6 +18,7 @@ gamelinks = [
     ["Buy on Xbox One", "fab fa-xbox", "https://www.microsoft.com/en-us/p/funtime/9pbw0rspj1kn"],
     ["Buy on PlayStation4", "fab fa-playstation", "https://store.playstation.com/en-us/product/UP2199-CUSA17693_00-FUNTIMENA0000000"],
     ["Buy on Nintendo Switch", "fas fa-shopping-cart", "https://www.nintendo.com/games/detail/funtime-switch/"],
+    ["Buy on Steam", "fab fa-steam", "https://store.steampowered.com/app/1100350/Funtime/"]
 ]
 +++
 
