@@ -1,7 +1,6 @@
 +++
 title = "Cozy Grove"
-comingsoon = true
-date = "2021-01-01"
+date = "2021-04-07"
 cover = "/projects/cozygrove/screenshot1.jpg"
 icon = "/projects/cozygrove/screenshot1.jpg"
 categories = ["Game"]
@@ -15,7 +14,10 @@ videos = [
     "https://www.youtube.com/embed/Mj8LEVR-XMQ",
 ]
 gamelinks = [
-    
+    ["Buy on Xbox One", "fab fa-xbox", "https://www.microsoft.com/en-us/p/cozy-grove/9pjcc91cz3wn"],
+    ["Buy on PlayStation4", "fab fa-playstation", "https://store.playstation.com/en-us/concept/10002088"],
+    ["Buy on Nintendo Switch", "fas fa-shopping-cart", "https://www.nintendo.com/games/detail/cozy-grove-switch/"],
+    ["Buy on Steam", "fab fa-steam", "https://store.steampowered.com/app/1458100/Cozy_Grove"]
 ]
 +++
 
