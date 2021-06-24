@@ -51,6 +51,36 @@ Role  Lead Porting Engineer for Nintendo Switch, Xbox One, and PS4  Technologies
     </item>
     
     <item>
+      <title>Build a Fish</title>
+      <link>http://alexlarioza.com/projects/buildafish/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://alexlarioza.com/projects/buildafish/</guid>
+      <description>In this interactive activity design a fish that has the right adaptations, or traits, to help it survive in a reef environment. Choose a body, mouth, and color/pattern, then release your fish into the ocean reef to search for food and evade predators. Steer your fish around the reef to see how well it survives with the traits that you gave it.
+Role  Lead Engineer (Project Contractor)  Technologies  Javascript, Phaser3, and Tiled  Key Responsibilities  Rebuilt Flash interactive using modern web technologies Decompiled old Flash .</description>
+    </item>
+    
+    <item>
+      <title>RGB Color Mixer</title>
+      <link>http://alexlarioza.com/projects/rgbcolormixer/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://alexlarioza.com/projects/rgbcolormixer/</guid>
+      <description>A web-based interactive that illustrates the effect of mixing light to create all colors visible to the human eye. Split images into their red, green, blue channels, which can then be overlapped to recombine into full color. Adjust the value of each channel independently from 0% to 100%.
+Role  Lead Engineer (Project Contractor)  Technologies  Pure HTML/CSS/Javascript  Key Responsibilities  Built a brand new web interactive for a NASA funded project Designed to support modern browsers and also IE11 Worked with team to iterate on design  </description>
+    </item>
+    
+    <item>
+      <title>Virtual Car</title>
+      <link>http://alexlarioza.com/projects/virtualcar/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://alexlarioza.com/projects/virtualcar/</guid>
+      <description>This interactive activity demonstrates how vectors are used to represent velocity (speed and direction) and acceleration. In the activity, vectors change in real-time as you &amp;ldquo;drive&amp;rdquo; a car on a flat plain; as you change speed and direction, vectors originating from the car respond to your actions. A graph depicting speed vs. time also responds to your actions, displaying both the speed and acceleration of the car.
+Role  Lead Engineer (Project Contractor)  Technologies  Javascript, Phaser3, and Tiled  Key Responsibilities  Rebuilt Flash interactive using modern web technologies Decompiled old Flash .</description>
+    </item>
+    
+    <item>
       <title>Cast Your Vote</title>
       <link>http://alexlarioza.com/projects/cyv/</link>
       <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
