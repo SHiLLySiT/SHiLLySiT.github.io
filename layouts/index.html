@@ -74,17 +74,26 @@
                         <div class="mdc-card game-card mdc-ripple-surface" onclick="location.href='{{ $element.URL }}';" data-mdc-auto-init="MDCRipple">
                             <div class="mdc-card__media mdc-card__media--icon" style="background-image: url({{ $element.Params.icon }});"></div>
                             
-                            <div class="game-card__primary center-text">
-                                <div class="game-card__title mdc-typography--title">
-                                    {{ $element.Title }}
-                                </div>
-                                <div class="game-card__title mdc-typography--caption">
-                                    {{ if ( $element.Params.comingsoon ) }}
-                                    Coming Soon
+                            <div class="game-card__primary">
+                                <span>
+                                    {{ if ( $element.Params.company_logo ) }}
+                                    <img class="game-card__company-logo" src="{{ $element.Params.company_logo }}">
                                     {{ else }}
-                                    {{ $element.Date.Format "January 2006" }}
+                                    <img class="game-card__company-logo" src="/favicon32.png">
                                     {{ end }}
-                                </div>
+                                </span>
+                                <span>
+                                    <div class="game-card__title mdc-typography--title">
+                                        {{ $element.Title }}
+                                    </div>
+                                    <div class="game-card__title mdc-typography--caption">
+                                        {{ if ( $element.Params.comingsoon ) }}
+                                        Coming Soon
+                                        {{ else }}
+                                        {{ $element.Date.Format "January 2006" }}
+                                        {{ end }}
+                                    </div>
+                                </span>
                             </div>
                         </div>
                     </div>

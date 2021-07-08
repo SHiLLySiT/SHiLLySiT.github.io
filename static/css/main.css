@@ -70,11 +70,18 @@ body
 {
     padding: 10px;
     height: 100%;
+    display: flex;
+    align-items: center;
 }
 .game-card__title
 {
     margin: 0;
     color: var(--mdc-theme-text-primary-on-background, rgba(0, 0, 0, 0.54));
+}
+.game-card__company-logo
+{
+    width: 32px;
+    padding-right: 16px;
 }
 .game-card__subtitle
 {
