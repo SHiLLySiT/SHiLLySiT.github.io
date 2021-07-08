@@ -1,5 +1,6 @@
 +++
 title = "Animobile"
+company_logo = "/company_logos/filament.png"
 date = "2015-08-01"
 categories = ["Game"]
 cover = "/projects/animobile/screenshot3.png"

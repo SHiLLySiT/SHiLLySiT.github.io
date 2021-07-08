@@ -1,5 +1,6 @@
 +++
 title = "Cast Your Vote"
+company_logo = "/company_logos/filament.png"
 date = "2019-07-01"
 cover = "/projects/cyv/screenshot1.png"
 icon = "/projects/cyv/screenshot1.png"

@@ -1,5 +1,6 @@
 +++
 title = "Immigration Nation"
+company_logo = "/company_logos/filament.png"
 date = "2018-08-01"
 cover = "/projects/immigration/screenshot3.png"
 icon = "/projects/immigration/screenshot3.png"

@@ -1,5 +1,6 @@
 +++
 title = "Race to Ratify"
+company_logo = "/company_logos/filament.png"
 date = "2019-02-01"
 cover = "/projects/ratify/screenshot2.png"
 icon = "/projects/ratify/screenshot2.png"

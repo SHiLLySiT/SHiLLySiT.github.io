@@ -1,5 +1,6 @@
 +++
 title = "Counties Work"
+company_logo = "/company_logos/filament.png"
 date = "2017-01-01"
 cover = "/projects/counties/screenshot1.png"
 icon = "/projects/counties/screenshot1.png"

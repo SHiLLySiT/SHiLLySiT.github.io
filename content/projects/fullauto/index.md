@@ -1,5 +1,6 @@
 +++
 title = "Full Auto Mayhem"
+company_logo = "/company_logos/bulletproof.png"
 date = "2013-11-01"
 cover = "/projects/fullauto/cover.png"
 icon = "/projects/fullauto/cover.png"

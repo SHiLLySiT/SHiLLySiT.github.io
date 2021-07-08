@@ -1,5 +1,6 @@
 +++
 title = "Fracter"
+company_logo = "/company_logos/qag.png"
 date = "2020-10-01"
 cover = "/projects/fracter/screenshot1.jpg"
 icon = "/projects/fracter/screenshot1.jpg"

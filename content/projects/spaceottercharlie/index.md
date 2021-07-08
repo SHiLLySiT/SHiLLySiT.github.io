@@ -1,5 +1,6 @@
 +++
 title = "Space Otter Charlie"
+company_logo = "/company_logos/qag.png"
 date = "2021-03-18"
 cover = "/projects/spaceottercharlie/screenshot1.jpg"
 icon = "/projects/spaceottercharlie/screenshot1.jpg"

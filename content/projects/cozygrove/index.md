@@ -1,5 +1,6 @@
 +++
 title = "Cozy Grove"
+company_logo = "/company_logos/qag.png"
 date = "2021-04-07"
 cover = "/projects/cozygrove/screenshot1.jpg"
 icon = "/projects/cozygrove/screenshot1.jpg"

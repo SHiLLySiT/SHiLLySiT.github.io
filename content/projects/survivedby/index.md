@@ -1,5 +1,6 @@
 +++
 title = "Survived By"
+company_logo = "/company_logos/humanhead.png"
 date = "2017-03-01"
 cover = "/projects/survivedby/screenshot3.png"
 icon = "/projects/survivedby/screenshot3.png"

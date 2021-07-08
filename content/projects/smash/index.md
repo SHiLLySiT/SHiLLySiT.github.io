@@ -1,5 +1,6 @@
 +++
 title = "Smash Palace"
+company_logo = "/company_logos/bulletproof.png"
 date = "2013-01-01"
 cover = "/projects/smash/cover.png"
 icon = "/projects/smash/cover.png"

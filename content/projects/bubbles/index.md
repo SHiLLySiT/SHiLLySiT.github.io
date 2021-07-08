@@ -1,5 +1,6 @@
 +++
 title = "Bubbles"
+company_logo = "/company_logos/filament.png"
 date = "2016-08-01"
 categories = ["Game"]
 cover = "/projects/bubbles/screenshot1.png"

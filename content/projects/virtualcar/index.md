@@ -1,5 +1,6 @@
 +++
 title = "Virtual Car"
+company_logo = "/company_logos/wgbh.png"
 date = "2020-06-01"
 cover = "/projects/virtualcar/screenshot1.png"
 icon = "/projects/virtualcar/screenshot1.png"

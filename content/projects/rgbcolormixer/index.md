@@ -1,5 +1,6 @@
 +++
 title = "RGB Color Mixer"
+company_logo = "/company_logos/wgbh.png"
 date = "2020-06-01"
 cover = "/projects/rgbcolormixer/screenshot1.png"
 icon = "/projects/rgbcolormixer/screenshot1.png"

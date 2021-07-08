@@ -1,5 +1,6 @@
 +++
 title = "Mini Soccer"
+company_logo = "/company_logos/bulletproof.png"
 date = "2014-07-01"
 cover = "/projects/minisoccer/cover.png"
 icon = "/projects/minisoccer/cover.png"

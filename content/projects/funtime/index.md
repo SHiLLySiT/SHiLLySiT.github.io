@@ -1,5 +1,6 @@
 +++
 title = "#Funtime"
+company_logo = "/company_logos/qag.png"
 date = "2020-07-01"
 cover = "/projects/funtime/funtime-switch-screenshot04.jpg"
 icon = "/projects/funtime/funtime-switch-screenshot04.jpg"

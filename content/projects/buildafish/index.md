@@ -1,5 +1,6 @@
 +++
 title = "Build a Fish"
+company_logo = "/company_logos/wgbh.png"
 date = "2020-06-01"
 cover = "/projects/buildafish/screenshot1.png"
 icon = "/projects/buildafish/screenshot1.png"

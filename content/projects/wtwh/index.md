@@ -1,5 +1,6 @@
 +++
 title = "Win the White House"
+company_logo = "/company_logos/filament.png"
 date = "2016-02-01"
 cover = "/projects/wtwh/screenshot1.png"
 icon = "/projects/wtwh/screenshot1.png"

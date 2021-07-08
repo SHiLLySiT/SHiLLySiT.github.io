@@ -1,5 +1,6 @@
 +++
 title = "Executive Command"
+company_logo = "/company_logos/filament.png"
 date = "2016-11-07"
 cover = "/projects/excom/screenshot2.png"
 icon = "/projects/excom/screenshot2.png"
