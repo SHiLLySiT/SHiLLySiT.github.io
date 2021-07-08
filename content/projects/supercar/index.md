@@ -1,5 +1,6 @@
 +++
 title = "Supercar Showdown"
+company_logo = "/company_logos/bulletproof.png"
 date = "2014-12-01"
 cover = "/projects/supercar/cover.png"
 icon = "/projects/supercar/cover.png"
