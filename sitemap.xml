@@ -83,43 +83,13 @@
   </url>
   
   <url>
-    <loc>http://alexlarioza.com/blog/</loc>
-    <lastmod>2018-05-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://alexlarioza.com/blog/2018/05/nodoku-post-mortem/</loc>
-    <lastmod>2018-05-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://alexlarioza.com/categories/post-mortem/</loc>
-    <lastmod>2018-05-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://alexlarioza.com/projects/nodoku/</loc>
     <lastmod>2018-05-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://alexlarioza.com/blog/2018/04/retropie-arcade/</loc>
-    <lastmod>2018-04-23T09:08:19-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://alexlarioza.com/projects/cooptris/</loc>
     <lastmod>2018-04-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://alexlarioza.com/projects/gamesrightmeow/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://alexlarioza.com/categories/website/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -140,6 +110,11 @@
   <url>
     <loc>http://alexlarioza.com/projects/bubbles/</loc>
     <lastmod>2016-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://alexlarioza.com/blog/</loc>
+    <lastmod>2016-03-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -174,6 +149,11 @@
   
   <url>
     <loc>http://alexlarioza.com/blog/2013/12/caved-in-2-post-mortem/</loc>
+    <lastmod>2013-12-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://alexlarioza.com/categories/post-mortem/</loc>
     <lastmod>2013-12-18T00:00:00+00:00</lastmod>
   </url>
   
