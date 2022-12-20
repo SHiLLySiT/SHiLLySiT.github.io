@@ -1,64 +1,13 @@
 {
-  "site": {
-    "description": "You gotta be kitten me; this is just another gaming blog!",
-  },
-  "tags": {
-    "meta": "News and announcements",
-    "ttrpg": "Here be dragons",
-    "video-games": "Here be (virtual) dragons",
-    "solo-rp": "Content about rolling solo",
-    "homebrew": "Homebrew content from yours truly",
-    "starforged": "Ironsworn: Starforged content",
-    "post-mortem": "Project post mortems",
-    # TODO: enable these when they have posts assigned to them
-    #"random-tables": "Random tables for generating stuff",
-    #"scenarios": "Custom scenarios for your campaigns",
-  },
-  "navigation": [
-    { "name": "blog", "url": "/" },
-    { "name": "About", "url": "/about" },
-    { "name": "tags", "url": "/tags" },
-    { "name": "store", "url": "https://gamesrightmeow.itch.io" },
-  ],
-  "taglines": [
-    # random
-    "I'm not really sure what to put here",
-    "This tagline is randomized if you haven't notice already",
-    "click me!",
-    "meow",
-    "insert random quote here",
-
-    # skyrim
-    "I used to be an adventurer like you then I took an arrow in the knee",
-    "Iron Sword Huh? What Are You Killing? Butterflies?",
-    "No Lollygaggin'",
-    "Let Me Guess, Someone Stole Your Sweetroll?",
-    "You'll Make A Fine Rug, Cat!",
-
-    # rick roll, duh
-    "Never gonna give you up Never gonna let you down",
-
-    # zero wing
-    "all your base are belong to us",
-
-    # legend of zelda
-    "It's dangerous to go alone, take this",
-
-    # the expanse
-    "legitimate salvage",
-    
-    # it crowd
-    "hello I.T. have you tried turning it off and on again",
-
-    # stargate
-    "indeed",
-    "The Setesh guard's nose drips",
-
-    # bioshock
-    "We all make choices in life but in the end our choices make us",
-    
-    # outer wilds
-    "science compels us to explode the sun",
-    "The future depends on the past, even if we don't get to see it"
-  ],
+  mugshot: "media/mugshot.jpg",
+  name: "Alex Larioza",
+  description: "game developer. designer. photographer. nerd. programmer. juggler. animal lover. hiker. creator. boardgame geek. cat fancier. explorer. food enthusiast. kombucha brewer. gamer. outdoorsman. tinkerer.",
+  social: [
+    ["Email", "fas fa-envelope", "mailto:contact@alexlarioza.com"],
+    ["Linkedin", "fab fa-linkedin", "https://www.linkedin.com/in/alexlarioza"],
+    ["Github", "fab fa-github", "https://github.com/SHiLLySiT"],
+    ["Flicker", "fab fa-flickr", "https://www.flickr.com/photos/alexlarioza"],
+    ["Instagram", "fab fa-instagram", "https://www.instagram.com/shillysit"],
+    ["Shutterstock", "fas fa-images", "https://www.shutterstock.com/g/Photos+Right+Meow"],
+  ]
 }

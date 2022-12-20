@@ -57,8 +57,8 @@ module.exports = {
       colors: {
         'custom-black': '#101419',
         'custom-white': '#D1D5DB',
-        'custom-link': '#F87171',
-        'custom-link-hover': '#EF4444',
+        'custom-link': '#f44336',
+        'custom-link-hover': '#EF847C',
 
         'custom-1': '#D1D5DB',
         'custom-2': '#2e3440',

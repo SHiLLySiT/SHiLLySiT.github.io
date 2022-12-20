@@ -1,7 +1,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-.random-table td:nth-child(1) {
-  width: 15px;
-}

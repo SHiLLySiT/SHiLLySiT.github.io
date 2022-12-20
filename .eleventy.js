@@ -15,13 +15,12 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addWatchTarget('./_tmp/style.css')
 
-  eleventyConfig.addPassthroughCopy('./src/posts/**/*.jpg')
+  eleventyConfig.addPassthroughCopy('./src/projects/**/*.png')
   
   eleventyConfig.addPassthroughCopy({ './src/CNAME': './CNAME' })
-  eleventyConfig.addPassthroughCopy({ './_tmp/style.css': './style.css' })
   eleventyConfig.addPassthroughCopy({ './src/media/': './media/' })
+  eleventyConfig.addPassthroughCopy({ './src/fontawesome/': './fontawesome/' })
   eleventyConfig.addPassthroughCopy({ './src/favicon.ico': './favicon.ico' })
-  eleventyConfig.addPassthroughCopy({ './src/admin/': './admin/' })
 
   eleventyConfig.addLiquidFilter("dateToRfc3339", pluginRss.dateToRfc3339);
 

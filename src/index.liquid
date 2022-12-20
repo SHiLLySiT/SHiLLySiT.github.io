@@ -1,10 +1,44 @@
 ---
-title: Games Right Meow
-layout: article-list
+title: Who is Alex Larioza?!
+layout: root
 ---
 
-<main class="w-full">
-  {%- for post in collections.post reversed -%}
-    {% render "article-list-item" date: post.date, url: post.url, title: post.data.title, subtitle: post.data.subtitle %}
-  {%- endfor -%}
-</main>
+<div class="flex items-center p-4">
+  <div class="shadow-lg w-full max-w-full flex">
+    <div class="h-auto w-48 flex-none bg-cover rounded-l-lg text-center overflow-hidden" style="background-image: url('{{ settings.mugshot }}')">
+    </div>
+    <div class="bg-white rounded-r-lg p-4 flex flex-col justify-between leading-normal">
+      <div class="mb-8">
+        <div class="text-gray-900 font-bold text-xl mb-2">{{ settings.name }}</div>
+        <p class="text-gray-700 text-base">{{ settings.description }}</p>
+      </div>
+      
+      <div class="w-full flex items-center">
+        {% for social in settings.social %}
+        <a title="{{ social[0] }}" href="{{ social[2] }}" class="pr-4 text-custom-link hover:text-custom-link-hover">
+          <i class="{{ social[1] }} fa-2x"></i>
+        </a>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="grid grid-cols-3 px-4 gap-4">
+{%- for project in collections.projects reversed -%}
+  <div class="w-64 h-auto rounded overflow-hidden border border-t border-gray-400">
+    <img class="aspect-video" src="{{ project.data.icon }}">
+    <div class="flex p-2 gap-2">
+      <div class="flex flex-col justify-center">
+        <img class="w-10" src="{{ project.data.company_logo }}"/>
+      </div>
+      <div class="">
+        <div class="font-bold text-xl">{{project.data.title}}</div>
+        <p class="text-gray-700 text-sm">
+          {{ project.date | formatDate: "MMMM YYYY" }}
+        </p>
+      </div>
+    </div>
+  </div>
+{%- endfor -%}
+</div>
