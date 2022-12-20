@@ -1,5 +1,4 @@
-
-*.code-workspace
-\resources/
-\.vscode/
-public/*
+_site/
+_temp/
+.vscode/
+node_modules/

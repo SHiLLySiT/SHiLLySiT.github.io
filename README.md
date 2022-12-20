@@ -1,10 +1,13 @@
-# Testing
-`hugo serve`
+# Run locally
 
-# Test with other devices on same network
-`hugo server --bind=192.168.0.133 --baseURL=http://192.168.0.133:1313`
+`npm run serve`
 
-# Building
-* `hugo`
-* switch to `master`
-* copy files out of `public`
+# Tag guide
+
+## Required tags
+
+One of the following must be used to correctly categorize content:
+
+* `post` = blog posts
+* `page` = static pages
+
