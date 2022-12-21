@@ -1,25 +1,26 @@
-+++
-title = "Executive Command"
-company_logo = "/company_logos/filament.png"
-date = "2016-11-07"
-cover = "/projects/excom/screenshot2.png"
-icon = "/projects/excom/screenshot2.png"
-categories = ["Game"]
-screenshots = [
-    "/projects/excom/cover.png",
+---
+title: "Executive Command"
+company: filament
+date: "2016-11-07"
+cover: "/projects/excom/cover.png"
+categories: ["Game"]
+screenshots: [
     "/projects/excom/screenshot1.png",
     "/projects/excom/screenshot2.png",
     "/projects/excom/screenshot3.png",
+    "/projects/excom/screenshot4.png",
 ]
-videos = [
+videos: [
     "https://www.youtube.com/embed/phNX0elu4JY",
 ]
-gamelinks = [
+gamelinks: [
     ["Play in Browser", "fas fa-globe", "https://www.icivics.org/games/executive-command"],
     ["Play on Android", "fab fa-android", "https://play.google.com/store/apps/details?id=com.filament.icivics.executivecommand"],
     ["Play on iOS", "fab fa-apple", "https://itunes.apple.com/us/app/executive-command/id1084786851?mt=8"],
 ]
-+++
+tags:
+- projects
+---
 
 Running for the presidency isn’t easy! Manage your very own presidential campaign by strategically raising funds, polling voters, launching media campaigns, and making personal appearances.
 

@@ -14,8 +14,11 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addDataExtension("yaml", contents => yaml.load(contents));
 
   eleventyConfig.addWatchTarget('./_tmp/style.css')
+  eleventyConfig.addWatchTarget('./src/projects/**/*')
 
+  eleventyConfig.addPassthroughCopy('./src/projects/**/*.jpg')
   eleventyConfig.addPassthroughCopy('./src/projects/**/*.png')
+  eleventyConfig.addPassthroughCopy('./src/projects/**/*.svg')
   
   eleventyConfig.addPassthroughCopy({ './src/CNAME': './CNAME' })
   eleventyConfig.addPassthroughCopy({ './src/media/': './media/' })

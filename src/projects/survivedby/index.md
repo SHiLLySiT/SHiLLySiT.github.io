@@ -1,23 +1,24 @@
-+++
-title = "Survived By"
-company_logo = "/company_logos/humanhead.png"
-date = "2017-03-01"
-cover = "/projects/survivedby/screenshot3.png"
-icon = "/projects/survivedby/screenshot3.png"
-categories = ["Game"]
-screenshots = [
-    "/projects/survivedby/cover.png",
+---
+title: "Survived By"
+company: "humanhead"
+date: "2017-03-01"
+cover: "/projects/survivedby/cover.png"
+categories: ["Game"]
+screenshots: [
     "/projects/survivedby/screenshot1.png",
     "/projects/survivedby/screenshot2.png",
     "/projects/survivedby/screenshot3.png",
+    "/projects/survivedby/screenshot4.png",
 ]
-videos = [
+videos: [
     "https://www.youtube.com/embed/LqzM0UTE734"
 ]
-gamelinks = [
+gamelinks: [
     ["Official Website", "fas fa-globe", "https://www.survivedby.com/"],
 ]
-+++
+tags:
+- projects
+---
 
 Survived By is a free-to-play MMO bullet-hell game where permadeath is just the beginning. Every time you die, you’re survived by a new descendant who carries a small part of your legacy with them.
 

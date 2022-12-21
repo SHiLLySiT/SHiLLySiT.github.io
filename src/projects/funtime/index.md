@@ -1,27 +1,28 @@
-+++
-title = "#Funtime"
-company_logo = "/company_logos/qag.png"
-date = "2020-07-01"
-cover = "/projects/funtime/funtime-switch-screenshot04.jpg"
-icon = "/projects/funtime/funtime-switch-screenshot04.jpg"
-categories = ["Game"]
-screenshots = [
-    "/projects/funtime/cover.jpg",
+---
+title: "#Funtime"
+company: quantum
+date: "2020-07-01"
+cover: "/projects/funtime/cover.jpg"
+categories: ["Game"]
+screenshots: [
     "/projects/funtime/funtime-switch-screenshot01.jpg",
     "/projects/funtime/funtime-switch-screenshot02.jpg",
     "/projects/funtime/funtime-switch-screenshot03.jpg",
     "/projects/funtime/funtime-switch-screenshot04.jpg",
+    "/projects/funtime/screenshot05.jpg",
 ]
-videos = [
+videos: [
     "https://www.youtube.com/embed/iKGJn_9q17U",
 ]
-gamelinks = [
+gamelinks: [
     ["Buy on Xbox One", "fab fa-xbox", "https://www.microsoft.com/en-us/p/funtime/9pbw0rspj1kn"],
     ["Buy on PlayStation4", "fab fa-playstation", "https://store.playstation.com/en-us/product/UP2199-CUSA17693_00-FUNTIMENA0000000"],
     ["Buy on Nintendo Switch", "fas fa-shopping-cart", "https://www.nintendo.com/games/detail/funtime-switch/"],
     ["Buy on Steam", "fab fa-steam", "https://store.steampowered.com/app/1100350/Funtime/"]
 ]
-+++
+tags:
+- projects
+---
 
 #Funtime is an explosive twin-stick shooter where shooting isn't your only weapon. #Funtime combines traditional twin-stick shooting with a unique coloring mechanic. Earn bonus points by coloring the playing field and exploding enemies that cross your path. Persistent ship upgrades allow for lengthier runs filled with even more mayhem. Fast and fun gameplay will have you coming back again and again.
 

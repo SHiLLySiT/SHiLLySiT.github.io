@@ -1,9 +1,10 @@
 ---
 title: "Learning To Code"
-icon: "media/article-cover.png"
+date: 2016-03-14
+company: "default"
+cover: "/projects/learningtocode/cover.png"
 categories: ["Tutorial"]
 Description: "Deciding which programming language to learn is often the most difficult decisions to make. Learning to program is 90% about the principles and 10% about the languages, so don’t stress about which one you choose..."
-date: 2022-03-03
 tags:
   - projects
   - article
@@ -36,4 +37,4 @@ If you need some inspiration, game jams are one of the best ways to churn out pr
 
 The topics I’ve covered here are just the tip of the iceberg. If you’re still hungry for knowledge, there is a [huge collection of free ebooks available on Github](https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md).
 
-*This article was originally posted at www.filamentgames.com/blog*
+_This article was originally posted on the [Filament Games blog](https://www.filamentlearning.com/blog/learning-code)_

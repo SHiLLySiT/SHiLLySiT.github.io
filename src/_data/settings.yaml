@@ -1,13 +1,37 @@
 {
-  mugshot: "media/mugshot.jpg",
+  mugshot: "media/mugshot2.jpg",
   name: "Alex Larioza",
-  description: "game developer. designer. photographer. nerd. programmer. juggler. animal lover. hiker. creator. boardgame geek. cat fancier. explorer. food enthusiast. kombucha brewer. gamer. outdoorsman. tinkerer.",
+  description: "game developer. designer. photographer. nerd. programmer. juggler. sourdough baker. problem solver. animal lover. hiker. creator. boardgame geek. cat fancier. explorer. food enthusiast. kombucha brewer. gamer. outdoorsman. tinkerer.",
   social: [
     ["Email", "fas fa-envelope", "mailto:contact@alexlarioza.com"],
     ["Linkedin", "fab fa-linkedin", "https://www.linkedin.com/in/alexlarioza"],
     ["Github", "fab fa-github", "https://github.com/SHiLLySiT"],
     ["Flicker", "fab fa-flickr", "https://www.flickr.com/photos/alexlarioza"],
-    ["Instagram", "fab fa-instagram", "https://www.instagram.com/shillysit"],
-    ["Shutterstock", "fas fa-images", "https://www.shutterstock.com/g/Photos+Right+Meow"],
-  ]
+  ],
+  companies: {
+    default: {
+      name: "",
+      icon: "media/company-logos/default.png",
+    },
+    filament: {
+      name: "",
+      icon: "media/company-logos/filament.png",
+    },
+    humanhead: {
+      name: "",
+      icon: "media/company-logos/humanhead.png",
+    },
+    wgbh: {
+      name: "",
+      icon: "media/company-logos/wgbh.png",
+    },
+    quantum: {
+      name: "",
+      icon: "media/company-logos/quantum.png",
+    },
+    bulletproof: {
+      name: "",
+      icon: "media/company-logos/bulletproof.png",
+    },
+  }
 }

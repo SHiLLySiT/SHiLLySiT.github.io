@@ -1,10 +1,10 @@
-+++
-title = "Nodoku"
-date = "2018-05-07"
-cover = "/projects/nodoku/screenshot2.png"
-icon = "/projects/nodoku/screenshot2.png"
-categories = ["Game"]
-screenshots = [
+---
+title: "Nodoku"
+date: "2018-05-07"
+company: default
+cover: "/projects/nodoku/cover.png"
+categories: ["Game"]
+screenshots: [
     "/projects/nodoku/gameplay.gif",
     "/projects/nodoku/screenshot1.png",
     "/projects/nodoku/screenshot2.png",
@@ -12,11 +12,13 @@ screenshots = [
     "/projects/nodoku/screenshot4.png",
     "/projects/nodoku/screenshot5.png",
 ]
-gamelinks = [
+gamelinks: [
    ["Buy on Android", "fab fa-android", "https://play.google.com/store/apps/details?id=com.gamesrightmeow.nodoku"],
    ["Buy on Itch.io", "fab fa-itch-io", "https://gamesrightmeow.itch.io/nodoku"],
 ]
-+++
+tags:
+- projects
+---
 
 Nodoku offers a brain-bending new way to play with numbers, kill time, and stay sharp. Use your mathematical super powers to discover additive sequences and solve clean, colorful, free-form line puzzles. 
 

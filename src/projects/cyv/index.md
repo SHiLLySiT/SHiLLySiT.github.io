@@ -1,27 +1,28 @@
-+++
-title = "Cast Your Vote"
-company_logo = "/company_logos/filament.png"
-date = "2019-07-01"
-cover = "/projects/cyv/screenshot1.png"
-icon = "/projects/cyv/screenshot1.png"
-categories = ["Game"]
-screenshots = [
-    "/projects/cyv/cover.png",
+---
+title: "Cast Your Vote"
+company: filament
+date: "2019-07-01"
+cover: "/projects/cyv/cover.png"
+categories: ["Game"]
+screenshots: [
     "/projects/cyv/screenshot1.png",
     "/projects/cyv/screenshot2.png",
     "/projects/cyv/screenshot3.png",
     "/projects/cyv/screenshot4.png",
     "/projects/cyv/screenshot5.png",
+    "/projects/cyv/screenshot6.png",
 ]
-videos = [
+videos: [
     "https://www.youtube.com/embed/LysmdDqzqYY",
 ]
-gamelinks = [
+gamelinks: [
     ["Play in Browser", "fas fa-globe", "https://www.icivics.org/games/cast-your-vote"],
     ["Play on Android", "fab fa-android", "https://play.google.com/store/apps/details?id=org.icivics.cyv"],
     ["Play on iOS", "fab fa-apple", "https://apps.apple.com/us/app/cast-your-vote/id1482827272"],
 ]
-+++
+tags:
+- projects
+---
 
 It's just a few weeks until Election Day, are you ready? In our completely reimagined, Cast Your Vote, you'll discover what it takes to become an informed voter - from knowing where you stand on important issues to uncovering what you need to know about candidates.
 

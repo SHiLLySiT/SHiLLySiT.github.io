@@ -1,19 +1,20 @@
-+++
-title = "Virtual Car"
-company_logo = "/company_logos/wgbh.png"
-date = "2020-06-01"
-cover = "/projects/virtualcar/screenshot1.png"
-icon = "/projects/virtualcar/screenshot1.png"
-categories = ["Game"]
-screenshots = [
+---
+title: "Virtual Car"
+company: wgbh
+date: "2020-06-01"
+cover: "/projects/virtualcar/cover.png"
+categories: ["Game"]
+screenshots: [
     "/projects/virtualcar/screenshot1.png",
     "/projects/virtualcar/screenshot2.png",
 ]
-gamelinks = [
+gamelinks: [
     ["Launch Interactive", "fas fa-play", "https://contrib.pbslearningmedia.org/WGBH/conv20/phy03-int-accel/index.html"],
     ["Main site", "fab fa-readme", "https://kcts9.pbslearningmedia.org/resource/phy03.sci.phys.mfw.accel/virtual-car-velocity-and-acceleration/"],
 ]
-+++
+tags:
+- projects
+---
 
 This interactive activity demonstrates how vectors are used to represent velocity (speed and direction) and acceleration. In the activity, vectors change in real-time as you "drive" a car on a flat plain; as you change speed and direction, vectors originating from the car respond to your actions. A graph depicting speed vs. time also responds to your actions, displaying both the speed and acceleration of the car.
 
