@@ -20,6 +20,7 @@ gamelinks: [
 ]
 tags:
 - projects
+layout: game
 ---
 
 Running for the presidency isn’t easy! Manage your very own presidential campaign by strategically raising funds, polling voters, launching media campaigns, and making personal appearances.

@@ -10,6 +10,7 @@ gamelinks: [
 ]
 tags:
 - projects
+layout: game
 ---
 
 Full Auto Mayhem is a racing-combat hybrid that features three game modes - Race, Time Attack, and Elimination. Each track has it's own unique hazards and hidden shortcuts. Players earn components for their car from 8 base weapons and 6 base car parts with randomly generated stats.

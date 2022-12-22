@@ -15,6 +15,7 @@ gamelinks: [
 ]
 tags:
 - projects
+layout: game
 ---
 
 In this interactive activity design a fish that has the right adaptations, or traits, to help it survive in a reef environment. Choose a body, mouth, and color/pattern, then release your fish into the ocean reef to search for food and evade predators. Steer your fish around the reef to see how well it survives with the traits that you gave it.

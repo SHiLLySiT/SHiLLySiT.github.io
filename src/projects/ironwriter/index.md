@@ -16,6 +16,7 @@ gamelinks: [
 ]
 tags:
 - projects
+layout: game
 ---
 
 IronWriter is an [open-source](https://github.com/SHiLLySiT/IronWriter) writing tool for solo playthroughs of the free tabletop RPG [Ironsworn](https://ironswornrpg.com). Focus on writing your story and let IronWriter automatically manage your character sheet.

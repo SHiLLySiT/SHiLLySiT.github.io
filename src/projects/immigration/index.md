@@ -20,6 +20,7 @@ gamelinks: [
 ]
 tags:
 - projects
+layout: game
 ---
 
 Do you know how people become citizens of the United States? In Immigration Nation, you'll find out as you guide newcomers along their path to citizenship. 

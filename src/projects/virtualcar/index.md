@@ -14,6 +14,7 @@ gamelinks: [
 ]
 tags:
 - projects
+layout: game
 ---
 
 This interactive activity demonstrates how vectors are used to represent velocity (speed and direction) and acceleration. In the activity, vectors change in real-time as you "drive" a car on a flat plain; as you change speed and direction, vectors originating from the car respond to your actions. A graph depicting speed vs. time also responds to your actions, displaying both the speed and acceleration of the car.

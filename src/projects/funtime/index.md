@@ -22,6 +22,7 @@ gamelinks: [
 ]
 tags:
 - projects
+layout: game
 ---
 
 #Funtime is an explosive twin-stick shooter where shooting isn't your only weapon. #Funtime combines traditional twin-stick shooting with a unique coloring mechanic. Earn bonus points by coloring the playing field and exploding enemies that cross your path. Persistent ship upgrades allow for lengthier runs filled with even more mayhem. Fast and fun gameplay will have you coming back again and again.

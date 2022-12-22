@@ -10,6 +10,7 @@ gamelinks: [
 ]
 tags:
 - projects
+layout: game
 ---
 
 Games Right Meow is the customer-facing company for all of my commercial games.

@@ -11,6 +11,7 @@ gamelinks: [
 ]
 tags:
 - projects
+layout: game
 ---
 
 Voyage of Discovery was created during the #19 Ludum Dare 'Discovery'. This was the first game I ever completed and also my first Ludum Dare. Granted, it was a bit ambitious for a first project, but hey, I finished it! The goal of the game is to colonize all of the islands while managing your supplies and surviving pirate attacks.

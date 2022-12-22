@@ -21,6 +21,7 @@ gamelinks: [
 ]
 tags:
 - projects
+layout: game
 ---
 
 With humanity gone, it’s up to the otters to save animal-kind from an inhospitable Earth. Join Charlie and his ragtag crew of critters on a daring mission through Otter Space as they search for a new planet to call home. Explore derelict space stations, battle unhinged robots, and enjoy some otterly terrific puns as you jump, float, and fly through over a dozen levels of furry fun.

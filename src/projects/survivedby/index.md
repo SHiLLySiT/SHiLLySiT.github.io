@@ -18,6 +18,7 @@ gamelinks: [
 ]
 tags:
 - projects
+layout: game
 ---
 
 Survived By is a free-to-play MMO bullet-hell game where permadeath is just the beginning. Every time you die, you’re survived by a new descendant who carries a small part of your legacy with them.

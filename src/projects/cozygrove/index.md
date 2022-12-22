@@ -21,6 +21,7 @@ gamelinks: [
 ]
 tags:
 - projects
+layout: game
 ---
 
 Welcome to Cozy Grove, a life-sim game about camping on a haunted, ever-changing island. As a Spirit Scout, you'll wander the island's forest each day, finding new hidden secrets and helping soothe the local ghosts. With a little time and a lot of crafting, you'll bring color and joy back to Cozy Grove!
