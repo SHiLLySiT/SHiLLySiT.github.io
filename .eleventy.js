@@ -19,6 +19,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('./src/projects/**/*.jpg')
   eleventyConfig.addPassthroughCopy('./src/projects/**/*.png')
   eleventyConfig.addPassthroughCopy('./src/projects/**/*.svg')
+  eleventyConfig.addPassthroughCopy('./src/projects/**/*.gif')
   
   eleventyConfig.addPassthroughCopy({ './src/CNAME': './CNAME' })
   eleventyConfig.addPassthroughCopy({ './src/media/': './media/' })
