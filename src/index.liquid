@@ -29,7 +29,7 @@ layout: root
 
     <!-- project cards-->
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-    {%- for project in collections.projects reversed -%}
+    {%- for project in collections.project reversed -%}
       <!-- card -->
       <a href="{{ project.url }}" class="flex flex-col max-w-96 h-auto rounded-lg overflow-hidden border border-t border-gray-200
         hover:shadow-xl hover:border-gray-100 hover:cursor-pointer">
