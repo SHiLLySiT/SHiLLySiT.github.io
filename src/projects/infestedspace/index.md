@@ -5,7 +5,7 @@ company: default
 cover: "/projects/infestedspace/cover.png"
 media: []
 tags:
-- projects
+- project
 layout: game
 ---
 

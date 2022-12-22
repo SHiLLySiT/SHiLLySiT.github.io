@@ -12,7 +12,7 @@ media: [
     "NcbKahkwzsE"
 ]
 tags:
-- projects
+- project
 layout: game
 ---
 

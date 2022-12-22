@@ -5,7 +5,7 @@ date: "2013-11-01"
 cover: "/projects/fullauto/cover.png"
 media: []
 tags:
-- projects
+- project
 layout: game
 ---
 

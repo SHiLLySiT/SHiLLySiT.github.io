@@ -11,7 +11,7 @@ media: [
     "Mj8LEVR-XMQ"
 ]
 tags:
-- projects
+- project
 layout: game
 ---
 

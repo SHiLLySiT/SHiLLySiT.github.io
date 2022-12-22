@@ -10,7 +10,7 @@ media: [
     "/projects/animobile/screenshot4.png",
 ]
 tags:
-- projects
+- project
 layout: game
 ---
 

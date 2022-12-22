@@ -5,7 +5,7 @@ company: default
 cover: "/projects/nanonaut/cover.png"
 media: []
 tags:
-- projects
+- project
 layout: game
 ---
 

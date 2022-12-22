@@ -5,7 +5,7 @@ company: default
 cover: "/projects/gamesrightmeow/cover.svg"
 media: []
 tags:
-- projects
+- project
 layout: game
 ---
 

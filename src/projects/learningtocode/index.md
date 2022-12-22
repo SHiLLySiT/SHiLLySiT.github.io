@@ -5,7 +5,7 @@ company: "filament"
 cover: "/projects/learningtocode/cover.png"
 Description: "Deciding which programming language to learn is often the most difficult decisions to make. Learning to program is 90% about the principles and 10% about the languages, so don’t stress about which one you choose..."
 tags:
-- projects
+- project
 layout: article
 ---
 

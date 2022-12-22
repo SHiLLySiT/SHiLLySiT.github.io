@@ -10,7 +10,7 @@ media: [
     "dlk_q_srcc0",
 ]
 tags:
-- projects
+- project
 layout: game
 ---
 

@@ -9,7 +9,7 @@ media: [
     "/projects/buildafish/screenshot3.png",
 ]
 tags:
-- projects
+- project
 layout: game
 ---
 

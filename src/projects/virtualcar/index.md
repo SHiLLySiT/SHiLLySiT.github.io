@@ -8,7 +8,7 @@ media: [
     "/projects/virtualcar/screenshot2.png",
 ]
 tags:
-- projects
+- project
 layout: game
 ---
 

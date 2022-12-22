@@ -5,7 +5,7 @@ company: default
 cover: "/projects/cavedin/cover.png"
 media: []
 tags:
-- projects
+- project
 layout: game
 ---
 

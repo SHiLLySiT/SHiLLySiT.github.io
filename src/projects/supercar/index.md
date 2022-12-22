@@ -11,7 +11,7 @@ media: [
     "SHp_y1_j-EU",
 ]
 tags:
-- projects
+- project
 layout: game
 ---
 

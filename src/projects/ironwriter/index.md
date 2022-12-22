@@ -9,7 +9,7 @@ media: [
     "https://github.com/SHiLLySiT/IronWriter/blob/master/docs/images/mode-toggle.gif?raw=true",
 ]
 tags:
-- projects
+- project
 layout: game
 ---
 

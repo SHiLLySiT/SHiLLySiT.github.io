@@ -10,7 +10,7 @@ media: [
     "aI3SYf6AUSU",
 ]
 tags:
-- projects
+- project
 layout: game
 ---
 

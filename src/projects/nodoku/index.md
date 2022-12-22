@@ -12,7 +12,7 @@ media: [
     "/projects/nodoku/screenshot5.png",
 ]
 tags:
-- projects
+- project
 layout: game
 ---
 

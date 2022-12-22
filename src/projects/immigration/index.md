@@ -11,7 +11,7 @@ media: [
     "ZBaSkmu9VBw"
 ]
 tags:
-- projects
+- project
 layout: game
 ---
 

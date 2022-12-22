@@ -5,7 +5,7 @@ date: "2014-07-01"
 cover: "/projects/minisoccer/cover.png"
 media: []
 tags:
-- projects
+- project
 layout: game
 ---
 

@@ -13,7 +13,7 @@ media: [
     "LysmdDqzqYY",
 ]
 tags:
-- projects
+- project
 layout: game
 ---
 

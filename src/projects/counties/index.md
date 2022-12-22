@@ -11,7 +11,7 @@ media: [
     "x-cGKONvCSs"
 ]
 tags:
-- projects
+- project
 layout: game
 ---
 

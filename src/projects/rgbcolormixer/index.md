@@ -9,7 +9,7 @@ media: [
     "/projects/rgbcolormixer/screenshot3.png",
 ]
 tags:
-- projects
+- project
 layout: game
 ---
 

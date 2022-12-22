@@ -11,7 +11,7 @@ media: [
     "phNX0elu4JY",
 ]
 tags:
-- projects
+- project
 layout: game
 ---
 

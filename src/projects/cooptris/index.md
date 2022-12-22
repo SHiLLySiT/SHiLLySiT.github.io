@@ -5,7 +5,7 @@ company: default
 cover: "/projects/cooptris/cover.png"
 media: []
 tags:
-- projects
+- project
 layout: game
 ---
 
