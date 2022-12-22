@@ -4,7 +4,7 @@ date: "2012-08-01"
 company: default
 cover: "/projects/infestedspace/cover.png"
 categories: ["Game"]
-screenshots: []
+media: []
 tags:
 - projects
 layout: game

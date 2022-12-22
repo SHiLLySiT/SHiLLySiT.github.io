@@ -4,7 +4,7 @@ company: quantum
 date: "2020-07-01"
 cover: "/projects/funtime/cover.jpg"
 categories: ["Game"]
-screenshots: [
+media: [
     "/projects/funtime/funtime-switch-screenshot01.jpg",
     "/projects/funtime/funtime-switch-screenshot02.jpg",
     "/projects/funtime/funtime-switch-screenshot03.jpg",

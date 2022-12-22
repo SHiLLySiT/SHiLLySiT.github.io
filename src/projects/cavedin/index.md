@@ -4,7 +4,7 @@ date: "2011-09-01"
 company: default
 cover: "/projects/cavedin/cover.png"
 categories: ["Game"]
-screenshots: []
+media: []
 tags:
 - projects
 layout: game

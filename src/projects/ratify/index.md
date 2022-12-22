@@ -4,7 +4,7 @@ company: filament
 date: "2019-02-01"
 cover: "/projects/ratify/cover.png"
 categories: ["Game"]
-screenshots: [
+media: [
     "/projects/ratify/screenshot1.png",
     "/projects/ratify/screenshot2.png",
     "/projects/ratify/screenshot3.png",

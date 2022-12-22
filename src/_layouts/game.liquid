@@ -23,8 +23,8 @@ layout: root
         </div>
 
         <!-- large media -->
-        {% if screenshots and screenshots.size > 0 %}
-        <a href={{ screenshots[0] }}><img id="js-main-screenshot" class="w-full aspect-video" src="{{ screenshots[0] }}"></a>
+        {% if media and media.size > 0 %}
+        <a href={{ media[0] }}><img id="js-main-screenshot" class="w-full aspect-video" src="{{ media[0] }}"></a>
         <div id="js-main-video" hidden="true" class="w-full aspect-video"></div>
         {% else %}
         <a href={{ cover }}><img id="js-main-screenshot" class="aspect-[90/65]" src="{{ cover }}"></a>
@@ -32,10 +32,10 @@ layout: root
       </div>
 
       <!-- media carosel -->
-      {% if screenshots and screenshots.size > 0 %}
+      {% if media and media.size > 0 %}
       <div id="js-carosel" class="overflow-x-scroll overflow-y-hidden min-[400px]:h-20 pb-2 mx-4"> 
         <div class="flex gap-2 h-14 ">
-        {% for media in screenshots %}
+        {% for media in media %}
           {% if media contains "/" %}
           <img class="aspect-video h-full transition-opacity hover:opacity-70" data-uri="{{ media }}" src="{{ media }}" onclick="handleMediaClick(this)"/>
           {% else %}

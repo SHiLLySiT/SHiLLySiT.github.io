@@ -4,7 +4,7 @@ date: "2019-08-01"
 company: default
 cover: "/projects/ironwriter/cover.png"
 categories: ["Software"]
-screenshots: [
+media: [
     "https://github.com/SHiLLySiT/IronWriter/blob/master/docs/images/history.gif?raw=true",
     "https://github.com/SHiLLySiT/IronWriter/blob/master/docs/images/markup.gif?raw=true",
     "https://github.com/SHiLLySiT/IronWriter/blob/master/docs/images/mode-toggle.gif?raw=true",

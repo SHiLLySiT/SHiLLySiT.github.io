@@ -4,7 +4,7 @@ date: "2018-05-07"
 company: default
 cover: "/projects/nodoku/cover.png"
 categories: ["Game"]
-screenshots: [
+media: [
     "/projects/nodoku/gameplay.gif",
     "/projects/nodoku/screenshot1.png",
     "/projects/nodoku/screenshot2.png",

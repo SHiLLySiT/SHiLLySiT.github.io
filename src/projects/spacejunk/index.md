@@ -4,7 +4,7 @@ date: "2011-08-01"
 company: default
 cover: "/projects/spacejunk/cover.png"
 categories: ["Game"]
-screenshots: []
+media: []
 tags:
 - projects
 layout: game

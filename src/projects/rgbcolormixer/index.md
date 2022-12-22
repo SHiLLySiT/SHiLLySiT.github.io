@@ -4,7 +4,7 @@ company: wgbh
 date: "2020-06-01"
 cover: "/projects/rgbcolormixer/cover.png"
 categories: ["Game"]
-screenshots: [
+media: [
     "/projects/rgbcolormixer/screenshot1.png",
     "/projects/rgbcolormixer/screenshot2.png",
     "/projects/rgbcolormixer/screenshot3.png",

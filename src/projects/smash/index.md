@@ -4,7 +4,7 @@ company: bulletproof
 date: "2013-01-01"
 cover: "/projects/smash/cover.png"
 categories: ["Game"]
-screenshots: [
+media: [
     "/projects/smash/screenshot1.png",
     "/projects/smash/screenshot2.png",
     "/projects/smash/screenshot3.png",

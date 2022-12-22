@@ -4,7 +4,7 @@ date: "2012-04-01"
 company: default
 cover: "/projects/nanonaut/cover.png"
 categories: ["Game"]
-screenshots: []
+media: []
 tags:
 - projects
 layout: game

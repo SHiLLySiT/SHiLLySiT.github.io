@@ -4,7 +4,7 @@ date: "2011-02-01"
 company: default
 cover: "/projects/loveisintheair/cover.png"
 categories: ["Game"]
-screenshots: []
+media: []
 tags:
 - projects
 layout: game

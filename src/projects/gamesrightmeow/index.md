@@ -4,7 +4,7 @@ date: "2018-01-01"
 company: default
 cover: "/projects/gamesrightmeow/cover.svg"
 categories: ["Website"]
-screenshots: []
+media: []
 tags:
 - projects
 layout: game

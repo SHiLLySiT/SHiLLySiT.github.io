@@ -4,7 +4,7 @@ company: quantum
 date: "2020-10-01"
 cover: "/projects/fracter/cover.jpg"
 categories: ["Game"]
-screenshots: [
+media: [
     "/projects/fracter/screenshot2.jpg",
     "/projects/fracter/screenshot1.jpg",
     "/projects/fracter/FRACTER_EM.gif",

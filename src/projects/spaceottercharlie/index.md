@@ -4,7 +4,7 @@ company: quantum
 date: "2021-03-18"
 cover: "/projects/spaceottercharlie/cover.jpg"
 categories: ["Game"]
-screenshots: [
+media: [
     "/projects/spaceottercharlie/screenshot1.jpg",
     "/projects/spaceottercharlie/screenshot2.jpg",
     "/projects/spaceottercharlie/screenshot3.jpg",

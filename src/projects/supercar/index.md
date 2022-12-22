@@ -4,7 +4,7 @@ company: bulletproof
 date: "2014-12-01"
 cover: "/projects/supercar/cover.png"
 categories: ["Game"]
-screenshots: [
+media: [
     "/projects/supercar/screenshot1.png",
     "/projects/supercar/screenshot2.png",
     "/projects/supercar/screenshot3.png",

@@ -4,7 +4,7 @@ company: wgbh
 date: "2020-06-01"
 cover: "/projects/virtualcar/cover.png"
 categories: ["Game"]
-screenshots: [
+media: [
     "/projects/virtualcar/screenshot1.png",
     "/projects/virtualcar/screenshot2.png",
 ]

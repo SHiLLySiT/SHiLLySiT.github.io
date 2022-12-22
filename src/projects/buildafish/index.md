@@ -4,7 +4,7 @@ company: wgbh
 date: "2020-06-01"
 cover: "/projects/buildafish/cover.png"
 categories: ["Game"]
-screenshots: [
+media: [
     "/projects/buildafish/screenshot1.png",
     "/projects/buildafish/screenshot2.png",
     "/projects/buildafish/screenshot3.png",

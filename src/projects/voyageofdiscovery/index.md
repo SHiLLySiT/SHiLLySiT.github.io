@@ -4,7 +4,7 @@ date: "2010-12-01"
 company: default
 cover: "/projects/voyageofdiscovery/cover.png"
 categories: ["Game"]
-screenshots: []
+media: []
 tags:
 - projects
 layout: game

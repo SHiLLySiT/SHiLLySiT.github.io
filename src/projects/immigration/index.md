@@ -4,7 +4,7 @@ company: filament
 date: "2018-08-01"
 cover: "/projects/immigration/cover.png"
 categories: ["Game"]
-screenshots: [
+media: [
     "/projects/immigration/screenshot1.png",
     "/projects/immigration/screenshot2.png",
     "/projects/immigration/screenshot3.png",

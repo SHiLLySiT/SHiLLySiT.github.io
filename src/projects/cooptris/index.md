@@ -4,7 +4,7 @@ date: "2018-04-01"
 company: default
 cover: "/projects/cooptris/cover.png"
 categories: ["Game"]
-screenshots: []
+media: []
 tags:
 - projects
 layout: game

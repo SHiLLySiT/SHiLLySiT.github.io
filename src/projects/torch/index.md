@@ -4,7 +4,7 @@ date: "2011-05-01"
 company: default
 cover: "/projects/torch/cover.png"
 categories: ["Game"]
-screenshots: [
+media: [
     "/projects/torch/screenshot1.png",
     "/projects/torch/screenshot2.png",
     "/projects/torch/screenshot3.png",
