@@ -33,25 +33,34 @@ layout: root
       <!-- card -->
       <a href="{{ project.url }}" class="flex flex-col max-w-96 h-auto rounded-lg overflow-hidden border border-t border-gray-200
         hover:shadow-xl hover:border-gray-100 hover:cursor-pointer">
+        
+        <!-- type -->
+        <div class="flex justify-center gap-1 bg-gray-200 p-3 h-4 items-center">
+          <i class="{{  settings.projectTypes[project.data.type].icon }} fa-xs text-gray-600"></i>
+          <p class=" text-gray-500 text-xs font-bold">
+            {{  settings.projectTypes[project.data.type].name }}
+          </p>
+        </div>
+
         <!-- image -->
         <img class="aspect-[90/65]" src="{{ project.data.cover }}">
+        
         <!-- info -->
         <div class="flex p-2 pl-3 gap-3 items-center">
-          <div class="flex flex-col justify-center bg-gray-200 rounded-lg p-2 h-10 w-10 items-center">
-            <i class="{{ settings.projectTypes[project.data.type] }} fa-lg text-gray-500"></i>
-          </div>
           <div class="">
             <div class="text-xl">{{project.data.title}}</div>
-            <div class="flex gap-1">
-              <p class="text-gray-700 text-sm pr-2">
+            <div class="flex gap-4">
+              <p class="text-gray-700 text-sm">
                 {{ project.date | formatDate: "MMMM YYYY" }}
               </p>
-              <div class="flex items-center">
-                <img class="w-4 h-4" src="{{ settings.companies[project.data.company].icon }}"/>
+              <div class="flex gap-1">
+                <div class="flex items-center">
+                  <img class="w-4 h-4" src="{{ settings.companies[project.data.company].icon }}"/>
+                </div>
+                <p class="text-gray-700 text-sm">
+                  {{ settings.companies[project.data.company].name }}
+                </p>
               </div>
-              <p class="text-gray-700 text-sm">
-                {{ settings.companies[project.data.company].name }}
-              </p>
             </div>
           </div>
         </div>

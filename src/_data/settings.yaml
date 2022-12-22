@@ -9,10 +9,22 @@
     ["Flicker", "fab fa-flickr", "https://www.flickr.com/photos/alexlarioza"],
   ],
   projectTypes: {
-    game: "fa-solid fa-gamepad",
-    article: "fa-solid fa-file-lines",
-    app: "fa-solid fa-display",
-    website: "fa-solid fa-earth-americas",
+    game: { 
+      icon: "fa-solid fa-gamepad",
+      name: "GAME",
+    },
+    article:  { 
+      icon: "fa-solid fa-file-lines",
+      name: "ARTICLE",
+    },
+    app:  { 
+      icon: "fa-solid fa-display",
+      name: "APP",
+    },
+    website:  { 
+      icon: "fa-solid fa-earth-americas",
+      name: "WEBSITE",
+    }
   },
   companies: {
     default: {
