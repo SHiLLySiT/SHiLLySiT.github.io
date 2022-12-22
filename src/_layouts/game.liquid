@@ -32,14 +32,9 @@ layout: root
 
       <!-- screenshot carosel -->
       {% if screenshots and screenshots.size > 0 %}
-      <!-- FIXME: center screenshots when less than 3 -->
-      <div id="js-screenshot-carosel" class="flex gap-2 overflow-x-scroll h-20 mx-4"> 
+      <div id="js-screenshot-carosel" class="flex gap-2 overflow-x-scroll h-14 min-[400px]:h-20 pb-2 mx-4"> 
         {% for screenshot in screenshots %}
-        <div> <!-- needed for scroll? -->
-          <div class="w-24 transition-opacity hover:opacity-70">
-            <img class="aspect-video w-full" src="{{ screenshot }}" onclick="handleScreenshotClick(this)"/>
-          </div>
-        </div>
+        <img class="aspect-video h-full transition-opacity hover:opacity-70" src="{{ screenshot }}" onclick="handleScreenshotClick(this)"/>
         {% endfor %}
       </div>
       {% endif %}
