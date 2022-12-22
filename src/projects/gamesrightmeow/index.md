@@ -6,7 +6,7 @@ cover: "/projects/gamesrightmeow/cover.svg"
 media: []
 tags:
 - project
-layout: game
+layout: project
 ---
 
 Games Right Meow is the customer-facing company for all of my commercial games.

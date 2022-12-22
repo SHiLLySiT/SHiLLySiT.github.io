@@ -12,7 +12,7 @@ media: [
 ]
 tags:
 - project
-layout: game
+layout: project
 ---
 
 Want to try your hand at running your own county government? In Counties Work, you can! Stay on top of resident requests as you develop the local community, make important budgeting decisions and solve crises that pop up along the way. 

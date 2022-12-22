@@ -10,7 +10,7 @@ media: [
 ]
 tags:
 - project
-layout: game
+layout: project
 ---
 
 A web-based interactive that illustrates the effect of mixing light to create all colors visible to the human eye. Split images into their red, green, blue channels, which can then be overlapped to recombine into full color. Adjust the value of each channel independently from 0% to 100%.

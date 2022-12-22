@@ -12,7 +12,7 @@ media: [
 ]
 tags:
 - project
-layout: game
+layout: project
 ---
 
 Running for the presidency isn’t easy! In Win the White House, you get to manage your very own presidential campaign by strategically raising funds, polling voters, launching media campaigns, and making personal appearances. Keep a close eye on the map as you battle over electoral votes and popular support.

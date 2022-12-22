@@ -14,7 +14,7 @@ media: [
 ]
 tags:
 - project
-layout: game
+layout: project
 ---
 
 It's just a few weeks until Election Day, are you ready? In our completely reimagined, Cast Your Vote, you'll discover what it takes to become an informed voter - from knowing where you stand on important issues to uncovering what you need to know about candidates.

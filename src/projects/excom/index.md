@@ -12,7 +12,7 @@ media: [
 ]
 tags:
 - project
-layout: game
+layout: project
 ---
 
 Running for the presidency isn’t easy! Manage your very own presidential campaign by strategically raising funds, polling voters, launching media campaigns, and making personal appearances.

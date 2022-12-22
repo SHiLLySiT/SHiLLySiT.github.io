@@ -11,7 +11,7 @@ media: [
 ]
 tags:
 - project
-layout: game
+layout: project
 ---
 
 Race to Ratify drops you into 1787, where the ink is still drying on the new Constitution. Will it become the law of the land or will it fall into the dustbin of history? The fate of the young nation is in your hands! Dive deep into the heated national debate over the future of a radical new plan for American government. Travel across the 13 states to hear from a diverse and opinionated cast of characters and use what you have learned to influence others through the social media of the time... pamphlets.

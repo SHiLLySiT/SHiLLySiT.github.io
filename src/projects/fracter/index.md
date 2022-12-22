@@ -14,7 +14,7 @@ media: [
 ]
 tags:
 - project
-layout: game
+layout: project
 ---
 
 FRACTER is an emotive, isometric puzzle adventure game set in a mysterious labyrinth of glowing black architecture. The game follows a veiled young hero who has set out on a perilous quest to dispel the darkness within. Players must explore this world of shadows, discover secrets hidden in the dark, and outsmart ominous creatures while solving each meticulously designed puzzle using their only force against darkness: light. Dramatic landscapes in shades of gray, an eerie ambient soundtrack and a poetic, self-reflective narrative await you on this emotional journey restoring light to a darkened world.

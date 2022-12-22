@@ -13,7 +13,7 @@ media: [
 ]
 tags:
 - project
-layout: game
+layout: project
 ---
 
 Nodoku offers a brain-bending new way to play with numbers, kill time, and stay sharp. Use your mathematical super powers to discover additive sequences and solve clean, colorful, free-form line puzzles. 
