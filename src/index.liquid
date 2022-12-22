@@ -32,7 +32,7 @@ layout: root
     {%- for project in collections.project reversed -%}
       <!-- card -->
       <a href="{{ project.url }}" class="flex flex-col max-w-96 h-auto rounded-lg overflow-hidden border border-t border-gray-200
-        hover:shadow-xl hover:border-gray-100 hover:cursor-pointer">
+        hover:shadow-xl hover:border-gray-100 hover:cursor-pointer group">
         
         <!-- type -->
         <div class="flex justify-center gap-1 bg-gray-200 p-3 h-4 items-center">
@@ -43,7 +43,7 @@ layout: root
         </div>
 
         <!-- image -->
-        <img class="aspect-[90/65]" src="{{ project.data.cover }}">
+        <img class="aspect-[90/65] group-hover:opacity-50" src="{{ project.data.cover }}">
         
         <!-- info -->
         <div class="flex p-2 pl-3 gap-3 items-center">
