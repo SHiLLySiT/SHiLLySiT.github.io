@@ -1,25 +1,75 @@
 ---
 layout: root
 ---
-<div class="pt-4 flex space-x-4 justify-center">
-  <div class="w-160 flex flex-col">
-    <h1 class="text-custom-white text-2xl sm:text-3xl leading-9 font-black align-middle uppercase">
-      {{ title }}
-    </h1>
 
-    <main class="
-      pt-4
-      prose text-custom-white prose-base text-sm md:text-base
-      prose-headings:text-custom-white prose-strong:text-custom-white 
-      prose-h1:text-3xl
-      prose-code:text-gray-400 prose-code:font-mono prose-code:bg-gray-800 prose-code:font-thin prose-code:before:hidden prose-code:after:hidden
-      prose-pre:text-base
-      prose-tr:divide-x prose-tr:border-gray-500
-      prose-blockquote:text-custom-white prose-blockquote:font-mono
-      prose-a:text-custom-link prose-a:font-bold prose-a:no-underline hover:prose-a:bg-gray-800
-    ">
-      {{ content }}
-    </main>
+<div class="flex justify-center">
+  <div class="flex flex-col max-w-xl items-center p-4 gap-4">
+    <!-- main card -->
+    <div class="flex flex-col w-full h-auto rounded-lg overflow-hidden border border-t border-gray-200">
+      <div class="flex flex-col p-4 gap-2">
+
+        <!-- header -->
+        <div class="mb-2">
+          <div class="text-gray-900 font-bold text-3xl">{{ title }}</div>
+          <div class="flex flex-col gap-1">
+            <p class="text-gray-700 text-sm">{{ date | formatDate: "dddd, MMMM DD, YYYY" }}</p>
+            <div class="flex gap-1">
+              <div class="flex flex-col justify-center">
+                <img class="w-4 h-4" src="{{ settings.companies[company].icon }}"/>
+              </div>
+              <p class="text-gray-700 text-sm">{{ settings.companies[company].name }}</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- image -->
+        {% if screenshots %}
+        <a href={{ screenshots[0] }}><img id="js-main-screenshot" class="w-full aspect-video" src="{{ screenshots[0] }}"></a>
+        {% else %}
+        <a href={{ cover }}><img id="js-main-screenshot" class="aspect-[90/65]" src="{{ cover }}"></a>
+        {% endif %}
+      </div>
+
+      <!-- screenshot carosel -->
+      {%if screenshots %}
+      <!-- FIXME: center screenshots when less than 3 -->
+      <div id="js-screenshot-carosel" class="flex gap-2 overflow-x-scroll"> 
+        {% for screenshot in screenshots %}
+        <div> <!-- needed for scroll? -->
+          <div class="w-48 transition-opacity hover:opacity-70">
+            <img src="{{ screenshot }}" onclick="handleScreenshotClick(this)"/>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+      {% endif %}
+        
+        <!-- content -->
+        <div class="flex flex-col p-4 gap-2">
+          <main class="
+            pt-4 max-w-prose:w-full
+            prose text-sm md:text-base
+            prose-h2:text-xl prose-h2:m-0
+            marker:text-gray-800
+            prose-code:text-gray-400 prose-code:font-mono prose-code:bg-gray-800 prose-code:font-thin prose-code:before:hidden prose-code:after:hidden
+            prose-pre:text-base
+            prose-tr:divide-x prose-tr:border-gray-500
+            prose-blockquote:text-custom-white prose-blockquote:font-mono
+            prose-a:text-custom-link prose-a:font-bold prose-a:no-underline hover:prose-a:underline hover:prose-a:text-custom-link-hover
+          ">
+            {{ content }}
+          </main>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 
+<script>
+  let mainScreenshot = window.document.getElementById('js-main-screenshot');
+  let screenshotCarosel = window.document.getElementById('js-screenshot-carosel');
+
+  function handleScreenshotClick(img) {
+    mainScreenshot.src = img.src
+  }
+</script>

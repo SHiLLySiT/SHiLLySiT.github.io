@@ -26,6 +26,7 @@ layout: game
 
 With humanity gone, it’s up to the otters to save animal-kind from an inhospitable Earth. Join Charlie and his ragtag crew of critters on a daring mission through Otter Space as they search for a new planet to call home. Explore derelict space stations, battle unhinged robots, and enjoy some otterly terrific puns as you jump, float, and fly through over a dozen levels of furry fun.
 
+<!-- FIXME: change indent to ## -->
 ### Role
 * Lead Porting Engineer for Nintendo Switch, Xbox One, PS4, and Amazon Luna
 
