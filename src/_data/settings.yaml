@@ -24,6 +24,10 @@
     website:  { 
       icon: "fa-solid fa-earth-americas",
       name: "WEBSITE",
+    },
+    code:  { 
+      icon: "fa-brands fa-github",
+      name: "CODE",
     }
   },
   companies: {
