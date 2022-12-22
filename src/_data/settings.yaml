@@ -10,28 +10,28 @@
   ],
   companies: {
     default: {
-      name: "",
-      icon: "media/company-logos/default.png",
+      name: "Alex Larioza",
+      icon: "/media/company-logos/default.png",
     },
     filament: {
-      name: "",
-      icon: "media/company-logos/filament.png",
+      name: "Filament Games",
+      icon: "/media/company-logos/filament.png",
     },
     humanhead: {
-      name: "",
-      icon: "media/company-logos/humanhead.png",
+      name: "Human Head Studios",
+      icon: "/media/company-logos/humanhead.png",
     },
     wgbh: {
-      name: "",
-      icon: "media/company-logos/wgbh.png",
+      name: "WGBH",
+      icon: "/media/company-logos/wgbh.png",
     },
     quantum: {
-      name: "",
-      icon: "media/company-logos/quantum.png",
+      name: "Quantum Astrophysics Guild",
+      icon: "/media/company-logos/quantum.png",
     },
     bulletproof: {
-      name: "",
-      icon: "media/company-logos/bulletproof.png",
+      name: "Bullet Proof Arcade",
+      icon: "/media/company-logos/bulletproof.png",
     },
   }
 }
