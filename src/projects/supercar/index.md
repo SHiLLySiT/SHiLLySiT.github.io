@@ -4,9 +4,12 @@ company: bulletproof
 date: "2014-12-01"
 cover: "/projects/supercar/cover.png"
 categories: ["Game"]
-screenshots: []
-videos: [
-    "https://www.youtube.com/embed/SHp_y1_j-EU"
+screenshots: [
+    "/projects/supercar/screenshot1.png",
+    "/projects/supercar/screenshot2.png",
+    "/projects/supercar/screenshot3.png",
+    "/projects/supercar/screenshot4.png",
+    "SHp_y1_j-EU",
 ]
 tags:
 - projects

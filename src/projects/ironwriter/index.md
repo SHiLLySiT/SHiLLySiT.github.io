@@ -9,7 +9,6 @@ screenshots: [
     "https://github.com/SHiLLySiT/IronWriter/blob/master/docs/images/markup.gif?raw=true",
     "https://github.com/SHiLLySiT/IronWriter/blob/master/docs/images/mode-toggle.gif?raw=true",
 ]
-videos: []
 tags:
 - projects
 layout: game

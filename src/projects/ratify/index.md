@@ -8,9 +8,7 @@ screenshots: [
     "/projects/ratify/screenshot1.png",
     "/projects/ratify/screenshot2.png",
     "/projects/ratify/screenshot3.png",
-]
-videos: [
-    "https://www.youtube.com/embed/uOyPrS5W1Ug",
+    "uOyPrS5W1Ug",
 ]
 tags:
 - projects

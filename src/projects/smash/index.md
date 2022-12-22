@@ -4,9 +4,13 @@ company: bulletproof
 date: "2013-01-01"
 cover: "/projects/smash/cover.png"
 categories: ["Game"]
-screenshots: []
-videos: [
-    "https://www.youtube.com/embed/NcbKahkwzsE"
+screenshots: [
+    "/projects/smash/screenshot1.png",
+    "/projects/smash/screenshot2.png",
+    "/projects/smash/screenshot3.png",
+    "/projects/smash/screenshot4.png",
+    "/projects/smash/screenshot5.png",
+    "NcbKahkwzsE"
 ]
 tags:
 - projects

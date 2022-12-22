@@ -9,9 +9,7 @@ screenshots: [
     "/projects/cozygrove/screenshot2.jpg",
     "/projects/cozygrove/screenshot3.jpg",
     "/projects/cozygrove/screenshot4.jpg",
-]
-videos: [
-    "https://www.youtube.com/embed/Mj8LEVR-XMQ",
+    "Mj8LEVR-XMQ"
 ]
 tags:
 - projects

@@ -9,9 +9,7 @@ screenshots: [
     "/projects/survivedby/screenshot2.png",
     "/projects/survivedby/screenshot3.png",
     "/projects/survivedby/screenshot4.png",
-]
-videos: [
-    "https://www.youtube.com/embed/LqzM0UTE734"
+    "LqzM0UTE734"
 ]
 tags:
 - projects

@@ -8,9 +8,7 @@ screenshots: [
     "/projects/bubbles/screenshot1.png",
     "/projects/bubbles/screenshot2.png",
     "/projects/bubbles/screenshot3.png",
-]
-videos: [
-    "https://www.youtube.com/embed/aI3SYf6AUSU"
+    "aI3SYf6AUSU",
 ]
 tags:
 - projects

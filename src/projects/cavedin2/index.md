@@ -5,7 +5,6 @@ company: default
 cover: "/projects/cavedin2/cover.png"
 categories: ["Game"]
 screenshots: []
-videos: []
 tags:
 - projects
 layout: game

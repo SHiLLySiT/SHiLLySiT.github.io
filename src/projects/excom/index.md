@@ -9,9 +9,7 @@ screenshots: [
     "/projects/excom/screenshot2.png",
     "/projects/excom/screenshot3.png",
     "/projects/excom/screenshot4.png",
-]
-videos: [
-    "https://www.youtube.com/embed/phNX0elu4JY",
+    "phNX0elu4JY",
 ]
 tags:
 - projects

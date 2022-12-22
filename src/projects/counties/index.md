@@ -9,9 +9,7 @@ screenshots: [
     "/projects/counties/screenshot2.png",
     "/projects/counties/screenshot3.png",
     "/projects/counties/screenshot4.png",
-]
-videos: [
-    "https://www.youtube.com/embed/x-cGKONvCSs",
+    "x-cGKONvCSs"
 ]
 tags:
 - projects

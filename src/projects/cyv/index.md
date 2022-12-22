@@ -11,9 +11,7 @@ screenshots: [
     "/projects/cyv/screenshot4.png",
     "/projects/cyv/screenshot5.png",
     "/projects/cyv/screenshot6.png",
-]
-videos: [
-    "https://www.youtube.com/embed/LysmdDqzqYY",
+    "LysmdDqzqYY",
 ]
 tags:
 - projects

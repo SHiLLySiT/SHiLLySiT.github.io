@@ -9,9 +9,7 @@ screenshots: [
     "/projects/spaceottercharlie/screenshot2.jpg",
     "/projects/spaceottercharlie/screenshot3.jpg",
     "/projects/spaceottercharlie/screenshot4.jpg",
-]
-videos: [
-    "https://www.youtube.com/embed/6diXv4CfVYE",
+    "6diXv4CfVYE",
 ]
 tags:
 - projects

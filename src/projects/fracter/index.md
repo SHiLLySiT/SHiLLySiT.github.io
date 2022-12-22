@@ -11,9 +11,7 @@ screenshots: [
     "/projects/fracter/FRACTER_lR.gif",
     "/projects/fracter/FRACTER_Mirror.gif",
     "/projects/fracter/FRACTERL1R.gif",
-]
-videos: [
-    "https://www.youtube.com/embed/_3HUR9HRyho",
+    "_3HUR9HRyho",
 ]
 tags:
 - projects

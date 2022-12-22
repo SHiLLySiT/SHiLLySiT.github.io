@@ -4,9 +4,11 @@ date: "2011-05-01"
 company: default
 cover: "/projects/torch/cover.png"
 categories: ["Game"]
-screenshots: []
-videos: [
-    "https://www.youtube.com/embed/dlk_q_srcc0"
+screenshots: [
+    "/projects/torch/screenshot1.png",
+    "/projects/torch/screenshot2.png",
+    "/projects/torch/screenshot3.png",
+    "dlk_q_srcc0",
 ]
 tags:
 - projects

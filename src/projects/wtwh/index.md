@@ -9,9 +9,7 @@ screenshots: [
     "/projects/wtwh/screenshot2.png",
     "/projects/wtwh/screenshot3.png",
     "/projects/wtwh/screenshot4.png",
-]
-videos: [
-    "https://www.youtube.com/embed/1jatSL0Wvvg"
+    "1jatSL0Wvvg",
 ]
 tags:
 - projects

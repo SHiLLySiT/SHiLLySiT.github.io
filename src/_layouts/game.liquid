@@ -22,19 +22,24 @@ layout: root
           </div>
         </div>
 
-        <!-- image -->
+        <!-- large media -->
         {% if screenshots and screenshots.size > 0 %}
         <a href={{ screenshots[0] }}><img id="js-main-screenshot" class="w-full aspect-video" src="{{ screenshots[0] }}"></a>
+        <div id="js-main-video" hidden="true" class="w-full aspect-video"></div>
         {% else %}
         <a href={{ cover }}><img id="js-main-screenshot" class="aspect-[90/65]" src="{{ cover }}"></a>
         {% endif %}
       </div>
 
-      <!-- screenshot carosel -->
+      <!-- media carosel -->
       {% if screenshots and screenshots.size > 0 %}
-      <div id="js-screenshot-carosel" class="flex gap-2 overflow-x-scroll h-14 min-[400px]:h-20 pb-2 mx-4"> 
-        {% for screenshot in screenshots %}
-        <img class="aspect-video h-full transition-opacity hover:opacity-70" src="{{ screenshot }}" onclick="handleScreenshotClick(this)"/>
+      <div id="js-carosel" class="flex gap-2 overflow-x-scroll h-14 min-[400px]:h-20 pb-2 mx-4"> 
+        {% for media in screenshots %}
+          {% if media contains "/" %}
+          <img class="aspect-video h-full transition-opacity hover:opacity-70" data-uri="{{ media }}" src="{{ media }}" onclick="handleMediaClick(this)"/>
+          {% else %}
+          <img class="aspect-video h-full transition-opacity hover:opacity-70" data-uri="{{ media }}" src="http://img.youtube.com/vi/{{ media }}/default.jpg" onclick="handleMediaClick(this)"/>
+          {% endif %}
         {% endfor %}
       </div>
       {% endif %}
@@ -61,11 +66,40 @@ layout: root
 </div>
 
 <script>
-  let mainScreenshot = window.document.getElementById('js-main-screenshot');
-  let screenshotCarosel = window.document.getElementById('js-screenshot-carosel');
+  // see https://developers.google.com/youtube/iframe_api_reference#loadVideoById
+  let tag = document.createElement('script');
+  tag.src = "https://www.youtube.com/iframe_api";
+  let firstScriptTag = document.getElementsByTagName('script')[0];
+  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
-  function handleScreenshotClick(img) {
-    mainScreenshot.src = img.src
-    mainScreenshot.parentElement.href = img.src
+  let player;
+  function onYouTubeIframeAPIReady() {
+    player = new YT.Player('js-main-video', {
+      width: '450',
+      height: '320',
+      videoId: '',
+      playerVars: {
+        'playsinline': 1,
+      },
+    });
+  }
+
+  function handleMediaClick(img) {
+    let mainScreenshot = window.document.getElementById('js-main-screenshot');
+    let mainVideo = window.document.getElementById('js-main-video');
+    let carosel = window.document.getElementById('js-carosel');
+
+    let uri = img.dataset.uri
+    if (uri.includes("/")) {
+      mainVideo.hidden = true
+      mainScreenshot.hidden = false
+      mainScreenshot.src = uri
+      mainScreenshot.parentElement.href = uri
+      player.stopVideo()
+    } else {
+      mainVideo.hidden = false
+      mainScreenshot.hidden = true
+      player.loadVideoById(uri)
+    }
   }
 </script>

@@ -10,9 +10,7 @@ screenshots: [
     "/projects/funtime/funtime-switch-screenshot03.jpg",
     "/projects/funtime/funtime-switch-screenshot04.jpg",
     "/projects/funtime/screenshot05.jpg",
-]
-videos: [
-    "https://www.youtube.com/embed/iKGJn_9q17U",
+    "iKGJn_9q17U",
 ]
 tags:
 - projects

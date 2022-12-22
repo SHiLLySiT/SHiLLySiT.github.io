@@ -9,9 +9,7 @@ screenshots: [
     "/projects/immigration/screenshot2.png",
     "/projects/immigration/screenshot3.png",
     "/projects/immigration/screenshot4.png",
-]
-videos: [
-    "https://www.youtube.com/embed/ZBaSkmu9VBw",
+    "ZBaSkmu9VBw"
 ]
 tags:
 - projects

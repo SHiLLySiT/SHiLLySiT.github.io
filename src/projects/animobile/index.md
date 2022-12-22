@@ -10,7 +10,6 @@ screenshots: [
     "/projects/animobile/screenshot3.png",
     "/projects/animobile/screenshot4.png",
 ]
-videos: []
 tags:
 - projects
 layout: game
