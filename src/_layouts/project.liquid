@@ -36,8 +36,8 @@ layout: root
       </div>
 
       <!-- media carosel -->
-      {% if media and media.size > 0 %}
-      <div id="js-carosel" class="overflow-x-scroll overflow-y-hidden min-[400px]:h-20 pb-2 mx-4"> 
+      {% if media and media.size > 1 %}
+      <div id="js-carosel" class="overflow-x-scroll overflow-y-hidden min-[400px]:h-20 pb-2 mx-4 mb-4"> 
         <div class="flex gap-2 h-14 ">
         {% for media in media %}
           {% if media contains "/" %}
@@ -60,7 +60,7 @@ layout: root
         <!-- content -->
         <div class="flex flex-col p-4 pt-0 gap-2">
           <main class="
-            pt-4 max-w-prose:w-full
+            pt-0 max-w-prose:w-full
             prose text-sm md:text-base
             prose-h2:text-xl prose-h2:m-0
             marker:text-gray-800
