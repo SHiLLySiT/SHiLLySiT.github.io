@@ -23,7 +23,7 @@ layout: root
         </div>
 
         <!-- image -->
-        {% if screenshots %}
+        {% if screenshots and screenshots.size > 0 %}
         <a href={{ screenshots[0] }}><img id="js-main-screenshot" class="w-full aspect-video" src="{{ screenshots[0] }}"></a>
         {% else %}
         <a href={{ cover }}><img id="js-main-screenshot" class="aspect-[90/65]" src="{{ cover }}"></a>
@@ -31,7 +31,7 @@ layout: root
       </div>
 
       <!-- screenshot carosel -->
-      {%if screenshots %}
+      {% if screenshots and screenshots.size > 0 %}
       <!-- FIXME: center screenshots when less than 3 -->
       <div id="js-screenshot-carosel" class="flex gap-2 overflow-x-scroll"> 
         {% for screenshot in screenshots %}
