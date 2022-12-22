@@ -24,12 +24,12 @@ layout: root
 
         <!-- large media -->
         {% if media and media.size > 0 %}
-        <a href={{ media[0] }}>
+        <a href={{ media[0] }} class="transition-opacity hover:opacity-60">
           <img id="js-main-screenshot" class="w-full object-cover max-h-96" src="{{ media[0] }}" />
         </a>
         <div id="js-main-video" hidden="true" class="w-full aspect-video"></div>
         {% else %}
-        <a href={{ cover }}>
+        <a href={{ cover }} class="transition-opacity hover:opacity-60">
           <img id="js-main-screenshot" class="w-full object-cover" src="{{ cover }}" />
         </a>
         {% endif %}
@@ -41,9 +41,11 @@ layout: root
         <div class="flex gap-2 h-14 ">
         {% for media in media %}
           {% if media contains "/" %}
-          <img class="aspect-video h-full transition-opacity hover:opacity-70" data-uri="{{ media }}" src="{{ media }}" onclick="handleMediaClick(this)"/>
+          <!-- image -->
+          <img class="object-cover w-24 transition-opacity hover:opacity-60" data-uri="{{ media }}" src="{{ media }}" onclick="handleMediaClick(this)"/>
           {% else %}
-          <div class="transition-opacity hover:opacity-70 relative aspect-video h-full">
+          <!-- video -->
+          <div class="transition-opacity hover:opacity-60 relative aspect-video h-full">
             <img class="aspect-video h-full" data-uri="{{ media }}" src="http://img.youtube.com/vi/{{ media }}/default.jpg" onclick="handleMediaClick(this)"/>
             <div class="pointer-events-none bg-black w-full h-full absolute top-0 left-0 z-10 opacity-50 flex justify-center items-center">
               <i class="fa-regular fa-circle-play text-white"></i>
