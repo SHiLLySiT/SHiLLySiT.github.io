@@ -8,9 +8,6 @@ screenshots: []
 videos: [
     "https://www.youtube.com/embed/SHp_y1_j-EU"
 ]
-gamelinks: [
-    ["Play in Browser", "fas fa-globe", "http://www.miniclip.com/games/supercar-showdown/en/"],
-]
 tags:
 - projects
 layout: game
@@ -18,13 +15,16 @@ layout: game
 
 Supercar Showdown is a top-down racing game with a focus on controlled drifting that takes inspiration from Micro Machines and Hot Wheels. In single player mode, the player is pitted against AI racers which develop rivalries over the course of the game. The game also features an async multiplayer mode allowing players to compete with others all over the world.
 
-### Role
+## My Role
 Gameplay and UI Programmer
 
-### Technologies
-* Flash
+## Technologies
+Flash
 
-### Key Responsibilities
+## Key Responsibilities
 * Implement UI and game logic
 * Vehicle upgrade system
 * Opponent racing and drifting AI
+
+## Links
+* [Play in browser](http://www.miniclip.com/games/supercar-showdown/en/)

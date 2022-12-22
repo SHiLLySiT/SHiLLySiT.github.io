@@ -12,10 +12,6 @@ screenshots: [
     "/projects/nodoku/screenshot4.png",
     "/projects/nodoku/screenshot5.png",
 ]
-gamelinks: [
-   ["Buy on Android", "fab fa-android", "https://play.google.com/store/apps/details?id=com.gamesrightmeow.nodoku"],
-   ["Buy on Itch.io", "fab fa-itch-io", "https://gamesrightmeow.itch.io/nodoku"],
-]
 tags:
 - projects
 layout: game
@@ -25,12 +21,16 @@ Nodoku offers a brain-bending new way to play with numbers, kill time, and stay 
 
 Snappy animations and transitions make this addictive, compulsively playable game ideal for quick plays on the bus or for marathon sessions while you binge Netflix. With 100+ handcrafted, deceptively simple levels, Nodoku is easy to learn, but tricky to master. 
 
-### Role
+## My Role
 Programming, design, and art
 
-### Technologies
-* Unity
+## Technologies
+Unity
 
-### Key Responsibilities
+## Key Responsibilities
 * Designed 100+ puzzles
 * Created an in-game level editor to quickly iterate on puzzles
+
+## Links
+* [Buy on Android](https://play.google.com/store/apps/details?id=com.gamesrightmeow.nodoku)
+* [Buy on Itch.io](https://gamesrightmeow.itch.io/nodoku)

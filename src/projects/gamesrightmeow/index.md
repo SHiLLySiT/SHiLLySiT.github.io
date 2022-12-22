@@ -5,9 +5,6 @@ company: default
 cover: "/projects/gamesrightmeow/cover.svg"
 categories: ["Website"]
 screenshots: []
-gamelinks: [
-    ["Visit", "fas fa-globe", "http://gamesrightmeow.com"],
-]
 tags:
 - projects
 layout: game
@@ -15,11 +12,14 @@ layout: game
 
 Games Right Meow is the customer-facing company for all of my commercial games.
 
-### Role
-Founder
+## My Role
+Founder, designer, and programmer
 
-### Key Responsibilities
+## Key Responsibilities
 * Designed and built company
 * Run playtests to gather feedback
 * Attend local events to exhibit games
 * Design and program games
+
+## Links
+* [Visit website](http://gamesrightmeow.com)

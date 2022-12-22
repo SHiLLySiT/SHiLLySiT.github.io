@@ -13,9 +13,6 @@ screenshots: [
 videos: [
     "https://www.youtube.com/embed/LqzM0UTE734"
 ]
-gamelinks: [
-    ["Official Website", "fas fa-globe", "https://www.survivedby.com/"],
-]
 tags:
 - projects
 layout: game
@@ -25,12 +22,14 @@ Survived By is a free-to-play MMO bullet-hell game where permadeath is just the 
 
 Team up with hundreds of survivors as you shoot your way through hordes of Chimera, explore dungeons, collect loot, craft gear and of course… die. Again, and again. Who will you be survived by…?
 
-### Role
+Unfortunately, Survived By was cancelled and never released.
+
+## My Role
 Gameplay and UI Programmer
 
-### Technologies
-* Unity
+## Technologies
+Unity
 
-### Key Responsibilities
+## Key Responsibilities
 * Implement UI and game logic
 * Item and inventory management

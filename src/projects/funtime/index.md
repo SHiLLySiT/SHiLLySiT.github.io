@@ -14,12 +14,6 @@ screenshots: [
 videos: [
     "https://www.youtube.com/embed/iKGJn_9q17U",
 ]
-gamelinks: [
-    ["Buy on Xbox One", "fab fa-xbox", "https://www.microsoft.com/en-us/p/funtime/9pbw0rspj1kn"],
-    ["Buy on PlayStation4", "fab fa-playstation", "https://store.playstation.com/en-us/product/UP2199-CUSA17693_00-FUNTIMENA0000000"],
-    ["Buy on Nintendo Switch", "fas fa-shopping-cart", "https://www.nintendo.com/games/detail/funtime-switch/"],
-    ["Buy on Steam", "fab fa-steam", "https://store.steampowered.com/app/1100350/Funtime/"]
-]
 tags:
 - projects
 layout: game
@@ -27,14 +21,20 @@ layout: game
 
 #Funtime is an explosive twin-stick shooter where shooting isn't your only weapon. #Funtime combines traditional twin-stick shooting with a unique coloring mechanic. Earn bonus points by coloring the playing field and exploding enemies that cross your path. Persistent ship upgrades allow for lengthier runs filled with even more mayhem. Fast and fun gameplay will have you coming back again and again.
 
-### Role
-* Lead Porting Engineer for Nintendo Switch, Xbox One, and PS4
+## My Role
+Lead Porting Engineer for Nintendo Switch, Xbox One, and PS4
 
-### Technologies
-* Unity
+## Technologies
+Unity
 
-### Key Responsibilities
+## Key Responsibilities
 * Collaborated with developer to make a console-friendly experience
 * Optimized graphics and code to run smoothly on consoles
 * Integrated console APIs (save data, achievements, user management, etc)
 * Ensured game passed all console certification requirements 
+
+## Links
+* [Buy on Xbox One](https://www.microsoft.com/en-us/p/funtime/9pbw0rspj1kn)
+* [Buy on PlayStation4](https://store.playstation.com/en-us/product/UP2199-CUSA17693_00-FUNTIMENA0000000)
+* [Buy on Nintendo Switch](https://www.nintendo.com/games/detail/funtime-switch/)
+* [Buy on Steam](https://store.steampowered.com/app/1100350/Funtime/)
