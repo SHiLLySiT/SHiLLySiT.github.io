@@ -6,9 +6,7 @@
 
 # TODO
 - add proper image unfurl
-- add playbit as project
 - add other technical writing samples
-- google analytics tag
 - notice for freelance work
   - freelancing page?
 - convert flash games?
