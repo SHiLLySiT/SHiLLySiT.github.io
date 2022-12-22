@@ -33,14 +33,21 @@ layout: root
 
       <!-- media carosel -->
       {% if screenshots and screenshots.size > 0 %}
-      <div id="js-carosel" class="flex gap-2 overflow-x-scroll h-14 min-[400px]:h-20 pb-2 mx-4"> 
+      <div id="js-carosel" class="overflow-x-scroll overflow-y-hidden min-[400px]:h-20 pb-2 mx-4"> 
+        <div class="flex gap-2 h-14 ">
         {% for media in screenshots %}
           {% if media contains "/" %}
           <img class="aspect-video h-full transition-opacity hover:opacity-70" data-uri="{{ media }}" src="{{ media }}" onclick="handleMediaClick(this)"/>
           {% else %}
-          <img class="aspect-video h-full transition-opacity hover:opacity-70" data-uri="{{ media }}" src="http://img.youtube.com/vi/{{ media }}/default.jpg" onclick="handleMediaClick(this)"/>
+          <div class="transition-opacity hover:opacity-70 relative aspect-video h-full">
+            <img class="aspect-video h-full" data-uri="{{ media }}" src="http://img.youtube.com/vi/{{ media }}/default.jpg" onclick="handleMediaClick(this)"/>
+            <div class="pointer-events-none bg-black w-full h-full absolute top-0 left-0 z-10 opacity-50 flex justify-center items-center">
+              <i class="fa-regular fa-circle-play text-white"></i>
+            </div>
+          </div>
           {% endif %}
         {% endfor %}
+        </div>
       </div>
       {% endif %}
         
