@@ -3,7 +3,6 @@ title: "Mini Soccer"
 company: bulletproof
 date: "2014-07-01"
 cover: "/projects/minisoccer/cover.png"
-categories: ["Game"]
 media: []
 tags:
 - projects

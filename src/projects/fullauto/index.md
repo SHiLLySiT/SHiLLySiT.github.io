@@ -3,7 +3,6 @@ title: "Full Auto Mayhem"
 company: bulletproof
 date: "2013-11-01"
 cover: "/projects/fullauto/cover.png"
-categories: ["Game"]
 media: []
 tags:
 - projects

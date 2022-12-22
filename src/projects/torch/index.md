@@ -3,7 +3,6 @@ title: "Torch"
 date: "2011-05-01"
 company: default
 cover: "/projects/torch/cover.png"
-categories: ["Game"]
 media: [
     "/projects/torch/screenshot1.png",
     "/projects/torch/screenshot2.png",

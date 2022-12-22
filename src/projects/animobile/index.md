@@ -2,7 +2,6 @@
 title: "Animobile"
 company: "filament"
 date: "2015-08-01"
-categories: ["Game"]
 cover: "/projects/animobile/cover.png"
 media: [
     "/projects/animobile/screenshot1.png",

@@ -3,7 +3,6 @@ title: "Executive Command"
 company: filament
 date: "2016-11-07"
 cover: "/projects/excom/cover.png"
-categories: ["Game"]
 media: [
     "/projects/excom/screenshot1.png",
     "/projects/excom/screenshot2.png",

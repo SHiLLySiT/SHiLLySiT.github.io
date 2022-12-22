@@ -3,7 +3,6 @@ title: "Cast Your Vote"
 company: filament
 date: "2019-07-01"
 cover: "/projects/cyv/cover.png"
-categories: ["Game"]
 media: [
     "/projects/cyv/screenshot1.png",
     "/projects/cyv/screenshot2.png",

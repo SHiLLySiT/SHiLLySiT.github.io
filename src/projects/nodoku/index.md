@@ -3,7 +3,6 @@ title: "Nodoku"
 date: "2018-05-07"
 company: default
 cover: "/projects/nodoku/cover.png"
-categories: ["Game"]
 media: [
     "/projects/nodoku/gameplay.gif",
     "/projects/nodoku/screenshot1.png",

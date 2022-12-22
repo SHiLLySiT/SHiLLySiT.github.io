@@ -3,7 +3,6 @@ title: "Fracter"
 company: quantum
 date: "2020-10-01"
 cover: "/projects/fracter/cover.jpg"
-categories: ["Game"]
 media: [
     "/projects/fracter/screenshot2.jpg",
     "/projects/fracter/screenshot1.jpg",

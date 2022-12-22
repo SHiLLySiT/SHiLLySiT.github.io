@@ -3,7 +3,6 @@ title: "Survived By"
 company: "humanhead"
 date: "2017-03-01"
 cover: "/projects/survivedby/cover.png"
-categories: ["Game"]
 media: [
     "/projects/survivedby/screenshot1.png",
     "/projects/survivedby/screenshot2.png",

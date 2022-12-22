@@ -3,7 +3,6 @@ title: "Infested Space"
 date: "2012-08-01"
 company: default
 cover: "/projects/infestedspace/cover.png"
-categories: ["Game"]
 media: []
 tags:
 - projects

@@ -3,7 +3,6 @@ title: "Love is in the Air"
 date: "2011-02-01"
 company: default
 cover: "/projects/loveisintheair/cover.png"
-categories: ["Game"]
 media: []
 tags:
 - projects

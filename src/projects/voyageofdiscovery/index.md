@@ -3,7 +3,6 @@ title: "Voyage of Discovery"
 date: "2010-12-01"
 company: default
 cover: "/projects/voyageofdiscovery/cover.png"
-categories: ["Game"]
 media: []
 tags:
 - projects

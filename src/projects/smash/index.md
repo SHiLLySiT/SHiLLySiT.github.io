@@ -3,7 +3,6 @@ title: "Smash Palace"
 company: bulletproof
 date: "2013-01-01"
 cover: "/projects/smash/cover.png"
-categories: ["Game"]
 media: [
     "/projects/smash/screenshot1.png",
     "/projects/smash/screenshot2.png",

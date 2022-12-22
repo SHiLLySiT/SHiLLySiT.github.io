@@ -3,7 +3,6 @@ title: "Cozy Grove"
 company: quantum
 date: "2021-04-07"
 cover: "/projects/cozygrove/cover.jpg"
-categories: ["Game"]
 media: [
     "/projects/cozygrove/screenshot1.jpg",
     "/projects/cozygrove/screenshot2.jpg",

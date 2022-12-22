@@ -3,7 +3,6 @@ title: "RGB Color Mixer"
 company: wgbh
 date: "2020-06-01"
 cover: "/projects/rgbcolormixer/cover.png"
-categories: ["Game"]
 media: [
     "/projects/rgbcolormixer/screenshot1.png",
     "/projects/rgbcolormixer/screenshot2.png",

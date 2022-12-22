@@ -3,7 +3,6 @@ title: "Race to Ratify"
 company: filament
 date: "2019-02-01"
 cover: "/projects/ratify/cover.png"
-categories: ["Game"]
 media: [
     "/projects/ratify/screenshot1.png",
     "/projects/ratify/screenshot2.png",

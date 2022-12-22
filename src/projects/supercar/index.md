@@ -3,7 +3,6 @@ title: "Supercar Showdown"
 company: bulletproof
 date: "2014-12-01"
 cover: "/projects/supercar/cover.png"
-categories: ["Game"]
 media: [
     "/projects/supercar/screenshot1.png",
     "/projects/supercar/screenshot2.png",

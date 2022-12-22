@@ -3,7 +3,6 @@ title: "Expelliarmus"
 date: "2011-07-01"
 company: default
 cover: "/projects/expelliarmus/cover.png"
-categories: ["Game"]
 media: []
 tags:
 - projects

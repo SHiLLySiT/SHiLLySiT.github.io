@@ -3,7 +3,6 @@ title: "Sopoids"
 date: "2012-01-01"
 company: default
 cover: "/projects/sopoids/cover.png"
-categories: ["Game"]
 media: []
 tags:
 - projects

@@ -2,7 +2,6 @@
 title: "Bubbles"
 company: "filament"
 date: "2016-08-01"
-categories: ["Game"]
 cover: "/projects/bubbles/cover.png"
 media: [
     "/projects/bubbles/screenshot1.png",

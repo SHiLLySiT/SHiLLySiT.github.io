@@ -3,7 +3,6 @@ title: "Immigration Nation"
 company: filament
 date: "2018-08-01"
 cover: "/projects/immigration/cover.png"
-categories: ["Game"]
 media: [
     "/projects/immigration/screenshot1.png",
     "/projects/immigration/screenshot2.png",

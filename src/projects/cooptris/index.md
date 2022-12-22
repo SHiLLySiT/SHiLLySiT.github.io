@@ -3,7 +3,6 @@ title: "Cooptris"
 date: "2018-04-01"
 company: default
 cover: "/projects/cooptris/cover.png"
-categories: ["Game"]
 media: []
 tags:
 - projects

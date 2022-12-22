@@ -3,7 +3,6 @@ title: "Counties Work"
 company: filament
 date: "2017-01-01"
 cover: "/projects/counties/cover.png"
-categories: ["Game"]
 media: [
     "/projects/counties/screenshot1.png",
     "/projects/counties/screenshot2.png",

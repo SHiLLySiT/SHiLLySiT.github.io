@@ -3,7 +3,6 @@ title: "Nanonaut"
 date: "2012-04-01"
 company: default
 cover: "/projects/nanonaut/cover.png"
-categories: ["Game"]
 media: []
 tags:
 - projects

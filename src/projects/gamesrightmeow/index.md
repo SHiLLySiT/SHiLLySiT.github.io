@@ -3,7 +3,6 @@ title: "Games Right Meow"
 date: "2018-01-01"
 company: default
 cover: "/projects/gamesrightmeow/cover.svg"
-categories: ["Website"]
 media: []
 tags:
 - projects

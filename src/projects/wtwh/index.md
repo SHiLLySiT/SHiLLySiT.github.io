@@ -3,7 +3,6 @@ title: "Win the White House"
 company: filament
 date: "2016-02-01"
 cover: "/projects/wtwh/cover.png"
-categories: ["Game"]
 media: [
     "/projects/wtwh/screenshot1.png",
     "/projects/wtwh/screenshot2.png",

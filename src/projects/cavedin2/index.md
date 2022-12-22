@@ -3,7 +3,6 @@ title: "Caved In 2"
 date: "2013-12-01"
 company: default
 cover: "/projects/cavedin2/cover.png"
-categories: ["Game"]
 media: []
 tags:
 - projects
