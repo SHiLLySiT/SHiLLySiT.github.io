@@ -6,6 +6,7 @@ cover: "/projects/cavedin2/cover.png"
 media: []
 tags:
 - project
+type: game
 layout: project
 ---
 

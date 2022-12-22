@@ -10,6 +10,7 @@ media: [
 ]
 tags:
 - project
+type: app
 layout: project
 ---
 

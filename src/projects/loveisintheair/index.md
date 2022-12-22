@@ -6,6 +6,7 @@ cover: "/projects/loveisintheair/cover.png"
 media: []
 tags:
 - project
+type: game
 layout: project
 ---
 
