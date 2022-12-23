@@ -9,15 +9,16 @@ layout: root
 
     <!-- bio card -->
     <div class="w-full max-w-full h-auto flex flex-col sm:flex-row">
-      <div class="h-96 sm:h-auto sm:w-48 flex-none bg-cover rounded-t-lg sm:rounded-t-none sm:rounded-tl-lg sm:rounded-bl-lg text-center overflow-hidden" style="background-image: url('{{ settings.mugshot }}')">
-      </div>
-      <div class="border border-t border-gray-200 bg-white rounded-b-lg sm:rounded-b-none sm:rounded-tr-lg p-4 flex flex-col justify-between leading-normal">
-        <div class="mb-8">
-          <div class="text-gray-900 font-bold text-3xl mb-2">{{ settings.name }}</div>
-          <p class="text-gray-700 text-base">{{ settings.description }}</p>
+      <!-- mugshot -->
+      <img class="h-full sm:h-96 object-cover rounded-t-lg sm:rounded-t-none sm:rounded-l-lg" src="{{ settings.mugshot }}"/>
+      <!-- bio -->
+      <div class="w-full border border-t border-gray-200 bg-white rounded-b-lg sm:rounded-b-none sm:rounded-r-lg p-4 flex flex-col justify-between leading-normal">
+        <div class="mb-8 px-5">
+          <div class="text-gray-900 font-bold mb-2 text-4xl md:text-5xl">{{ settings.name }}</div>
+          <p class="text-gray-700 text-base md:text-xl lg:text-2xl">{{ settings.description }}</p>
         </div>
         
-        <div class="w-full flex items-center">
+        <div class="w-full px-5 flex items-center">
           {% for social in settings.social %}
           <a title="{{ social[0] }}" href="{{ social[2] }}" class="pr-4 text-custom-link hover:text-custom-link-hover">
             <i class="{{ social[1] }} fa-xl"></i>
@@ -64,10 +65,6 @@ layout: root
             </div>
           </div>
         </div>
-        <!-- type -->
-        <!--<div class="m-2 flex flex-row justify-end">
-          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">game</span>
-        </div>-->
       </a>
     {%- endfor -%}
     </div>

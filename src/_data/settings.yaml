@@ -1,7 +1,7 @@
 {
-  mugshot: "media/mugshot.jpg",
+  mugshot: "media/mugshot.jpeg",
   name: "Alex Larioza",
-  description: "game developer. designer. photographer. nerd. programmer. juggler. sourdough baker. problem solver. animal lover. hiker. creator. boardgame geek. cat fancier. explorer. food enthusiast. kombucha brewer. gamer. outdoorsman. tinkerer.",
+  description: "game developer. designer. photographer. nerd. programmer. star gazer. technical writer. juggler. sourdough baker. problem solver. animal lover. hiker. creator. boardgame geek. cat fancier. explorer. food enthusiast. kombucha brewer. gamer. outdoorsman. tinkerer.",
   social: [
     ["Email", "fas fa-envelope", "mailto:contact@alexlarioza.com"],
     ["Linkedin", "fab fa-linkedin", "https://www.linkedin.com/in/alexlarioza"],
