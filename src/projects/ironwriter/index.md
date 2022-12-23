@@ -4,9 +4,9 @@ date: "2019-08-01"
 company: default
 cover: "/projects/ironwriter/cover.png"
 media: [
-    "https://github.com/SHiLLySiT/IronWriter/blob/master/docs/images/history.gif?raw=true",
-    "https://github.com/SHiLLySiT/IronWriter/blob/master/docs/images/markup.gif?raw=true",
-    "https://github.com/SHiLLySiT/IronWriter/blob/master/docs/images/mode-toggle.gif?raw=true",
+    "/projects/ironwriter/history.gif",
+    "/projects/ironwriter/markup.gif",
+    "/projects/ironwriter/mode-toggle.gif",
 ]
 tags:
 - project
