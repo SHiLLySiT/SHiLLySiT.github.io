@@ -34,3 +34,4 @@ Unity
 ## Links
 * [Buy on Android](https://play.google.com/store/apps/details?id=com.gamesrightmeow.nodoku)
 * [Buy on Itch.io](https://gamesrightmeow.itch.io/nodoku)
+* [Post mortem](post-mortem)
