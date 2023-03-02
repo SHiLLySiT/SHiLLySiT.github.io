@@ -32,7 +32,7 @@ layout: root
         <div id="js-main-video" hidden="true" class="w-full aspect-video">
           <div id="js-player" class="w-full aspect-video"></div>
         </div>
-        {% else %}
+        {% elsif cover %}
         <a href={{ cover }} class="transition-opacity hover:opacity-60">
           <img id="js-main-screenshot" class="w-full object-cover" src="{{ cover }}" />
         </a>
