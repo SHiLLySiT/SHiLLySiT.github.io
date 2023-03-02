@@ -6,6 +6,7 @@ cover: "/projects/gamesrightmeow/cover.svg"
 media: []
 tags:
 - project
+- website
 type: website
 layout: project
 ---

@@ -6,6 +6,7 @@ cover: "/projects/infestedspace/cover.png"
 media: []
 tags:
 - project
+- game
 type: game
 layout: project
 ---

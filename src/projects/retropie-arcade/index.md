@@ -6,6 +6,7 @@ company: "default"
 cover: "/projects/retropie-arcade/cover.png"
 tags:
 - project
+- article
 type: article
 layout: project
 ---

@@ -6,6 +6,7 @@ company: "default"
 cover: "/projects/ironsworn-fuel-scoop/cover.png"
 tags:
 - project
+- article
 type: article
 layout: project
 ---

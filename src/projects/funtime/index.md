@@ -13,6 +13,7 @@ media: [
 ]
 tags:
 - project
+- game
 type: game
 layout: project
 ---

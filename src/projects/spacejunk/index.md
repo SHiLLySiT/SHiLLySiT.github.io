@@ -6,6 +6,7 @@ cover: "/projects/spacejunk/cover.png"
 media: []
 tags:
 - project
+- game
 type: game
 layout: project
 ---

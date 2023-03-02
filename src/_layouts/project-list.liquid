@@ -1,0 +1,63 @@
+---
+layout: root
+---
+
+<!-- container -->
+<div class="flex justify-center">
+  <div class="flex flex-col max-w-7xl items-center p-4 gap-4">
+
+    <!-- bio card -->
+    <div class="w-full max-w-full h-auto flex flex-col sm:flex-row">
+      <!-- mugshot -->
+      <img class="h-full max-h-128 sm:h-96 object-cover rounded-t-lg sm:rounded-t-none sm:rounded-l-lg" src="{{ settings.mugshot }}"/>
+      <!-- bio -->
+      <div class="w-full border border-t border-gray-200 bg-white rounded-b-lg sm:rounded-b-none sm:rounded-r-lg p-4 flex flex-col justify-between leading-normal">
+        <div class="mb-8 px-5">
+          <div class="text-gray-900 font-bold mb-2 text-4xl md:text-5xl">{{ settings.name }}</div>
+          <p class="text-gray-700 text-base md:text-xl lg:text-2xl">{{ settings.description }}</p>
+        </div>
+        
+        <div class="w-full px-5 flex items-center">
+          {% for social in settings.social %}
+          <a title="{{ social[0] }}" href="{{ social[2] }}" class="pr-4 text-custom-link hover:text-custom-link-hover">
+            <i class="{{ social[1] }} fa-xl"></i>
+          </a>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+
+    <!-- type chips -->
+    <div class="grid grid-cols-3 md:grid-cols-6 gap-4">
+      {% if tag %}
+      <a href="/" class="flex justify-center items-center m-1 py-1 px-2 gap-1 bg-white rounded-full border border-gray-300 hover:cursor-pointer hover:bg-gray-200">
+        <div class="text-gray-500 text-xs font-bold uppercase">All</div>
+      </a>    
+      {% else %}
+      <a href="/" class="flex justify-center items-center m-1 py-1 px-2 gap-1 bg-gray-600 rounded-full border border-gray-300 hover:cursor-pointer">
+        <div class="text-white text-xs font-bold uppercase">All</div>
+      </a>    
+      {% endif %}
+
+      {% for type in settings.projectTypes %}
+        {% if tag == type[0] %}
+        <a href="/tags/{{ type[0] }}" class="flex justify-center items-center m-1 py-1 px-2 gap-1 bg-gray-600 rounded-full border border-gray-300 hover:cursor-pointer">
+          <i class="{{ type[1].icon }} fa-xs text-white"></i>
+          <div class="text-white text-xs font-bold uppercase">{{ type[1].name }}</div>
+        </a>
+        {% else %}
+        <a href="/tags/{{ type[0] }}" class="flex justify-center items-center m-1 py-1 px-2 gap-1 bg-white rounded-full border border-gray-300 hover:cursor-pointer hover:bg-gray-200">
+          <i class="{{ type[1].icon }} fa-xs text-gray-600"></i>
+          <div class="text-gray-500 text-xs font-bold uppercase">{{ type[1].name }}</div>
+        </a>
+        {% endif %}
+      {% endfor %}
+    </div>
+
+    <!-- project cards-->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+      {{ content }}
+    </div>
+
+  </div>
+</div>

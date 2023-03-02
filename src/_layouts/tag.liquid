@@ -3,7 +3,7 @@ title: Who is Alex Larioza?!
 layout: project-list
 ---
 
-{%- for project in collections.project reversed -%}
+{%- for project in collections[tag] reversed -%}
   {% render "project-card" project: project, 
     typeName: settings.projectTypes[project.data.type].name, 
     typeIcon: settings.projectTypes[project.data.type].icon, 
