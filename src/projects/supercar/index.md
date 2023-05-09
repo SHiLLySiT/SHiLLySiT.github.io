@@ -25,7 +25,7 @@ Gameplay and UI Programmer
 ## Technologies
 Flash
 
-## Key Responsibilities
+## Key Contributions
 * Implement UI and game logic
 * Vehicle upgrade system
 * Opponent racing and drifting AI

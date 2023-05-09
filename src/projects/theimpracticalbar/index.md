@@ -16,7 +16,7 @@ A website for a fictional bar. Find all the hidden jokes!
 ## My Role
 Photographer, designer, programmer
 
-## Key Responsibilities
+## Key Contributions
 * Designed and built website
 * Took photographs of the "bar"
 

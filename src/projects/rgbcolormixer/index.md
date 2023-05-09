@@ -23,7 +23,7 @@ Lead Engineer (Project Contractor)
 ## Technologies
 Pure HTML/CSS/Javascript
 
-## Key Responsibilities
+## Key Contributions
 * Built a brand new web interactive for a NASA funded project
 * Designed to support modern browsers and also IE11
 * Worked with team to iterate on design

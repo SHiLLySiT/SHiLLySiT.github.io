@@ -24,7 +24,7 @@ Lead Engineer
 ## Technologies
 Unity, client's custom hardware
 
-## Key Responsibilities
+## Key Contributions
 * Implement UI and game logic
 * Custom bubble shader
 * Unity API for interfacing with client's hardware

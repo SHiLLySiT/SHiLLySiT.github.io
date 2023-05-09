@@ -25,7 +25,7 @@ Support Engineer
 ## Technologies
 Unity
 
-## Key Responsibilities
+## Key Contributions
 * Optimized game to run on min spec device
 
 ## Links

@@ -25,7 +25,7 @@ Lead Porting Engineer for Nintendo Switch, Xbox One, and PS4
 ## Technologies
 Unity
 
-## Key Responsibilities
+## Key Contributions
 * Collaborated with developers to make a console-friendly experience.
 * Integrated console APIs (save data, achievements, user management, etc).
 * Ensured game passed all console certification requirements.

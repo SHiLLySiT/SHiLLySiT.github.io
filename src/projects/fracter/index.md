@@ -27,7 +27,7 @@ Lead Porting Engineer for Nintendo Switch
 ## Technologies
 Unity
 
-## Key Responsibilities
+## Key Contributions
 * Optimized graphics and code to run smoothly on Switch
 * Integrated console APIs (save data, user management, etc)
 * Ensured game passed all console certification requirements 

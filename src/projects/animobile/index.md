@@ -24,7 +24,7 @@ Lead Engineer
 ## Technologies
 HTML5, Typescript, Flash IDE
 
-## Key Responsibilities
+## Key Contributions
 * Implement UI and game logic
 * Setup up an automatic sprite atlasing pipeline
 * Designed and programmed level editor

@@ -23,7 +23,7 @@ Lead Engineer (Project Contractor)
 ## Technologies
 Javascript, [Phaser3](https://phaser.io/phaser3), and [Tiled](https://www.mapeditor.org/)
 
-## Key Responsibilities
+## Key Contributions
 * Rebuilt Flash interactive using modern web technologies
 * Decompiled old Flash .SWF to recover art assets
 * Developed a content pipeline for creating UI layouts in Tiled that could be loaded into Phaser

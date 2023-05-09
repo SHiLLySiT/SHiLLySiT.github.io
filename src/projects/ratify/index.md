@@ -24,7 +24,7 @@ Lead Engineer
 ## Technologies
 Unity
 
-## Key Responsibilities
+## Key Contributions
 * Implement UI and game logic
 * External content management system for client
 * Custom branching narrative system

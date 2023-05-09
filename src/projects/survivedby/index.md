@@ -29,6 +29,6 @@ Gameplay and UI Programmer
 ## Technologies
 Unity
 
-## Key Responsibilities
+## Key Contributions
 * Implement UI and game logic
 * Item and inventory management

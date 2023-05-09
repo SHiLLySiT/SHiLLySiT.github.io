@@ -19,7 +19,7 @@ Programming, design, and art
 ## Technologies
 Flash
 
-## Key Responsibilities
+## Key Contributions
 * Implement UI and game logic
 * Procedural level generation
 

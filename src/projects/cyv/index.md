@@ -27,7 +27,7 @@ Lead Engineer through Alpha phase, Support Engineer through Beta phase
 ## Technologies
 Unity
 
-## Key Responsibilities
+## Key Contributions
 * Implement UI and game logic
 * External content management system via Airtable
 * Developed procedural candidate generation

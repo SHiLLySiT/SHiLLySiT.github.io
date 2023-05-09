@@ -16,7 +16,7 @@ Games Right Meow is the customer-facing company for all of my commercial games.
 ## My Role
 Founder, designer, and programmer
 
-## Key Responsibilities
+## Key Contributions
 * Designed and built company
 * Run playtests to gather feedback
 * Attend local events to exhibit games

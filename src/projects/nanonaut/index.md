@@ -19,7 +19,7 @@ Programming and design
 ## Technologies
 Flash
 
-## Key Responsibilities
+## Key Contributions
 * Procedurally generated worlds seeded by gate addresses
 
 ## Links

@@ -25,7 +25,7 @@ Lead Porting Engineer for Nintendo Switch, Xbox One, PS4, and Amazon Luna
 ## Technologies
 Unity
 
-## Key Responsibilities
+## Key Contributions
 * Collaborated with developers to make a console-friendly experience
 * Optimized graphics and code to run smoothly on consoles
 * Integrated console APIs (save data, achievements, user management, etc)

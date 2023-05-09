@@ -28,7 +28,7 @@ Programming, design, and art
 ## Technologies
 Unity
 
-## Key Responsibilities
+## Key Contributions
 * Designed 100+ puzzles
 * Created an in-game level editor to quickly iterate on puzzles
 

@@ -19,7 +19,7 @@ Programming, design, and art
 ## Technologies
 Flash
 
-## Key Responsibilities
+## Key Contributions
 * Procedural level generation
 * Monster AI
 

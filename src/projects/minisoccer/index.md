@@ -19,7 +19,7 @@ Gameplay and UI Programmer
 ## Technologies
 Flash
 
-## Key Responsibilities
+## Key Contributions
 * Implement UI and game logic
 * Opponent AI
 * Multiplayer lobby and matchmaking
