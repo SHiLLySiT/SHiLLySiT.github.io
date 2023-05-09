@@ -1,3 +1,4 @@
+# from https://www.rockyourcode.com/how-to-deploy-eleventy-to-github-pages-with-github-actions/
 name: Build Eleventy
 
 on:
@@ -31,3 +32,11 @@ jobs:
         with:
           publish_dir: ./_site
           github_token: ${{ secrets.GITHUB_TOKEN }}
+
+      # added from https://stackoverflow.com/questions/68253588/github-com-actions-npm-run-build-debug-log
+      - name: Archive npm failure logs
+        uses: actions/upload-artifact@v3
+        if: failure()
+        with:
+          name: npm-logs
+          path: ~/.npm/_logs
