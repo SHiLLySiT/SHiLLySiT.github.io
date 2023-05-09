@@ -55,5 +55,9 @@
       name: "Bullet Proof Arcade",
       icon: "/media/company-logos/bulletproof.png",
     },
+    flippfly: {
+      name: "Flippfly",
+      icon: "/media/company-logos/flippfly.png",
+    },
   }
 }
