@@ -1,8 +1,8 @@
 ---
 title: "Games Right Meow"
-date: "2018-01-01"
+date: "2023-01-01"
 company: default
-cover: "/projects/gamesrightmeow/cover.svg"
+cover: "/projects/gamesrightmeow/cover.png"
 media: []
 tags:
 - project
@@ -11,16 +11,17 @@ type: website
 layout: project
 ---
 
-Games Right Meow is the customer-facing company for all of my commercial games.
+Games Right Meow is my customer-facing company for all of my commercial games and consulting projects.
 
 ## My Role
-Founder, designer, and programmer
+Founder
 
 ## Key Contributions
-* Designed and built company
-* Run playtests to gather feedback
-* Attend local events to exhibit games
-* Design and program games
+* Work with clients on various game related projects.
+* Create and sell indie games.
+* Run playtests to gather feedback and iterate on design.
+* Represent company at events to exhibit games.
+* Designed company website.
 
 ## Links
 * [Visit website](http://gamesrightmeow.com)
