@@ -9,8 +9,8 @@ media: [
 ]
 tags:
 - project
-- game
-type: game
+- app
+type: app
 layout: project
 ---
 
