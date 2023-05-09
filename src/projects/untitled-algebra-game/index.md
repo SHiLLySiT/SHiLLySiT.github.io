@@ -1,6 +1,6 @@
 ---
 title: "Untitled Algebra Game"
-date: "2022-05-01"
+date: "2023-05-01"
 company: filament
 cover: "/projects/untitled-algebra-game/cover.png"
 media: [

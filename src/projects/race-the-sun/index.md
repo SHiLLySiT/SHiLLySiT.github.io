@@ -1,6 +1,6 @@
 ---
 title: "Race the Sun"
-date: "2022-05-01"
+date: "2023-02-01"
 company: flippfly
 cover: "/projects/race-the-sun/cover.png"
 media: [
