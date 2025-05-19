@@ -1,5 +1,5 @@
 ---
-title: "Animobile"
+title: "Suborbital Salvage"
 company: "default"
 date: "2025-02-01"
 cover: "/projects/suborbital-salvage/cover.png"
