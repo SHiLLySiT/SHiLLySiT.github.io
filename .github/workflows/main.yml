@@ -28,14 +28,14 @@ jobs:
           npm run build          
 
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v4
+        uses: peaceiris/actions-gh-pages@v3
         with:
           publish_dir: ./_site
           github_token: ${{ secrets.GITHUB_TOKEN }}
 
       # added from https://stackoverflow.com/questions/68253588/github-com-actions-npm-run-build-debug-log
       - name: Archive npm failure logs
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         if: failure()
         with:
           name: npm-logs
