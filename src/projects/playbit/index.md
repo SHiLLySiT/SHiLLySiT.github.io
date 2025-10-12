@@ -9,7 +9,6 @@ media: [
 tags:
 - project
 - code
-type: code
 layout: project
 ---
 

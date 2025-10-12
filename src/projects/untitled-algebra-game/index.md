@@ -12,7 +12,6 @@ media: [
 tags:
 - project
 - experimental
-type: experimental
 layout: project
 ---
 

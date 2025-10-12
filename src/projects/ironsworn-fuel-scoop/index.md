@@ -7,7 +7,6 @@ cover: "/projects/ironsworn-fuel-scoop/cover.png"
 tags:
 - project
 - board-game
-type: board-game
 layout: project
 ---
 

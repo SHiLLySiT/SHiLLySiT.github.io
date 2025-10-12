@@ -7,7 +7,6 @@ Description: "Deciding which programming language to learn is often the most dif
 tags:
 - project
 - article
-type: article
 layout: project
 ---
 

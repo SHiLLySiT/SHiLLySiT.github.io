@@ -7,7 +7,6 @@ media: []
 tags:
 - project
 - web
-type: website
 layout: project
 ---
 
