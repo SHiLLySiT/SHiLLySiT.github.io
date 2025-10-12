@@ -1,13 +1,51 @@
 ---
 title: Who is Alex Larioza?!
-layout: project-list
+layout: root
 ---
 
-{%- for project in collections.project reversed -%}
-  {% render "project-card" project: project, 
-    typeName: settings.projectTypes[project.data.type].name, 
-    typeIcon: settings.projectTypes[project.data.type].icon, 
-    companyName: settings.companies[project.data.company].name, 
-    companyIcon: settings.companies[project.data.company].icon, 
-  %}
-{%- endfor -%}
+<!-- bio card -->
+<div class="w-full max-w-full flex flex-col sm:flex-row">
+  <!-- mugshot -->
+  <img class="h-full max-h-128 sm:h-96 object-cover rounded-t-lg sm:rounded-t-none sm:rounded-l-lg" src="{{ settings.mugshot }}"/>
+  <!-- bio -->
+  <div class="w-full border border-t border-gray-200 bg-white rounded-b-lg sm:rounded-b-none sm:rounded-r-lg pt-4 flex flex-col justify-between leading-normal">
+    <div class="mb-8 px-5">
+      <h1 class="text-gray-900 font-bold mb-2 text-4xl md:text-5xl">{{ settings.name }}</h1>
+      <p class="text-gray-700 text-base md:text-xl lg:text-2xl">{{ settings.description }}</p>
+    </div>
+  </div>
+</div>
+
+<!-- explore -->
+{% render "explore-card" settings: settings, title: "Explore my work" %}
+
+<!-- featured projects -->
+<div class="w-full flex flex-col border border-gray-200 rounded-lg gap-1 p-4">
+  <h2 class="font-bold mb-2 text-2xl md:text-3xl">Featured projects</h2>
+  <div class="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-4 gap-4">
+    {%- for project in collections.featured-project reversed -%}
+      {% render "project-card" project: project, 
+        typeName: settings.projectTypes[project.data.type].name, 
+        typeIcon: settings.projectTypes[project.data.type].icon, 
+        companyName: settings.companies[project.data.company].name, 
+        companyIcon: settings.companies[project.data.company].icon, 
+      %}
+    {%- endfor -%}
+  </div>
+  </ul>
+</div>
+
+<!-- socials -->
+<div class="w-full flex flex-col border border-gray-200 rounded-lg p-4 ">
+  <h2 class="font-bold mb-2 text-2xl md:text-3xl">Get in touch</h2>
+  <div class="flex gap-2 md:gap-4 flex-wrap">
+  {% for social in settings.social %}
+    <a title="{{ social[0] }}" href="{{ social[2] }}" class="flex flex-row items-center md:gap-1 text-custom-link hover:text-custom-link-hover">
+      <div class="flex flex-row justify-center w-8">
+        <i class="{{ social[1] }} fa-md md:scale-150"></i>
+      </div>
+      <p>{{ social[0] }}</p>
+    </a>
+  {% endfor %}
+  </div>
+</div>

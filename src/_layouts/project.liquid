@@ -2,85 +2,86 @@
 layout: root
 ---
 
-<div class="flex justify-center">
-  <div class="flex flex-col max-w-xl items-center p-4 gap-4">
-    <!-- main card -->
-    <div class="flex flex-col w-full h-auto rounded-lg overflow-hidden border border-t border-gray-200">
-      <div class="flex flex-col p-4 gap-2">
+<!-- explore card -->
+{% render "explore-card" settings: settings, showHome: true %}
 
-        <!-- header -->
-        <div class="mb-2">
-          <div class="text-gray-900 font-bold text-3xl">{{ title }}</div>
-          <div class="flex flex-col gap-1">
-            <p class="text-gray-700 text-sm">{{ date | formatDate: "dddd, MMMM DD, YYYY" }}</p>
-            {% if company %}
-            <div class="flex gap-1">
-              <div class="flex flex-col justify-center">
-                <img class="w-4 h-4" src="{{ settings.companies[company].icon }}"/>
-              </div>
-              <p class="text-gray-700 text-sm">{{ settings.companies[company].name }}</p>
-            </div>
-            {% endif %}
+<!-- main card -->
+<div class="flex flex-col w-full h-auto rounded-lg overflow-hidden border border-t border-gray-200">
+  <div class="flex flex-col p-4 gap-2">
+
+    <!-- header -->
+    <div class="mb-2">
+      <div class="text-gray-900 font-bold text-3xl">{{ title }}</div>
+      <div class="flex flex-col gap-1">
+        <p class="text-gray-700 text-sm">{{ date | formatDate: "dddd, MMMM DD, YYYY" }}</p>
+        {% if company %}
+        <div class="flex gap-1">
+          <div class="flex flex-col justify-center">
+            <img class="w-4 h-4" src="{{ settings.companies[company].icon }}"/>
           </div>
+          <p class="text-gray-700 text-sm">{{ settings.companies[company].name }}</p>
         </div>
-
-        <!-- large media -->
-        {% if media and media.size > 0 %}
-        <a href={{ media[0] }} class="transition-opacity hover:opacity-60">
-          <img id="js-main-screenshot" class="w-full object-cover max-h-96" src="{{ media[0] }}" />
-        </a>
-        <div id="js-main-video" hidden="true" class="w-full aspect-video">
-          <div id="js-player" class="w-full aspect-video"></div>
-        </div>
-        {% elsif cover %}
-        <a href={{ cover }} class="transition-opacity hover:opacity-60">
-          <img id="js-main-screenshot" class="w-full object-cover" src="{{ cover }}" />
-        </a>
         {% endif %}
       </div>
+    </div>
 
-      <!-- media carosel -->
-      {% if media and media.size > 1 %}
-      <div id="js-carosel" class="overflow-x-scroll overflow-y-hidden min-[400px]:h-20 pb-2 mx-4 mb-4"> 
-        <div class="flex gap-2 h-14 ">
-        {% for media in media %}
-          {% if media contains "/" %}
-          <!-- image -->
-          <img class="object-cover w-24 transition-opacity hover:opacity-60" data-uri="{{ media }}" src="{{ media }}" onclick="handleMediaClick(this)"/>
-          {% else %}
-          <!-- video -->
-          <div class="transition-opacity hover:opacity-60 relative aspect-video h-full">
-            <img class="aspect-video h-full" data-uri="{{ media }}" src="http://img.youtube.com/vi/{{ media }}/default.jpg" onclick="handleMediaClick(this)"/>
-            <div class="pointer-events-none bg-black w-full h-full absolute top-0 left-0 z-10 opacity-50 flex justify-center items-center">
-              <i class="fa-regular fa-circle-play text-white"></i>
-            </div>
-          </div>
-          {% endif %}
-        {% endfor %}
+    <!-- large media -->
+    {% if media and media.size > 0 %}
+    <a href={{ media[0] }} class="transition-opacity hover:opacity-60">
+      <img id="js-main-screenshot" class="w-full object-cover max-h-96" src="{{ media[0] }}" />
+    </a>
+    <div id="js-main-video" hidden="true" class="w-full aspect-video">
+      <div id="js-player" class="w-full aspect-video"></div>
+    </div>
+    {% elsif cover %}
+    <a href={{ cover }} class="transition-opacity hover:opacity-60">
+      <img id="js-main-screenshot" class="w-full object-cover" src="{{ cover }}" />
+    </a>
+    {% endif %}
+  </div>
+
+  <!-- media carosel -->
+  {% if media and media.size > 1 %}
+  <div id="js-carosel" class="overflow-x-scroll overflow-y-hidden min-[400px]:h-20 pb-2 mx-4 mb-4"> 
+    <div class="flex gap-2 h-14 ">
+    {% for media in media %}
+      {% if media contains "/" %}
+      <!-- image -->
+      <img class="object-cover w-24 transition-opacity hover:opacity-60" data-uri="{{ media }}" src="{{ media }}" onclick="handleMediaClick(this)"/>
+      {% else %}
+      <!-- video -->
+      <div class="transition-opacity hover:opacity-60 relative aspect-video h-full">
+        <img class="aspect-video h-full" data-uri="{{ media }}" src="http://img.youtube.com/vi/{{ media }}/default.jpg" onclick="handleMediaClick(this)"/>
+        <div class="pointer-events-none bg-black w-full h-full absolute top-0 left-0 z-10 opacity-50 flex justify-center items-center">
+          <i class="fa-regular fa-circle-play text-white"></i>
         </div>
       </div>
       {% endif %}
-        
-        <!-- content -->
-        <div class="flex flex-col p-4 pt-0 gap-2">
-          <main class="
-            pt-0 max-w-prose:w-full
-            prose text-sm md:text-base
-            prose-h2:text-xl prose-h2:m-0
-            marker:text-gray-800
-            prose-code:text-gray-400 prose-code:font-mono prose-code:bg-gray-800 prose-code:font-thin prose-code:before:hidden prose-code:after:hidden
-            prose-pre:text-base
-            prose-tr:divide-x prose-tr:border-gray-500
-            prose-blockquote:text-custom-white prose-blockquote:font-mono
-            prose-a:text-custom-link prose-a:font-bold prose-a:no-underline hover:prose-a:underline hover:prose-a:text-custom-link-hover
-          ">
-            {{ content }}
-          </main>
-        </div>
-      </div>
+    {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+    
+    <!-- content -->
+    <div class="flex flex-col p-4 pt-0 gap-2 ">
+      <main class="
+      max-w-full
+        pt-0 max-w-prose:w-full
+        prose text-sm md:text-base
+        prose-h2:text-xl prose-h2:m-0
+        marker:text-gray-800
+        prose-code:text-gray-400 prose-code:font-mono prose-code:bg-gray-800 prose-code:font-thin prose-code:before:hidden prose-code:after:hidden
+        prose-pre:text-base
+        prose-tr:divide-x prose-tr:border-gray-500
+        prose-blockquote:text-custom-white prose-blockquote:font-mono
+        prose-a:text-custom-link prose-a:font-bold prose-a:no-underline hover:prose-a:underline hover:prose-a:text-custom-link-hover
+      ">
+        {{ content }}
+      </main>
     </div>
   </div>
 </div>
+
 
 <script>
   // see https://developers.google.com/youtube/iframe_api_reference#loadVideoById

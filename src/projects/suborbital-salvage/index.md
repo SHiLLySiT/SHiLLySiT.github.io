@@ -14,6 +14,7 @@ media: [
 tags:
 - project
 - game
+- featured-project
 type: game
 layout: project
 ---

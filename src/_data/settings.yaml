@@ -1,32 +1,34 @@
 {
   mugshot: "/media/mugshot.jpeg",
   name: "Alex Larioza",
-  description: "game developer. designer. photographer. nerd. programmer. star gazer. technical writer. juggler. sourdough baker. problem solver. animal lover. hiker. creator. boardgame geek. cat fancier. explorer. food enthusiast. kombucha brewer. gamer. outdoorsman. tinkerer.",
+  description: "game developer. designer. photographer. engineer. star gazer. technical writer. juggler. sourdough baker. problem solver. animal lover. hiker. creator. boardgame geek. cat fancier. explorer. food enthusiast. kombucha brewer. outdoorsman. tinkerer. all purpose nerd.",
   social: [
+    ["Email", "fa-solid fa-envelope", "mailto:contact[at]alexlarioza.com"],
     ["Linkedin", "fab fa-linkedin", "https://www.linkedin.com/in/alexlarioza"],
     ["Github", "fab fa-github", "https://github.com/SHiLLySiT"],
     ["Flicker", "fab fa-flickr", "https://www.flickr.com/photos/alexlarioza"],
+    ["Bluesky", "fab fa-bluesky", "https://bsky.app/profile/gamesrightmeow.com"],
   ],
   projectTypes: {
     game: { 
       icon: "fa-solid fa-gamepad",
-      name: "GAME",
+      name: "Games",
+      description: "Commercial games, side projects, jam entries, and other weird experiments.",
     },
-    article:  { 
-      icon: "fa-solid fa-file-lines",
-      name: "ARTICLE",
+    article: { 
+      icon: "fa-solid fa-comment",
+      name: "Blog",
+      description: "Words I've written.",
     },
-    app:  { 
-      icon: "fa-solid fa-display",
-      name: "APP",
+    web: { 
+      icon: "fa-solid fa-arrow-pointer",
+      name: "Web",
+      description: "Websites and other interactable things that aren't quite games.",
     },
-    website:  { 
-      icon: "fa-solid fa-earth-americas",
-      name: "WEBSITE",
-    },
-    code:  { 
-      icon: "fa-brands fa-github",
-      name: "CODE",
+    code: { 
+      icon: "fa-solid fa-code",
+      name: "Code",
+      description: "Open source projects and contributions.",
     }
   },
   companies: {

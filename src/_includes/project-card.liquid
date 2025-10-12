@@ -2,32 +2,32 @@
   hover:shadow-xl hover:border-gray-100 hover:cursor-pointer group">
   
   <!-- type -->
-  <div class="flex justify-center gap-1 bg-gray-200 p-3 h-4 items-center">
+  {% comment %} <div class="flex justify-center gap-1 bg-gray-200 p-3 h-4 items-center">
     <i class="{{ typeIcon }} fa-xs text-gray-600"></i>
     <p class=" text-gray-500 text-xs font-bold uppercase">
       {{ typeName }}
     </p>
-  </div>
+  </div> {% endcomment %}
 
   <!-- image -->
   <img class="aspect-[90/65] transition-opacity group-hover:opacity-60" src="{{ project.data.cover }}">
   
   <!-- info -->
-  <div class="flex p-2 pl-3 gap-3 items-center">
-    <div class="">
-      <div class="text-xl">{{project.data.title}}</div>
-      <div class="flex gap-4">
-        <p class="text-gray-700 text-sm">
-          {{ project.date | formatDate: "MMMM YYYY" }}
-        </p>
-        <div class="flex gap-1">
-          <div class="flex items-center">
-            <img class="w-4 h-4" src="{{ companyIcon }}"/>
-          </div>
-          <p class="text-gray-700 text-sm">
-            {{ companyName }}
-          </p>
+  <div class="flex flex-col p-2 pl-3 gap-1">
+    <div class="text-xl">{{project.data.title}}</div>
+    <div class="flex gap-4">
+      <p class="text-gray-700 text-sm">
+        {{ project.date | formatDate: "MMMM YYYY" }}
+      </p>
+    </div>
+    <div class="flex gap-4">
+      <div class="flex gap-1">
+        <div class="flex items-center">
+          <img class="w-4 h-4" src="{{ companyIcon }}"/>
         </div>
+        <p class="text-gray-700 text-sm">
+          {{ companyName }}
+        </p>
       </div>
     </div>
   </div>
