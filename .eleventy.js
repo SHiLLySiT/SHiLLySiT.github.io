@@ -23,7 +23,8 @@ module.exports = function (eleventyConfig) {
   
   eleventyConfig.addPassthroughCopy({ './src/CNAME': './CNAME' })
   eleventyConfig.addPassthroughCopy({ './src/media/': './media/' })
-  eleventyConfig.addPassthroughCopy({ './src/fontawesome/': './fontawesome/' })
+  eleventyConfig.addPassthroughCopy({ './src/fontawesome/all.min.css': './fontawesome/all.min.css' })
+  eleventyConfig.addPassthroughCopy({ './src/fontawesome/webfonts': './webfonts' })
   eleventyConfig.addPassthroughCopy({ './src/favicon.ico': './favicon.ico' })
 
   eleventyConfig.addLiquidFilter("dateToRfc3339", pluginRss.dateToRfc3339);
