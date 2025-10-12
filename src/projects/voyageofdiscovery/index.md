@@ -6,8 +6,8 @@ cover: "/projects/voyageofdiscovery/cover.png"
 media: []
 tags:
 - project
-- game
-type: game
+- experimental
+type: experimental
 layout: project
 ---
 

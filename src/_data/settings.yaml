@@ -15,6 +15,11 @@
       name: "Games",
       description: "Commercial games, side projects, jam entries, and other weird experiments.",
     },
+    experimental: {
+      icon: "fa-solid fa-vial",
+      name: "Experimental",
+      description: "Weird experiments, unfinished prototypes, and game jam entries.",
+    },
     article: { 
       icon: "fa-solid fa-comment",
       name: "Blog",
@@ -29,6 +34,11 @@
       icon: "fa-solid fa-code",
       name: "Code",
       description: "Open source projects and contributions.",
+    },
+    board-game: {
+      icon: "fa-solid fa-dice",
+      name: "Board",
+      description: "Board games, TTRPGs, and other physical games.",
     }
   },
   companies: {

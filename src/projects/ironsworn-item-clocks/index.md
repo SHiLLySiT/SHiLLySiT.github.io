@@ -6,8 +6,8 @@ company: "default"
 cover: "/projects/ironsworn-fuel-scoop/cover.png"
 tags:
 - project
-- article
-type: article
+- board-game
+type: board-game
 layout: project
 ---
 
