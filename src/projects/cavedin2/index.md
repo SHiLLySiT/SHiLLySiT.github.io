@@ -23,4 +23,5 @@ Flash
 * Monster AI
 
 ## Links
-* [Play in browser](http://www.kongregate.com/games/alexlarioza/caved-in-2)
+* [Play in browser on Kongregate](http://www.kongregate.com/games/alexlarioza/caved-in-2)
+* [Play in browser on Flash Museum](https://flashmuseum.org/caved-in-2/)

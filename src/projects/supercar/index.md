@@ -29,5 +29,5 @@ Flash
 * Vehicle upgrade system
 * Opponent racing and drifting AI
 
-## Links
-* [Play in browser](http://www.miniclip.com/games/supercar-showdown/en/)
+<!-- ## Links -->
+<!-- * [Play in browser](http://www.miniclip.com/games/supercar-showdown/en/) -->

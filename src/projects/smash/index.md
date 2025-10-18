@@ -31,4 +31,4 @@ Flash
 * Vehicular destruction system
 
 ## Links
-* [Play in browser](http://bulletproofarcade.com/games/SmashPalace)
+* [Play in browser on Flash Museum](https://flashmuseum.org/smash-palace/)

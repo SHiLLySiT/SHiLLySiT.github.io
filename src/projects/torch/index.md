@@ -24,5 +24,6 @@ Programming, design, and art
 Flash
 
 ## Links
-* [Play in browser](http://www.kongregate.com/games/alexlarioza/torch)
+* [Play in browser on Kongregate](http://www.kongregate.com/games/alexlarioza/torch)
+* [Play in browser on Flash Museum](https://flashmuseum.org/torch/)
 * [Ludum Dare](http://ludumdare.com/compo/ludum-dare-20/?action=preview&uid=3079)

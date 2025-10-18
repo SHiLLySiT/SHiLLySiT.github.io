@@ -24,4 +24,4 @@ Flash
 * Opponent AI
 
 ## Links
-* [Play in browser](http://bulletproofarcade.com/games/FullAuto)
+* [Play in browser on Flash Museum](https://flashmuseum.org/full-auto-mayhem/)

@@ -19,4 +19,5 @@ Programming, design, and art
 Flash
 
 ## Links
-* [Play in browser](http://www.kongregate.com/games/alexlarioza/infested-space)
+* [Play in browser on Kongregate](http://www.kongregate.com/games/alexlarioza/infested-space)
+* [Play in browser on Flash Museum](https://flashmuseum.org/infested-space/)
