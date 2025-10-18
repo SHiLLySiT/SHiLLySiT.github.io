@@ -31,6 +31,7 @@ Unity
 * Isometric pathfinding
 
 ## Links
+* [Shorty Award](https://shortyawards.com/5th-socialgood/executive-command-by-icivicsorg-and-filament-games)
 * [Play in browser](https://www.icivics.org/games/executive-command)
 * [Play on Android](https://play.google.com/store/apps/details?id=com.filament.icivics.executivecommand)
 * [Play on iOS](https://itunes.apple.com/us/app/executive-command/id1084786851?mt=8)
