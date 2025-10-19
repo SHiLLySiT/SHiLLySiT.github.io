@@ -28,5 +28,5 @@ Pure HTML/CSS/Javascript
 * Worked with team to iterate on design
 
 ## Links
-* [Play in browser](https://pbslm-contrib.s3.amazonaws.com/WGBH/buac20/buac20-int-rgbcoloradd/index.html)
+* [Play in browser](https://contrib.pbslearningmedia.org/WGBH/buac20/buac20-int-rgbcoloradd/index.html)
 * [Supplemental materials](https://kcts9.pbslearningmedia.org/resource/buac20-68-sci-ps-primarycolors/explore-primary-colors-of-light/)
