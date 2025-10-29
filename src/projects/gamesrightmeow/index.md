@@ -10,17 +10,10 @@ tags:
 layout: project
 ---
 
-Games Right Meow is my customer-facing company for all of my commercial games and consulting projects.
+Games Right Meow is my customer-facing company for all of my commercial games and consulting projects. I built a website to serve as the company landing page and show off both client and internal projects.
 
-## My Role
-Founder
-
-## Key Contributions
-* Work with clients on various game related projects.
-* Create and sell indie games.
-* Run playtests to gather feedback and iterate on design.
-* Represent company at events to exhibit games.
-* Designed company website.
+## Technologies
+Cloudflare, Tailwind CSS, Eleventy
 
 ## Links
 * [Visit website](http://gamesrightmeow.com)
