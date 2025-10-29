@@ -13,7 +13,7 @@
     game: { 
       icon: "fa-solid fa-gamepad",
       name: "Games",
-      description: "Commercial games, side projects, jam entries, and other weird experiments.",
+      description: "Commercial games and side projects.",
     },
     experimental: {
       icon: "fa-solid fa-vial",
@@ -38,7 +38,7 @@
     board-game: {
       icon: "fa-solid fa-dice",
       name: "Board",
-      description: "Board games, TTRPGs, and other physical games.",
+      description: "Board games, TTRPGs, and other tangible projects.",
     }
   },
   companies: {
