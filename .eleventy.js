@@ -1,15 +1,31 @@
-const Image = require("@11ty/eleventy-img");
 const moment = require("moment");
 const yaml = require("js-yaml");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
-const eleventyPluginFilesMinifier = require("@sherby/eleventy-plugin-files-minifier");
+const { minify } = require("html-minifier-terser");
 
 module.exports = function (eleventyConfig) {
   if (process.env.ELEVENTY_ENV === 'production') {
-    eleventyConfig.addPlugin(eleventyPluginFilesMinifier);
+    eleventyConfig.addTransform("htmlmin", async function (content) {
+      if (!(this.page.outputPath || "").endsWith(".html")) {
+        return content;
+      }
+      return await minify(content, {
+        collapseBooleanAttributes: true,
+        collapseWhitespace: true,
+        decodeEntities: true,
+        html5: true,
+        minifyCSS: true,
+        minifyJS: true,
+        removeComments: true,
+        removeEmptyAttributes: true,
+        sortAttributes: true,
+        sortClassName: true,
+        useShortDoctype: true,
+      });
+    });
   }
 
-  eleventyConfig.addPlugin(pluginRss);
+  eleventyConfig.addPlugin(pluginRss.default);
 
   eleventyConfig.addDataExtension("yaml", contents => yaml.load(contents));
 
